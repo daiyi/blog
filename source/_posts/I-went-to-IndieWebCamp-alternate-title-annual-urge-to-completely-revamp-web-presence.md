@@ -17,4 +17,5 @@ I know everyone and github is really into jekyll, but I decided to use [hexo](ht
 
 Speaking of which, I'm pretty surprised I don't encounter a lot more chinese developers on the internet, seeing as how there's a lot of cool people and technology in china. It seems the Great Firewall runs deep.
 
-Cool, hopefully you can see some longform appear here in the near future! Or this will devolve back into a nature photoblog. Either way. 
+Cool, hopefully you can see some longform appear here in the near future! Or this will devolve back into a nature photoblog. Either way.
+<!--more-->

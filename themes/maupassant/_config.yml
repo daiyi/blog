@@ -1,4 +1,4 @@
-fancybox: true ## If you want to use fancybox please set the value to true.
+fancybox: false ## If you want to use fancybox please set the value to true.
 duoshuo: ## Your duoshuo_shortname, e.g. username
 disqus: daiyi
 google_search: true ## Use Google search, true/false.
@@ -22,15 +22,22 @@ menu:
     directory: archives/
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
-  - search
+  - profile
   - category
   - tag
+  - search
 ##  - recent_posts
 ##  - links
 
 ##links:
-##  - title: 
-##    url: 
+##  - title:
+##    url:
+
+profile:
+  photo: img/patagonia.jpg
+  name: chris (daiyi!)
+  url: http://daiyi.co
+  about: "coder, hitchhiker, alpinist, born in california and raised by the internet."
 
 timeline:
   - num: 1

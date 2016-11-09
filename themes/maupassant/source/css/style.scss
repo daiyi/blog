@@ -112,6 +112,12 @@ div {
     margin-top: 40px;
     padding-bottom: 20px;
     word-wrap: break-word;
+    img {
+        max-width: 100%;
+        padding: 0.5em 0;
+        margin: auto;
+        display: block;
+    }
     .widget {
         margin-bottom: 30px;
         .widget-title {
@@ -131,6 +137,10 @@ div {
             border-bottom: 0px solid #ddd;
             display: block;
             font-weight: normal;
+        }
+        .widget-about {
+          margin: 0;
+          line-height: 1.3;
         }
         .tagcloud {
             margin-top: 10px;
@@ -426,6 +436,11 @@ div {
 /* for archive page ends*/
 
 /* middle*/
+@media (min-width: 48em) {
+    .hidden_mid_and_up {
+        display: none !important;
+    }
+}
 @media print, screen and (max-width: 48em) {
     .body_container {
         padding: 0 30px;
@@ -438,6 +453,8 @@ div {
     }
     #sidebar {
         border-left-width: 0px;
+        margin: 0;
+        padding: 0;
     }
     #header {
         .site-name {

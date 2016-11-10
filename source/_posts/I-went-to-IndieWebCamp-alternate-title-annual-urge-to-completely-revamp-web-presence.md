@@ -3,8 +3,9 @@ title: >-
   I went to IndieWebCamp (alternate title: annual urge to completely revamp web
   presence)
 date: 2016-11-07 22:30:04
-categories: tech
-tags: personal
+categories:
+  - web
+tags: IndieWebCamp
 ---
 I am inspired by the promises of an [Indie Web](https://indieweb.org/why). Owning your data, cool. A single source of truth to your content and identity, nice. Possibility of sinking countless hours into configuring your own corner of the internet, ok you got me there.
 
@@ -18,4 +19,3 @@ I know everyone and github is really into jekyll, but I decided to use [hexo](ht
 Speaking of which, I'm pretty surprised I don't encounter a lot more chinese developers on the internet, seeing as how there's a lot of cool people and technology in china. It seems the Great Firewall runs deep.
 
 Cool, hopefully you can see some longform appear here in the near future! Or this will devolve back into a nature photoblog. Either way.
-<!--more-->

@@ -9,28 +9,28 @@ block title
 block content
 
   for post in page.posts.toArray()
-    .post
+    article.h-entry.post
       h2.post-title
         include _partial/helpers
-        a(href=url_for(post.path))
+        a(href=url_for(post.path) class='p-name u-url')
           +title(post)
-      .post-meta= post.date.format(config.date_format)
+      .dt-published.post-meta= post.date.format(config.date_format)
       if theme.duoshuo
         a.ds-thread-count(data-thread-key=post.path, href=url_for(post.path) + '#comments')
       if theme.disqus
         a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')
       if post.description
-        .post-content
+        .p-summary.post-content
           != post.description
         p(class='readmore')
           a(href=url_for(post.path))= __('Readmore')
       else if post.excerpt
-        .post-content
+        .p-summary.post-content
           != post.excerpt
         p(class='readmore')
           a(href=url_for(post.path))= __('Readmore')
       else
-        .post-content
+        .e-content.post-content
           != post.content.substring(0, br)
 
   include _partial/paginator

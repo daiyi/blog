@@ -9,9 +9,11 @@ block content
       include _partial/helpers
       a(href=url_for(page.path) class='p-name u-url')
         +title(page)
-    .dt-published.post-meta= page.date.format('ll')
+    .post-meta
+      span(class='dt-published' datetime=__(page.date.format()))
+        !=page.date.format('ll')
       if page.categories.length > 0
-        span= ' | '
+        span= ' in '
         span.p-category.category
           for category in page.categories.toArray()
             a(href=url_for(category.path))= category.name
@@ -20,6 +22,9 @@ block content
         span#busuanzi_container_page_pv= ' | '
           span#busuanzi_value_page_pv
           span= ' ' + __('Hits')
+      span= ' by '
+      a(rel='author' class='p-author h-card' href=__(config.url))
+        != config.author
     if theme.duoshuo
       a.ds-thread-count(data-thread-key=page.path, href=url_for(page.path) + '#comments')
     if theme.disqus

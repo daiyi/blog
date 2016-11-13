@@ -874,8 +874,8 @@ pre {
 .readmore {
   padding-bottom: 10px;
   a {
-    background-color: #939393;
-    color: #fff;
+    background-color: #eee;
+    color: #878787;
     float: right;
     font-size: 14px;
     margin: -10px 0;
@@ -887,8 +887,12 @@ pre {
         padding-left: 0.3em;
     }
     &:hover {
-        background: #F8F8F8;
-        border-bottom-color: #D26911;
+        background: #bbb;
+        color: #656565;
+    }
+    &:focus {
+        outline: auto;
+        outline-color: #7462e0;
     }
   }
 }

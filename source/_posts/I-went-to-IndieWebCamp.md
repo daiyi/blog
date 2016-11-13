@@ -1,13 +1,13 @@
 ---
 title: >-
-  I went to IndieWebCamp (alternate title: annual urge to completely revamp web
-  presence)
+  I went to IndieWebCamp
 date: 2016-11-07 22:30:04
-categories:
-  - web
+categories: web
 tags: IndieWebCamp
 ---
-I am inspired by the promises of an [Indie Web](https://indieweb.org/why). Owning your data, cool. A single source of truth to your content and identity, nice. Possibility of sinking countless hours into configuring your own corner of the internet, ok you got me there.
+## or, justification for satisfying annual urge to completely revamp web presence.
+
+I am inspired by the promises of an [Indie Web](https://indieweb.org/why). Owning your data, cool. A single source of truth to your content and identity, nice. Possibility of sinking countless hours into configuring your own corner of the internet, ok you got me there. <!-- more -->
 
 This is going to be a static site because it's a fucking blog; if I am generating enough content to need a database behind it I should probably be getting paid for it. Fun fact: in middle school, my diary was a series of .txt files.
 

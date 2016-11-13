@@ -14,7 +14,7 @@ block content
         include _partial/helpers
         a(href=url_for(post.path) class='p-name u-url')
           +title(post)
-      .dt-published.post-meta= post.date.format(config.date_format)
+      .dt-published.meta.post-meta= post.date.format(config.date_format)
       if theme.duoshuo
         a.ds-thread-count(data-thread-key=post.path, href=url_for(post.path) + '#comments')
       if theme.disqus
@@ -22,12 +22,12 @@ block content
       if post.description
         .p-summary.post-content
           != post.description
-        p(class='readmore')
+        p(class='readmore meta')
           a(href=url_for(post.path))= __('Readmore')
       else if post.excerpt
         .p-summary.post-content
           != post.excerpt
-        p(class='readmore')
+        p(class='readmore meta')
           a(href=url_for(post.path))= __('Readmore')
       else
         .e-content.post-content

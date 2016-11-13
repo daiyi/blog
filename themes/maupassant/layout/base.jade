@@ -37,7 +37,7 @@ html(lang='#{config.language}')
 
   body: .body_container
     #header
-      .site-name
+      .site-name.hidden_mid_and_up
         h1.hidden= current_title
         a#logo(href=url_for('.'))= config.title
         p.description= config.subtitle
@@ -60,7 +60,7 @@ html(lang='#{config.language}')
       .pure-u-1.hidden_mid_and_up: .content_container: #sidebar
         each item in theme.widgets
           != partial('_widget/' + item + '.jade')
-      .pure-u-1.pure-u-md-3-4
-        != partial('_partial/footer.jade')
+      //- .pure-u-1.pure-u-md-3-4
+      //-   != partial('_partial/footer.jade')
 
     include _partial/after_footer

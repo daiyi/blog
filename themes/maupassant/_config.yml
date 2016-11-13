@@ -1,6 +1,6 @@
 fancybox: false ## If you want to use fancybox please set the value to true.
 duoshuo: ## Your duoshuo_shortname, e.g. username
-disqus: daiyi
+# disqus: daiyi ## TODO
 google_search: false ## Use Google search, true/false.
 baidu_search: ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
@@ -25,19 +25,19 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - profile
   - category
   - tag
-  - search
-##  - recent_posts
-##  - links
+  # - search TODO
 
-##links:
-##  - title:
-##    url:
 
 profile:
   photo: img/patagonia.jpg
   name: chris (daiyi!)
   url: http://daiyi.co
-  about: "coder, hitchhiker, alpinist, born in california and raised by the internet."
+  about: 'coder, hitchhiker, alpinist; born in california and raised by the internet. yells when excited. yells all the time.'
+  links:
+    - title: twitter
+      url: https://twitter.com/daiyitastic
+    - title: github
+      url: https://github.com/daiyitastic
 
 timeline:
   - num: 1

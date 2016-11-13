@@ -1,8 +1,14 @@
 .h-card.widget
   img(class='u-photo' src=__(config.root + theme.profile.photo))
-  .details
+  .profile-details
     .comments-title
       a(rel='me' class='p-name u-url' href=theme.profile.url)= theme.profile.name
     span(rel='me' class='u-email' hidden='true')
       | daiyitastic@gmail.com
     p(class='p-note widget-about')= theme.profile.about
+    if theme.profile.links
+      .profile-links
+        ul
+          -for (var i in theme.profile.links)
+            li 
+              a(href='#{theme.profile.links[i].url}' title='#{theme.profile.links[i].title}' target='_blank') #{theme.profile.links[i].title}

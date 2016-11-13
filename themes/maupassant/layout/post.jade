@@ -9,22 +9,9 @@ block content
       include _partial/helpers
       a(href=url_for(page.path) class='p-name u-url')
         +title(page)
-    .post-meta
+    .meta.post-meta
       span(class='dt-published' datetime=__(page.date.format()))
-        !=page.date.format('ll')
-      if page.categories.length > 0
-        span= ' in '
-        span.p-category.category
-          for category in page.categories.toArray()
-            a(href=url_for(category.path))= category.name
-      if theme.busuanzi == true
-        script(src='https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js', async)
-        span#busuanzi_container_page_pv= ' | '
-          span#busuanzi_value_page_pv
-          span= ' ' + __('Hits')
-      span= ' by '
-      a(rel='author' class='p-author h-card' href=__(config.url))
-        != config.author
+        !=page.date.format(config.date_format)
     if theme.duoshuo
       a.ds-thread-count(data-thread-key=page.path, href=url_for(page.path) + '#comments')
     if theme.disqus
@@ -39,7 +26,22 @@ block content
     if theme.shareto == true
       script(type='text/javascript', src=url_for(theme.js) + '/share.js' + '?v=' + theme.version, async)
       a.article-share-link(data-url='#{page.permalink}', data-id='#{page._id}')= __('shareto')
-    include _partial/tag
+    .meta.post-categories
+      if page.categories.length > 0
+        span= 'posted in '
+        span.p-category.category
+          for category in page.categories.toArray()
+            a(href=url_for(category.path))= category.name
+      if theme.busuanzi == true
+        script(src='https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js', async)
+        span#busuanzi_container_page_pv= ' | '
+          span#busuanzi_value_page_pv
+          span= ' ' + __('Hits')
+      span= ' by '
+      a(rel='author' class='p-author h-card' href=__(config.url))
+        != config.author
+    .meta 
+      include _partial/tag
     include _partial/post_nav
     if theme.duoshuo
       div(class='ds-share flat' data-thread-key=page.path, data-title=page.title, data-url=page.permalink)

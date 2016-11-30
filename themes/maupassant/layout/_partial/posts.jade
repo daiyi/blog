@@ -1,0 +1,24 @@
+for post in page.posts.toArray()
+  article.h-entry.post
+    h2.post-title
+      include helpers
+      a(href=url_for(post.path) class='p-name u-url')
+        +title(post)
+    .dt-published.meta.post-meta= post.date.format(config.date_format)
+    if theme.duoshuo
+      a.ds-thread-count(data-thread-key=post.path, href=url_for(post.path) + '#comments')
+    //- if theme.disqus
+    //-   a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')
+    if post.description
+      .p-summary.post-content
+        != post.description
+      p(class='readmore meta')
+        a(href=url_for(post.path))= __('Readmore')
+    else if post.excerpt
+      .p-summary.post-content
+        != post.excerpt
+      p(class='readmore meta')
+        a(href=url_for(post.path))= __('Readmore')
+    else
+      .e-content.post-content
+        != post.content.substring(0, br)

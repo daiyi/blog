@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: daiyi's internet megaphone
+title: daiyi's internet paper trail
 subtitle:
 description:
 author: daiyi
@@ -44,7 +44,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: misc
 category_map:
 tag_map:
 

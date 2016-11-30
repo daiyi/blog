@@ -22,7 +22,8 @@ html, button, input, select, textarea,
 body {
     background-color: #FFF;
     color: #555;
-    font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", "PingFangSC-Regular",
+                 "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 14px;
@@ -37,13 +38,17 @@ body {
     padding-top: 20px;
     padding-bottom: 70px;
 }
-a, button.submit {
+button.submit {
     color: #6E7173;
     text-decoration: none;
     -webkit-transition: all .1s ease-in;
     -moz-transition: all .1s ease-in;
     -o-transition: all .1s ease-in;
     transition: all .1s ease-in;
+}
+a {
+  color: #555;
+  text-decoration: none;
 }
 a:hover, a:active {
     color: #7462e0;
@@ -59,12 +64,10 @@ div {
 }
 
 #header {
-    padding: 58px 0 0;
+    padding: 50px 0 0;
     text-align: left;
-    border-bottom: 1px solid #ddd;
-    position: relative;
     .site-name {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         h1 {
             padding: 0;
             margin: 0;
@@ -72,7 +75,8 @@ div {
             overflow: hidden;
         }
         #logo {
-            font: bold 38px/1.12 "Times New Roman", Georgia, Times, sans-serif;
+            font-family: "courier new", "courier", "monospace";
+            font-size: 2em;
             color: #555;
             span, &:hover {
                 color: #777;
@@ -84,28 +88,18 @@ div {
         }
     }
     #nav-menu {
-        margin: 10px 0 -1px;
+        margin: 0;
         padding: 0;
-        position: absolute;
-        right: 0;
-        bottom: 0;
         a {
-            display: inline-block;
-            padding: 3px 20px 3px;
-            line-height: 30px;
-            color: #444;
+            text-transform: lowercase;
             font-size: 13px;
-            border: 1px solid transparent;
-            &:hover {
-                border-bottom-color: #444;
-            }
+            margin-right: 20px;
             &.current {
-                border: 1px solid #ddd;
-                border-bottom-color: #fff;
+              font-style: italic;
             }
-            &.current:hover {
-                color: #666;
-            }
+        }
+        a:last-child {
+          margin-right: 0;
         }
     }
 }

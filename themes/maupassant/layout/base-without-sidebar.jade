@@ -22,6 +22,9 @@ if is_post()
     - var card_description = stripped_content.substring(0, end_index)
   if page.image
     - var card_image = config.url + config.root + path.substring(0, path.lastIndexOf('/') + 1) + page.image;
+    - var card_type = "summary_large_image"
+  else
+    - var card_type = "summary"
 else
   - var card_description = current_title
 
@@ -35,7 +38,7 @@ html(lang='#{config.language}')
     meta(content='telephone=no', name='format-detection')
     meta(name='description', content=config.description)
     meta(name='google-site-verification' content='6GTeiOhqimfTtuUIQtS8CqdXJzM4lPPMeXjbvNAsm5w')
-    meta(name='twitter:card' content='summary')
+    meta(name='twitter:card' content=card_type)
     meta(name='twitter:site' content='@daiyitastic')
     meta(name='twitter:creator' content='@daiyitastic')
     meta(name='twitter:description' content=card_description)

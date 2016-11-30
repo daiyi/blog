@@ -4,7 +4,10 @@ categories: via alpina
 date: 2016-11-08 00:00:00
 tags:
   - backpacking
+summary: Trip report! A week hiking the Via Alpina trail in Switzerland
+image: daiyi-hikin.png
 ---
+
 {% asset_img daiyi-hikin.png 'daiyi unable to face the camera due to overwhelming beauty of alps' %}
 
 I spent a week walking the Via Alpina trail in Switzerland from late September to early October 2016. I inevitably collect cool thoughts and cool photos when I hike for 8 hours a day and have always wanted to write a trip report, but motivation/time is eaten when I rejoin society and work/school. I have neither of those responsibilities right now! Posts will be serialised under the [Via Alpina](/blog/categories/via-alpina) category.

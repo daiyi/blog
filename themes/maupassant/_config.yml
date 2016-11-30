@@ -14,7 +14,7 @@ busuanzi: false ## If you want to use Busuanzi page views please set the value t
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 
 menu:
-  - page: self.about
+  - page: about
     directory: http://daiyi.co
   - page: ideas and feelings
     directory: .

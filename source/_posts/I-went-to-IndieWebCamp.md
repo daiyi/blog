@@ -4,6 +4,7 @@ title: >-
 date: 2016-11-07 22:30:04
 categories: web
 tags: IndieWebCamp
+summary: I am inspired by the promises of an Indie Web.
 ---
 ## or, justification for satisfying annual urge to completely revamp web presence.
 

@@ -4,6 +4,7 @@ categories: feels
 tags:
   - politics
 date: 2016-11-13 01:53:57
+summary: civic guilt, cultural privilege, and a flurry of other lovely thoughts in the wake of USA election 2016.
 ---
 
 ##  civic guilt, cultural privilege, and a flurry of other lovely thoughts in the wake of USA election 2016.
@@ -46,4 +47,4 @@ People say they are _shocked_ that this happened not because it's actually surpr
 
 ### the environment is fucked and we're going to be responsible for affecting all humans
 
-Here's to hoping we hit the singularity and gain ultimate understanding as a global hivemind before we manage to destroy each other, so that the jokes rolling out of my mouth in a sad coping mechanism don't feel as trite as writing all of this in the time I could have used to apply for socially responsible software jobs. I'll speak up when I can. I'll fight if I'm able. I will escape if the worst happens (I'm not going to pretend tyler and I didn't talk about contingency plans). I will find a balance between paying back for the good things my society has given me and appreciating the things that make me happy about this life and I must do this asap. 
+Here's to hoping we hit the singularity and gain ultimate understanding as a global hivemind before we manage to destroy each other, so that the jokes rolling out of my mouth in a sad coping mechanism don't feel as trite as writing all of this in the time I could have used to apply for socially responsible software jobs. I'll speak up when I can. I'll fight if I'm able. I will escape if the worst happens (I'm not going to pretend tyler and I didn't talk about contingency plans). I will find a balance between paying back for the good things my society has given me and appreciating the things that make me happy about this life and I must do this asap.

@@ -5,7 +5,7 @@
 # Site
 title: daiyi's internet paper trail
 subtitle:
-description: thoughts and ideas and essays by daiyi; unrefined brain to internet shoveling
+description: thoughts and ideas and essays by daiyi; unrefined brain-to-internet pipe; public journaling
 author: daiyi
 language: en
 timezone: Europe/Berlin
@@ -72,3 +72,10 @@ deploy:
 ##  repo: git@github.com:daiyitastic/daiyitastic.github.io.git
 ##  branch: staging
 ##  message: "deployed: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: false
+  content: true
+  excerpt_frontmatter_key: summary

@@ -21,7 +21,7 @@ if is_post()
     - var end_index = stripped_content.indexOf('.') + 1 || 100;
     - var card_description = stripped_content.substring(0, end_index)
   if page.image
-    - var card_image = config.url + config.root + path.substring(0, path.lastIndexOf('/') + 1) + page.image;
+    - var card_image = url.substring(0, url.lastIndexOf('/') + 1) + page.image;
     - var card_type = "summary_large_image"
   else
     - var card_type = "summary"
@@ -43,7 +43,7 @@ html(lang='#{config.language}')
     meta(name='twitter:creator' content='@daiyitastic')
     meta(name='twitter:description' content=card_description)
     meta(name='twitter:image' content=card_image)
-    meta(property='og:url' content=config.url+config.root+path)
+    meta(property='og:url' content=url)
     meta(property='og:title' content=current_title)
     meta(property='og:description' content=card_description)
     meta(property='og:image' content=card_image)

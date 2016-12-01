@@ -4,6 +4,7 @@ date: 2016-11-30 00:07:57
 tags:
   - personal
   - tech
+summary: I am exactly as cool as I was before I started writing clojure.
 ---
 ## I am exactly as cool as I was before I started writing clojure.
 

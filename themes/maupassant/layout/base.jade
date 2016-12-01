@@ -13,6 +13,21 @@ if config.feed
     default
       - var feed_type='application/atom+xml'
 
+if is_post()
+  if page.summary
+    - var card_description = page.summary
+  else
+    - var stripped_content = strip_html(page.content);
+    - var end_index = stripped_content.indexOf('.') + 1 || 100;
+    - var card_description = stripped_content.substring(0, end_index)
+  if page.image
+    - var card_image = url.substring(0, url.lastIndexOf('/') + 1) + page.image;
+    - var card_type = "summary_large_image"
+  else
+    - var card_type = "summary"
+else
+  - var card_description = current_title
+
 doctype html
 html(lang='#{config.language}')
   head
@@ -22,6 +37,15 @@ html(lang='#{config.language}')
     meta(content='black-translucent', name='apple-mobile-web-app-status-bar-style')
     meta(content='telephone=no', name='format-detection')
     meta(name='description', content=config.description)
+    meta(name='twitter:card' content=card_type)
+    meta(name='twitter:site' content='@daiyitastic')
+    meta(name='twitter:creator' content='@daiyitastic')
+    meta(name='twitter:description' content=card_description)
+    meta(name='twitter:image' content=card_image)
+    meta(property='og:url' content=url)
+    meta(property='og:title' content=current_title)
+    meta(property='og:description' content=card_description)
+    meta(property='og:image' content=card_image)
     block title
     link(rel='stylesheet', type='text/css', href='//cdn.bootcss.com/normalize/4.2.0/normalize.min.css')
     link(rel='stylesheet', type='text/css', href='//cdn.bootcss.com/pure/0.6.0/pure-min.css')

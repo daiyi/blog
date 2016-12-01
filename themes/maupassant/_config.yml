@@ -22,6 +22,8 @@ menu:
     directory: http://daiyi.tumblr.com
   - page: "@daiyitastic"
     directory: https://twitter.com/daiyitastic
+  - page: rss
+    directory: rss2.xml
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - profile

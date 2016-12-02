@@ -20,8 +20,9 @@ html, button, input, select, textarea,
 }
 
 body {
-    background-color: #FFF;
-    color: #555;
+    background: no-repeat top left fixed url('/blog/img/grey_xl.jpg');
+    background-size: cover;
+    color: #333;
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", "PingFangSC-Regular",
                  "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -32,11 +33,10 @@ body {
 }
 .body_container {
     padding: 0 60px;
-    max-width: 1150px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .content_container {
-    padding-right: 50px;
     padding-top: 20px;
     padding-bottom: 70px;
 }
@@ -67,7 +67,7 @@ div {
 
 #header {
     padding: 50px 0 0;
-    text-align: left;
+    text-align: right;
     .site-name {
         margin-bottom: 10px;
         h1 {
@@ -77,11 +77,11 @@ div {
             overflow: hidden;
         }
         #logo {
-            font-family: "courier new", "courier", "monospace";
+            font-family: "Lucida Bright", Georgia, serif;
             font-size: 2em;
             color: #555;
             span, &:hover {
-                color: #777;
+                color: #7462e0;
             }
         }
         .description {
@@ -211,10 +211,13 @@ div {
 }
 
 .post {
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05);
+    padding: 40px;
     .meta {
       font-family: "courier new", "courier", "monospace";
     }
-    margin: 70px 0 15px;
+    margin: 70px 0 100px;
     .post-title {
         margin: 0;
         color: #555;
@@ -270,8 +273,8 @@ div {
         clear: left;
         font-size: 16px;
         line-height: 1.7;
-        color: #555;
-        padding-top: 15px;
+        // color: #555;
+        padding-top: 20px;
         word-break: normal;
         h2 {
             font-size: 1.4em;
@@ -295,7 +298,7 @@ div {
             color: #7462e0;
         }
         p {
-            margin: 0 0 1.2em;
+            margin: 0 0 1.5em;
             code {
                 display: inline-block;
                 margin: 0 5px;
@@ -317,6 +320,9 @@ div {
                 position: relative;
                 text-align: center;
             }
+        }
+        p:last-child {
+          margin-bottom: 0;
         }
         hr {
             margin: 2.4em auto;
@@ -355,6 +361,11 @@ div {
         a {
             margin-right: .5em;
         }
+    }
+
+    &.comments {
+      padding-top: 10px;
+      padding-bottom: 0;
     }
 }
 
@@ -433,16 +444,40 @@ div {
 }
 /* for archive page ends*/
 
+/* phone */
+// hide expensive images for small screens because they are likely mobile
+@media only screen
+  and (max-device-width: 736px) {
+    body {
+      background: #fff;
+    }
+    .body_container {
+        padding: 0 20px;
+    }
+    .post {
+      box-shadow: none;
+      padding: 0;
+    }
+}
+
 /* middle*/
 @media (min-width: 48em) {
     .hidden_mid_and_up {
         display: none !important;
     }
+    // Code container
+    .code {
+        padding: 0.3em 15px 0.3em 1em;
+        width:   100%;
+
+        pre {
+            max-width: 500px; // TODO
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+    }
 }
 @media print, screen and (max-width: 48em) {
-    .body_container {
-        padding: 0 30px;
-    }
     .content_container {
         padding-top: 0;
     }
@@ -1102,7 +1137,7 @@ figure.highlight,
         width:   100%;
 
         pre {
-            max-width:  700px;
+            max-width: 900px;
             overflow-x: auto;
             overflow-y: hidden;
         }
@@ -1646,11 +1681,9 @@ figure.highlight,
 /* post navigator*/
 .post-nav {
       overflow: hidden;
-      margin-top: 15px;
-      margin-bottom: 20px;
       padding: 10px;
       white-space: nowrap;
-      border-top: 1px solid #eee;
+      border-top: 1px solid #ddd;
       a {
         display: inline-block;
         line-height: 25px;

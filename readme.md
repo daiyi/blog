@@ -2,7 +2,7 @@ blog is on the internet here: http://daiyi.co/blog
 
 ## How to add comment on a post
 
-- fill our this template:
+- fill out this template:
 
   ```yaml
   comment_list:

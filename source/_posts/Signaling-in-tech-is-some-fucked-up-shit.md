@@ -10,7 +10,7 @@ summary: I am exactly as cool as I was before I started writing clojure.
 
 I've had a short, short life as a programmer and I've spent a lot of it making websites. Back in the day (as in a couple years ago) when I told other software people I'm a web developer, I got treated like shit. I was a lower class of coder because I wasn't "solving cool problems" because making web sites is easy. It was sad and confusing to receive unjustified hatred but I loved the internet and I thought it's pretty neat to make things that everyone can use and I like the visual component to my projects so I'd just go secretly cry in the bathroom (cool tricked I learned in college) like an ordinary functioning adult.
 
-Somewhere along the way there was a massive rebranding so then I was literally the same things but now I'm a Frontend Engineer or UI Engineer. Occasionally I'd still get trashed by other coders but that's ok, I even get to sit with the other software folks sometimes!
+Somewhere along the way there was a massive rebranding so then I was doing literally the same things but now I'm a Frontend Engineer or UI Engineer. Occasionally I'd still get trashed by other coders but that's ok, I even get to sit with the other software folks sometimes!
 
 I found web and design communities where people do good web things and encourage each other to be better. It's cool. Love is out there.
 

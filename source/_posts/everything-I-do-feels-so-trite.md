@@ -3,6 +3,7 @@ title: everything I do feels so trite
 categories: feels
 tags:
   - politics
+  - personal
 date: 2016-11-13 01:53:57
 summary: civic guilt, cultural privilege, and a flurry of other lovely thoughts in the wake of USA election 2016.
 ---

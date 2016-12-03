@@ -1,9 +1,10 @@
 for post in page.posts.toArray()
   article.h-entry.post
-    h2.post-title
-      include helpers
-      a(href=url_for(post.path) class='p-name u-url')
-        +title(post)
+    header
+      h2
+        include helpers
+        a(href=url_for(post.path) class='p-name u-url')
+          +title(post)
     .dt-published.meta.post-meta= post.date.format(config.date_format)
     if theme.duoshuo
       a.ds-thread-count(data-thread-key=post.path, href=url_for(post.path) + '#comments')

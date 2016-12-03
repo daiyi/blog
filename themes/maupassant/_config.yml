@@ -1,6 +1,6 @@
-fancybox: false ## If you want to use fancybox please set the value to true.
+fancybox: ## If you want to use fancybox please set the value to true.
 duoshuo: ## Your duoshuo_shortname, e.g. username
-disqus: daiyiblorg ## TODO
+disqus: # daiyiblorg ## TODO
 google_search: false ## Use Google search, true/false.
 baidu_search: ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
@@ -12,6 +12,10 @@ show_category_count: true ## If you want to show the count of categories in the 
 shareto: false ## If you want to use the share button please set the value to true.
 busuanzi: false ## If you want to use Busuanzi page views please set the value to true.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
+
+frontmatter_comments:
+  color: "#3EF5DB"
+  repo_root: https://github.com/daiyitastic/blog/blob/master/source/_posts/
 
 menu:
   - page: about

@@ -16,6 +16,10 @@ widgets_on_small_screens: false ## Set to true to enable widgets on small screen
 frontmatter_comments:
   color: "#3EF5DB"
   repo_root: https://github.com/daiyitastic/blog/blob/master/source/_posts/
+  default:
+    - name: daiyi
+      url: http://daiyi.co
+      comment: No comments at the moment \o/ Hey you can write one! It will make me so happy.
 
 menu:
   - page: about

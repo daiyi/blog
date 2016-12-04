@@ -1,27 +1,26 @@
 article.post.comment-box
   h2 comments
-  if page.comment_list
-    for comment in page.comment_list
-      article.comment
-        - var style
-        - var is_author = comment.url === theme.profile.url
-        if is_author
-          - comment.color = theme.frontmatter_comments.color
-        if comment.color
-          - var shadow = "box-shadow: 0px -4px 0px " + comment.color + " inset;"
-          - var border = "border-bottom-color:" + comment.color + ";"
-          - style = border + shadow;
-        blockquote !{comment.comment.replace(/\n/g, '<br/>')}
-          | — 
-          a.commenter(href=comment.url style=style) #{comment.name}
-  else
-    .comment
-      blockquote No comments at the moment \o/ Hey you can write one!
+  - var comments = page.comment_list
+  if !comments
+    - comments = theme.frontmatter_comments.default
+
+  for comment in comments
+    article.comment
+      - var style
+      - var is_author = comment.url === theme.profile.url
+      if is_author
+        - comment.color = theme.frontmatter_comments.color
+      if comment.color
+        - var shadow = "box-shadow: 0px -4px 0px " + comment.color + " inset;"
+        - var border = "border-bottom-color:" + comment.color + ";"
+        - style = border + shadow;
+      blockquote !{comment.comment.replace(/\n/g, '<br/>')}
         | — 
-        a(href="http://daiyi.co") daiyi
+        a.commenter(href=comment.url style=style) #{comment.name}
+
   p To comment, fill out this template and email to 
-    a(href="mailto:comments@daiyi.co") comments@daiyi.co 
-    | <3. Or put up a PR 
+    a(href="mailto:comments@daiyi.co") comments@daiyi.co
+    | . Or put up a PR 
     a(href=theme.frontmatter_comments.repo_root + page.slug + ".md") here
     |! (
     a(href="https://github.com/daiyitastic/blog#how-to-add-comment-on-a-post") instructions

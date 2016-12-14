@@ -8,7 +8,7 @@ subtitle:
 description: thoughts and ideas and essays by daiyi; unrefined brain-to-internet pipe; public journaling
 author: daiyi
 language: en
-timezone: Europe/Berlin
+timezone: America/Los_Angeles # Europe/Berlin
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

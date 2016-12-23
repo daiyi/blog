@@ -7,34 +7,16 @@ tags:
 summary: I am exactly as cool as I was before I started writing clojure.
 comment_list:
   - name: Raj
-    url: [rajk.me](https://rajk.me)
-    color: #b16286 
+    url: https://rajk.me
+    color: "#b16286"
     comment: |
-      Great post. Glad to hear you enjoyed SICP :) I've noticed this too,
-      especially towards front-end as you say, also in general using "old" or
-      "easy" tech like PHP or Python vs whatever FOTM deep neural network
-      written in Rustlang on Kubernetnes or something. I see this a lot
-      with vim/emacs too.
+      Great post. Glad to hear you enjoyed SICP :) I've noticed this too, especially towards front-end as you say, also in general using "old" or "easy" tech like PHP or Python vs whatever FOTM deep neural network written in Rustlang on Kubernetnes or something. I see this a lot with vim/emacs too.
 
-      It seems to me that it's relatively hard to gauge how "good" a software
-      person so one identifier people use is various types of tech, especially
-      those perceived as difficult to learn or abstract or niche. And then
-      because no one can learn everything, most of these stereotypes are
-      unfounded entirely.
-      
-      Possibly we're conflating "using difficult tech" with "being a good
-      engineer"? Should we be asking people we meet, instead of what languages
-      they know, what causes they're interested in or what they're trying to
-      achieve with whatever tech they choose to use? I don't think this quite
-      covers all the bases, some people like learning languages for the sake of
-      learning them/the paradigm, but I think this could be a better way to
-      learn about someone. Perhaps this doesn't really address your point of
-      being respectful no matter what.
+      It seems to me that it's relatively hard to gauge how "good" a software person so one identifier people use is various types of tech, especially those perceived as difficult to learn or abstract or niche. And then because no one can learn everything, most of these stereotypes are unfounded entirely.
 
-      Last thing that's slightly off-topic, have you been working on any cool
-      new things in ClojureScript? I tried setting up figwheel a while ago but
-      couldn't really figure it out...but reagent, garden, etc. look pretty
-      cool, especially as a way to think about the DOM statelessly.
+      Possibly we're conflating "using difficult tech" with "being a good engineer"? Should we be asking people we meet, instead of what languages they know, what causes they're interested in or what they're trying to achieve with whatever tech they choose to use? I don't think this quite covers all the bases, some people like learning languages for the sake of learning them/the paradigm, but I think this could be a better way to learn about someone. Perhaps this doesn't really address your point of being respectful no matter what.
+
+      Last thing that's slightly off-topic, have you been working on any cool new things in ClojureScript? I tried setting up figwheel a while ago but couldn't really figure it out...but reagent, garden, etc. look pretty cool, especially as a way to think about the DOM statelessly.
 ---
 ## I am exactly as cool as I was before I started writing clojure.
 

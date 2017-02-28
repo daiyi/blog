@@ -9,7 +9,7 @@ summary: Books I read in February! Part of an ongoing series.
 ---
 
 
-I didn't get through much this month because I'm reading Modern Operating Systems in slow motion and Seveneves took forever, but here are the books I read in February! Part of an [ongoing series](http://localhost:4000/blog/categories/what-am-I-reading/).
+I didn't get through much this month because I'm reading Modern Operating Systems in slow motion and Seveneves took forever, but here are the books I read in February! Part of an [ongoing series](http://daiyi.co/blog/categories/what-am-I-reading/).
 
 <!-- more -->
 

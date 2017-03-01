@@ -35,7 +35,7 @@ Some of the book is maneuvering the situation as to set up the various thought e
 Also DON'T READ the back cover summary (and I'm not even a person who cares about plot twists). It's more motivating get through such a long book if you have no idea what's going on :D
 
 
-### Nonviolent Communication - Faber & Mazlish
+### Nonviolent Communication - Marshall B. Rosenberg
 #### non-fic | I'd recommend it
 
 I like how this book formalises a lot of ideas I have floating around in my head about how to meet people where they are at emotionally, expressing your own needs in terms of actionable items, etc. (a whole 'nother topic for another time). I like comparing it against [How to Talk So Kids Will Listen and Listen So Kids Will Talk](https://www.goodreads.com/book/show/769016.How_to_Talk_So_Kids_Will_Listen_Listen_So_Kids_Will_Talk), which has similar axioms but angles it more towards parenting/interacting with children (which is really powerful for communicating with adults sometimes).

@@ -19,6 +19,7 @@ comment_list:
       Last thing that's slightly off-topic, have you been working on any cool new things in ClojureScript? I tried setting up figwheel a while ago but couldn't really figure it out...but reagent, garden, etc. look pretty cool, especially as a way to think about the DOM statelessly.
 ---
 ## I am exactly as cool as I was before I started writing clojure.
+<!-- more -->
 
 I've had a short, short life as a programmer and I've spent a lot of it making websites. Back in the day (as in a couple years ago) when I told other software people I'm a web developer, I got treated like shit. I was a lower class of coder because I wasn't "solving cool problems" because making web sites is easy. It was sad and confusing to receive unjustified hatred but I loved the internet and I thought it's pretty neat to make things that everyone can use and I like the visual component to my projects so I'd just go secretly cry in the bathroom (cool tricked I learned in college) like an ordinary functioning adult.
 

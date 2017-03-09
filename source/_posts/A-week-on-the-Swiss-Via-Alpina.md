@@ -10,14 +10,13 @@ image: daiyi-hikin.png
 
 {% asset_img daiyi-hikin.png 'daiyi unable to face the camera due to overwhelming beauty of alps' %}
 
-I spent a week walking the Via Alpina trail in Switzerland from late September to early October 2016. I inevitably collect cool thoughts and cool photos when I hike for 8 hours a day and have always wanted to write a trip report, but motivation/time is eaten when I rejoin society and work/school. I have neither of those responsibilities right now! Posts will be serialised under the [Via Alpina](/blog/categories/via-alpina) category.
+I spent a week walking the Via Alpina trail in Switzerland from late September to early October 2016.<!-- more --> I inevitably collect cool thoughts and cool photos when I hike for 8 hours a day and have always wanted to write a trip report, but motivation/time is eaten when I rejoin society and work/school. I have neither of those responsibilities right now! Posts will be serialised under the [Via Alpina](/blog/categories/via-alpina) category.
 
 ## when you go to a fancy modern country to sleep on the side of the road
 
 I love that the alps are super accessible (grandmas and dogs and babies all over the places, rails running out of every town to the top of every pass), and people go there specifically to enjoy the European charm and convenience of mountain cabins/huts. So of course I ignored all the modern comforts the country had to offer, wild camping and hitchhiking instead. I took one train, two hours from Zurich to my arbitrarily selected trailhead in Engelberg, which was a fresh and smooth experience that, like all the other Swiss things, put the quality of their counterparts in other countries to shame, but also used all my food budget for the month. It was lovely for being the only train I pay for my entire stay in Europe.
 
 The trail was really developed and full of cows and people, so we got pretty creative about finding places to sleep! (Ominous foreshadowing music)
- <!-- more -->
 
 ### Contradictions
 

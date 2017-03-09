@@ -14,6 +14,8 @@ I'm hearing some rattling in my internet social spheres about how content silos 
 
 Go [check it out](https://indieweb.org/). They're nice, too (:
 
+<!-- more -->
+
 ### personal minutia
 
 This is going to be a static site because it is just a blog; if I am generating enough content to need a database behind it I should probably be getting paid for it. Fun fact: in middle school, my diary was a series of .txt files.

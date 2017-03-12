@@ -1,0 +1,15 @@
+extends base
+
+prepend site_title
+  | #{page.category} &mdash;&nbsp;
+
+block site_body
+  .box.archive
+    .box-content
+      header
+        h2 topic: #{page.category}
+        - listToRender = []
+        - listToRender.push(site.categories.findOne({name: page.category}))
+
+      include _partial/post/list
+      //- include _partial/post/list_pagination

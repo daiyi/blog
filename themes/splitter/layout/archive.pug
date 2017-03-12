@@ -1,0 +1,19 @@
+extends base
+
+prepend site_title
+  | Archives &mdash;&nbsp;
+
+block site_body
+  .box.archive
+    .box-content
+      header
+        if is_tag()
+          h2 topic: #{page.tag}
+          - listToRender = []
+          - listToRender.push(site.tags.findOne({name: page.tag}))
+        else if is_archive()
+          h2 by topic
+          - listToRender = site.categories.toArray()
+
+      include _partial/post/list
+      //- include _partial/post/list_pagination

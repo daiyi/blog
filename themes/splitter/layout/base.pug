@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+
+  head
+    include _partial/site/head
+
+  body
+    .page
+      .page-content
+
+        .box.header
+          .box-content
+            h1
+              a(href=url_for()) daiyi
+            .nav
+              ul
+                for link in theme.links
+                  li
+                    a(href=link.url) #{link.name}
+            //- p
+            //-   != config.description
+
+        .box
+          block site_body
+
+      //- footer.site-footer
+      //-   block site_footer
+      //-     include _partial/site/footer

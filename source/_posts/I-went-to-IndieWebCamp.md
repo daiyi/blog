@@ -5,8 +5,9 @@ date: 2016-11-07 22:30:04
 categories: web
 tags: IndieWebCamp
 summary: I am inspired by the promises of an Indie Web.
+location: Berlin
 ---
-## or, justification for satisfying annual urge to completely revamp web presence.
+<strong>or, justification for satisfying annual urge to completely revamp web presence.</strong>
 
 I am inspired by the promises of an [Indie Web](https://indieweb.org/why). Owning your data, cool. A single source of truth to your content and identity, nice. Possibility of sinking countless hours into configuring your own corner of the internet, ok you got me there.
 

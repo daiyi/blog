@@ -1,0 +1,12 @@
+extends base
+
+prepend site_title
+  | #{page.title} &mdash;&nbsp;
+
+block site_body
+
+  article.box
+    .box-content
+      header
+        h2= page.title
+        .meta 2017 03 04 | #{page.location}

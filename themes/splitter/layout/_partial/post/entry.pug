@@ -1,0 +1,7 @@
+article(class=page.layout).box-content
+  header
+    h2= page.title
+    .meta
+      span.date #{date(page.date, "YY MM DD")}
+      span.location #{page.location}
+  !=page.content

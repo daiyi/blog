@@ -6,9 +6,10 @@ tags:
   - reviews
 date: 2017-02-13 17:21:08
 summary: I love browsing other peoples' reading lists! Reviews of books I read in 2017 Jan
+location: Brooklyn
 ---
 
-## I love browsing other peoples' reading lists!
+<strong>I love browsing other peoples' reading lists!</strong>
 <!-- more -->
 
 My culture tells me that reading books is something a respectable intellectual should do a lot of, but it's been pretty far down the list of priorities ever since I had to seriously come to terms with the fact that sustaining a regular sleep and exercise schedule is key to holding off crippling depression. Well now I'm on a nomadic sabatical and there is time for books again!

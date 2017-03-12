@@ -1,0 +1,14 @@
+// partial uses `listToRender` passed in from above ugh globals
+
+for category in listToRender
+  if is_archive()
+    h3
+      a(href=url_for(category.path)) #{category.name}
+  .items
+    each post in category.posts.toArray()
+      .item
+        .item-content
+          span.meta
+            span.date #{date(post.date, "YY MM DD")}
+          h4
+            a(href=url_for(post.path))= post.title

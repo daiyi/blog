@@ -6,9 +6,10 @@ tags:
   - personal
 date: 2016-11-13 01:53:57
 summary: civic guilt, cultural privilege, and a flurry of other lovely thoughts in the wake of USA election 2016.
+location: Berlin
 ---
 
-##  civic guilt, cultural privilege, and a flurry of other lovely thoughts in the wake of USA election 2016.
+<strong>civic guilt, cultural privilege, and a flurry of other lovely thoughts in the wake of USA election 2016.</strong>
 
 I have never seen so many people publicly acknowledge being brought to tears. <!-- more --> Well, here's me: I'm on European time so I woke up to full hysteria. My gay black American roommate was freaking out since 07:00 CEST as the election day was drawing to a close stateside. I made it all the way to late afternoon before I started receiving celebratory messages in the family chat. I burst into tears and tyler held me as I shook with sobs, no words.
 

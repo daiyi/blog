@@ -1,7 +1,24 @@
 article(class=page.layout).box-content
   header
-    h2= page.title
-    .meta
-      span.date #{date(page.date, "YY MM DD")}
-      span.location #{page.location}
+    h2
+      a(href=url_for(page.url)) #{page.title}
+    //- .meta
+    //-   span.date #{date(page.date, "YY MM DD")}
+    //-   span.location #{page.location}
   !=page.content
+  footer
+    .signoff
+      p <3,
+      P daiyi
+    .signoff
+      if page.location
+        span.location #{page.location},&nbsp;
+      span.date #{date(page.date, "YY/MM/DD")}
+    .tags
+      ul
+        for category in page.categories.toArray()
+          li
+            a(href=url_for(category.path)) #{category.name}
+        for tag in page.tags.toArray()
+          li
+            a(href=url_for(tag.path)) #{tag.name}

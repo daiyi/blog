@@ -62,29 +62,35 @@ html, body {
   width: 900px;
   margin: 0;
   padding: 0;
-}
 
-img {
-  width: 100%;
-  display: block;
-}
-
-.photo {
-  width: 100%;
-  margin: $gutter*2 0;
-
-  .caption {
-    @include caption-font();
-
-    display: block;
-    margin: 0;
-    padding: 2px 10px;
+  img {
     width: 100%;
-    background: $black;
-    color: $white;
-    box-sizing: border-box;
+    display: block;
   }
 }
+
+.box-content {
+  &.index {
+    margin-top: $gutter;
+  }
+}
+
+// .photo {
+//   width: 100%;
+//   margin: $gutter*2 0;
+//
+//   .caption {
+//     @include caption-font();
+//
+//     display: block;
+//     margin: 0;
+//     padding: 2px 10px;
+//     width: 100%;
+//     background: $black;
+//     color: $white;
+//     box-sizing: border-box;
+//   }
+// }
 
 h1,
 h2,
@@ -105,9 +111,9 @@ h1 {
   font-weight: normal;
 }
 h1 a, h1 a:visited, h1 a:hover {
-  color: #000000;
   border: none;
 }
+h2 a, h2 a:visited, h2 a:hover,
 h3 a, h3 a:visited, h3 a:hover,
 h4 a, h4 a:visited, h4 a:hover {
   border: none;
@@ -154,10 +160,43 @@ img + p {
 
 .meta {
   @include caption-font();
-  margin-top: -5px;
+  // margin-top: -5px;
+}
+
+.header {
+  h1 {
+    display: inline-block;
+    margin-right: $gutter;
+    margin-bottom: 0;
+  }
+  .nav {
+    display: inline-block;
+  }
+}
+.post {
+  margin-bottom: $gutter*2;
 }
 
 article {
+
+  footer {
+    &:before {
+      content: "____";
+      font-weight: bold;
+    }
+    p {
+      margin: 0;
+    }
+
+    .signoff {
+      margin: $gutter 0 20px 0;
+
+      .date, .location {
+        font-style: italic;
+      }
+    }
+  }
+
   .meta {
     .date + .location {
       margin-left: 10px;
@@ -166,23 +205,6 @@ article {
         content: "|";
         margin-right: 10px;
       }
-    }
-  }
-}
-
-.header {
-  h1 {
-    display: inline-block;
-    margin-right: $gutter;
-  }
-  .nav {
-    display: inline-block;
-  }
-}
-article {
-  header {
-    h2 {
-      margin: 0;
     }
   }
 }
@@ -245,21 +267,35 @@ article {
 
   .items {
     margin: 0;
+    margin-bottom: $gutter*2;
+
+    h4 {
+      margin-bottom: $gutter/2;
+    }
+
     .item {
       flex: 0 0 100%;
+      a {
+        border: none;
+      }
+      a:hover {
+        border-bottom: 2px solid #333;
+      }
+
       .item-content {
         margin: 0;
+
         .date {
           margin-right: $gutter;
         }
-        h4 {
-          display: inline-block;
+        .title {
+          @include caption-font();
         }
       }
     }
   }
 }
-.nav {
+.nav, .tags {
   ul {
     display: block;
     padding-left: 0;
@@ -269,11 +305,64 @@ article {
     li {
       display: inline-block;
       padding: 0;
-      margin:  10px;
+      margin: 0 10px;
     }
     a {
       border: none;
     }
+    a:hover {
+      border-bottom: 2px solid #222;
+    }
+  }
+}
+
+.photo-block {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row nowrap;
+  // justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 -5px;
+	// overflow: auto;
+	// width: 100%;
+
+  .photo {
+    margin: 5px;
+    flex: 1;
+  }
+}
+.photo-left-pull {
+  float: left;
+  // display: inline-block;
+  margin-left: -10%;
+  margin-right: $gutter*4;
+  margin-bottom: $gutter*2;
+  width: 60%;
+}
+
+// img {
+//   flex: 0 0 100%;
+// }
+
+// .photo {
+//   margin: 0 10px;
+//   flex: 0 0 calc(100%/3);
+// }
+.photo-small {
+  margin: $gutter*2 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  img {
+    flex: 0;
+    width: 70%;
   }
 }
 
@@ -282,12 +371,9 @@ article {
 a {
   text-decoration: none;
 }
-a {
-  color: #333333;
+a, a:visited {
+  color: $black;
   border-bottom: 1px #666666 dotted;
-}
-a:visited {
-  color: #666666;
 }
 a:hover {
   text-decoration: none;
@@ -332,8 +418,7 @@ blockquote {
 }
 
 
-@media only screen
-  and (max-device-width: 900px) {
+@media (max-width: 940px) {
 
     .box-content, .header {
       width: auto;
@@ -359,5 +444,24 @@ blockquote {
       border-left: 5px solid $black;
       padding-left: $gutter;
       padding-right: $gutter;
+    }
+
+    .photo-left-pull {
+      float: none;
+      margin: 0;
+      width: 100%;
+
+      .photo {
+        margin: 0;
+      }
+    }
+    .photo-small {
+      margin: $gutter*2 0;
+      display: block;
+
+      img {
+        flex: none;
+        width: 100%;
+      }
     }
 }

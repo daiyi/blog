@@ -2,26 +2,25 @@ extends base
 
 block site_body
 
-  .box
-    .box-content
-      .items.article-spread
+  .box-content.index
+    .items.article-spread
 
-        each post in page.posts.toArray()
-          .item
-            .item-content
-              .meta
-                span.date #{date(post.date, "YY MM DD")}
-                != post.location
-              h3
-                a(href=url_for(post.path))= post.title
+      each post in page.posts.toArray()
+        .item
+          .item-content
+            .meta
+              span.date #{date(post.date, "YY MM DD")}
+              != post.location
+            h3
+              a(href=url_for(post.path))= post.title
 
-              if post.image
-                - var asset = url_for(post.path) + post.image
-                .excerpt
-                  a(href=url_for(post.path))
-                    img(src=asset)
-              else
-                .excerpt!= post.summary
+            if post.image
+              - var asset = url_for(post.path) + post.image
+              .excerpt
+                a(href=url_for(post.path))
+                  img(src=asset)
+            else
+              .excerpt!= post.summary
 
 
   //- include _partial/post/list_pagination

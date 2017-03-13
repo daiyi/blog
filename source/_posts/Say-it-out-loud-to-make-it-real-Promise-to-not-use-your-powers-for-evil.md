@@ -20,14 +20,10 @@ Ok I have already learned something new today.
 
 Friends, you are overwhelmingly like me: young, passionate, concerned. If you don't want to commit yourself to a what is almost definitely a public watchlist, you don't have to. Write it in your diary. Tell your friend over brunch. Do any small thing to make it real.
 
-<!-- more -->
-
 I'm back in California for a sweet interlude and I can feel my brain moving as I scrape up my ankles and bloody my knuckles on cliffs and eat with friends. They give me love and make me feel safe. They're a time capsule of my old life. I start to forget why I left Berlin. I'm questioning my decision to move to New York in the middle of winter. I start to feel silly and overemotional and unnecessarily cynical. I open a bunch of tabs to plan my next trip and window shop for gear. But I can't forget because after I woke up November 12 and held out a whole half day before breaking down in tears, I wrote to sort out my confusion. This is the curse of chronic journalers. I don't think I've ever felt as American as I did when I was crying thousands of miles away from home about America.
 
 I am torn by the selfish desire to remain uninvolved and alive and the selfish desire to feel like I'm doing something useful. Maybe you are too. _Capture that feeling._ Make it persistent in your own way. Memorialise it. Use it to set a breakpoint for when you see something that makes you feel uneasy. It's hard. It's impossible. It's okay to seek safety. But if you can, build up your muscle memory so that when the time comes your rationalisation won't impede your instinct.
 
 --
-
-&nbsp;
 
 _(relatedly, holler if you know of a project or people that need software hands. I'm not in a particular hurry to find income, I mostly want to appease my selfish desire to feel helpful, so consider this a desperate cry for help rather than a marketing opportunity. I know throwing money at organisations is the best way to make progress but hey, I got the time. Email [me](http://daiyi.co).)_

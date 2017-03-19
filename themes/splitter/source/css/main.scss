@@ -120,7 +120,7 @@ h4 a, h4 a:visited, h4 a:hover {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 38px;
   font-family: $header-font;
 }
 
@@ -175,6 +175,25 @@ img + p {
 }
 .post {
   margin-bottom: $gutter*2;
+
+  .post-content {
+
+    ul {
+      list-style-type: none;
+      padding-inline-start: 60px;
+
+      li {
+        text-indent: -20px;
+        line-height: 1.4em;
+        margin: 20px 0;
+
+        &:before {
+          content: "- ";
+        }
+      }
+    }
+  }
+
 }
 
 article {
@@ -316,6 +335,7 @@ article {
   }
 }
 
+
 .photo-block {
   display: block;
   width: 100%;
@@ -339,11 +359,29 @@ article {
 }
 .photo-left-pull {
   float: left;
-  // display: inline-block;
   margin-left: -10%;
   margin-right: $gutter*4;
   margin-bottom: $gutter*2;
   width: 60%;
+}
+.photo-right-pull {
+  float: right;
+  margin-right: -10%;
+  margin-left: $gutter*4;
+  margin-bottom: $gutter*2;
+  width: 60%;
+}
+.photo-right-pull-tall {
+  float: right;
+  margin-right: -10%;
+  margin-left: $gutter*4;
+  margin-bottom: $gutter*2;
+  height: 30%;
+
+  img {
+    width: auto;
+    max-height: 600px;
+  }
 }
 
 // img {
@@ -361,8 +399,8 @@ article {
   justify-content: center;
 
   img {
-    flex: 0;
-    width: 70%;
+    flex: 0 0 70%;
+    // width: 100%;
   }
 }
 
@@ -446,7 +484,7 @@ blockquote {
       padding-right: $gutter;
     }
 
-    .photo-left-pull {
+    .photo-left-pull, .photo-right-pull, .photo-right-pull-tall {
       float: none;
       margin: 0;
       width: 100%;

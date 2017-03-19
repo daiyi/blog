@@ -1,9 +1,9 @@
 ---
 title: signaling in tech is some fucked up shit
 date: 2016-11-30 00:07:57
+categories: tech
 tags:
   - personal
-  - tech
 summary: I am exactly as cool as I was before I started writing clojure.
 location: Berlin
 comment_list:

@@ -2,8 +2,10 @@
 title: >-
   I went to IndieWebCamp
 date: 2016-11-07 22:30:04
-categories: web
-tags: IndieWebCamp
+categories: tech
+tags:
+  - IndieWebCamp
+  - web
 summary: I am inspired by the promises of an Indie Web.
 location: Berlin
 ---

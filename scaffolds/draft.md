@@ -4,6 +4,6 @@ date: {{ date }}
 categories:
 tags:
 summary:
-imageurl:
+image:
 location:
 ---

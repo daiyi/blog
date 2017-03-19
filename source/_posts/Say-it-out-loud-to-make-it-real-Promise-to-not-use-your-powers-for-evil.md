@@ -1,9 +1,8 @@
 ---
 title: Say it out loud to make it real. Promise to not use your powers for evil.
 date: 2016-12-13 20:20:32
-categories: feels
+categories: tech
 tags:
-  - tech
   - politics
 summary: build up your muscle memory so that when the time comes your rationalisation won't impede your instinct
 ---

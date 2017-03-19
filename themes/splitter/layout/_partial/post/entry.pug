@@ -2,10 +2,15 @@ article(class=page.layout).box-content
   header
     h2
       a(href=url_for(page.url)) #{page.title}
+      //- .meta
+      //-   if page.location
+      //-     span.location #{page.location},&nbsp;
+      //-   span.date #{date(page.date, "YY/MM/DD")}
     //- .meta
     //-   span.date #{date(page.date, "YY MM DD")}
     //-   span.location #{page.location}
-  !=page.content
+  div(class=page.layout + '-content')
+    !=page.content
   footer
     .signoff
       p <3,

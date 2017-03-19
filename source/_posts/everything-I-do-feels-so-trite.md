@@ -1,6 +1,5 @@
 ---
 title: everything I do feels so trite
-categories: feels
 tags:
   - politics
   - personal

@@ -7,7 +7,7 @@ summary: >-
   I went to Hack The Ban, a peaceful one-day hackathon to support nonprofits and
   activism.
 location: Brooklyn
-date: 2017-02-28 03:34:24
+date: 2017-02-26 03:34:24
 image:
 ---
 

@@ -60,12 +60,11 @@ pagination_dir: page
 theme: splitter
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
-##  type: git
-##  repo: git@github.com:daiyitastic/daiyitastic.github.io.git
-##  branch: staging
-##  message: "deployed: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  type: git
+  repo: git@github.com:daiyi/blog.git
+  branch: gh-pages
+  message: "deployed: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 feed:
   type: rss2

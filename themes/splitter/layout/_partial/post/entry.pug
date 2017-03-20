@@ -1,11 +1,11 @@
 article(class=page.layout).box-content
   header
     h2
-      a(href=url_for(page.url)) #{page.title}
-      //- .meta
-      //-   if page.location
-      //-     span.location #{page.location},&nbsp;
-      //-   span.date #{date(page.date, "YY/MM/DD")}
+      a(href=page.permalink) #{page.title}
+    .meta
+      span.date #{date(page.date, "YYYY MM DD")}
+      if page.location
+        span.location #{page.location}
     //- .meta
     //-   span.date #{date(page.date, "YY MM DD")}
     //-   span.location #{page.location}
@@ -15,10 +15,10 @@ article(class=page.layout).box-content
     .signoff
       p <3,
       P daiyi
-    .signoff
-      if page.location
-        span.location #{page.location},&nbsp;
-      span.date #{date(page.date, "YY/MM/DD")}
+    //- .signoff
+    //-   if page.location
+    //-     span.location #{page.location},&nbsp;
+    //-   span.date #{date(page.date, "YY/MM/DD")}
     .tags
       ul
         for category in page.categories.toArray()
@@ -27,3 +27,5 @@ article(class=page.layout).box-content
         for tag in page.tags.toArray()
           li
             a(href=url_for(tag.path)) #{tag.name}
+
+    include comments

@@ -1,0 +1,38 @@
+div.comments
+  h2
+    a(href="#comments" id="comments") comments
+  if page.markdown_comments
+    | !{page.markdown_comments}
+  else
+    p No comments at the moment \o/ Hey, you could write one!
+
+  .comment-instructions
+    h3 leave a comment
+    p
+      | I really like comments!! Put up a PR #[a(href=theme.markdown_comments.repo_root + page.slug + "/comments.md") here],
+      | #[a(href='https://twitter.com/direct_messages/create/' + theme.twitter) twitter dm] me,
+      | or send an email to #[a(href="mailto:comments@daiyi.co") comments@daiyi.co].
+      | I know I just told you to do a lot of work, but using a 3rd party commenting platform is a pretty unappealing.
+      | Alternatively you can send an email just to chat, too :D
+    textarea
+      | name:
+      | url: (or email or other optional public identifier)
+      | comment:
+
+//- each comment in page.markdown_comments
+//-
+//-   if comment.color
+//-     //- - shadow = "box-shadow: 0px -4px 0px " + comment.color + " inset;"
+//-     - shadow = ''
+//-
+//-   .comment
+//-     h5
+//-       if comment.url
+//-         a(href=url_for(comment.url) style=shadow) #{comment.name}
+//-       else
+//-         | #{comment.name}
+//-     p
+//-       | #{comment.comment}
+
+
+//- https://daringfireball.net/projects/markdown/syntax

@@ -4,26 +4,31 @@ blog is on the internet here: http://daiyi.co/blog
 
 - find the post under https://github.com/daiyitastic/blog/blob/master/source/_posts
 
-- go to the `/{post-slug}/comments.md` file
+- go to the `/{post-folder}/_comments.yaml` file
 
 - add your comment to the list!
 
-  ```markdown
-  * [name](url)
-
-    comment
-
+  ```yaml
+  - name:
+    date:
+    url:
+    color:
+    comment: |
+      words words words
   ```
 
--  you can use [markdown](https://daringfireball.net/projects/markdown/syntax):
+- every field is optional. you can use [markdown](https://daringfireball.net/projects/markdown/syntax) in the comments field:
 
-  ```markdown
-  * [daiyi](http://daiyi.co)
+  ```yaml
+  - name: tiny friend
+    url: https://twitter.com/potato
+    color: #27e10e
+    comment: |
+      I support your fundraiser for [whales](whales.com)!
 
-    I am a smol robot
-
-    I can make paragraphs \o/
-
+      Whales are _great_.
   ```
 
 - alternatively, email the comment to comments@daiyi.co
+
+- If you want to edit your comment, make another PR or email me or whatever. it's all cool.

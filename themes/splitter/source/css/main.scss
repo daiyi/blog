@@ -539,17 +539,21 @@ blockquote {
       line-height: 1.4em;
       margin: 0;
 
+      &+li {
+        margin-top: 20px;
+      }
+
       margin-left: 10px;
       border-left: 3px solid #ddd;
       padding-left: 20px;
 
-      &> p:first-child {
-        font-weight: bold;
-        margin-top: 20px;
-      }
+      // &> p:first-child {
+      //   font-weight: bold;
+      //   margin-top: 20px;
+      // }
 
       p {
-        margin: 15px 0;
+        margin: 10px 0;
       }
     }
   }
@@ -562,13 +566,27 @@ blockquote {
   }
 
   .comment {
-    h5 {
+    .commenter {
+      // highlight
+      border-bottom: 5px solid #ddd;
+      display: inline-block;
+      line-height: 0.6;
+
+      font-family: $header-font;
+      font-weight: bold;
+      font-size: 16px;
       margin: 10px 0;
+
       a {
         border: none;
       }
     }
-    margin: $gutter 0;
+    .date {
+      margin-left: 20px;
+      @include caption-font;
+      font-size: 12px;
+    }
+    margin: 25px 10px;
   }
 
   textarea {

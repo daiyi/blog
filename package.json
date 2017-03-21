@@ -18,6 +18,7 @@
     "hexo-renderer-sass": "^0.3.1",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
+    "js-yaml": "^3.8.2",
     "marked": "^0.3.6"
   }
 }

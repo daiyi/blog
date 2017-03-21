@@ -16,5 +16,8 @@ google_analytics:
 favicon: /favicon.png
 twitter: daiyitastic
 
+# comments
 markdown_comments:
   repo_root: https://github.com/daiyi/blog/blob/master/source/_posts/
+  file_name: _comments.yaml
+  email: comments@daiyi.co

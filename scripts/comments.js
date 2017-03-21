@@ -1,3 +1,4 @@
+var yaml = require('js-yaml');
 var fs = require('fs');
 var path = require('path');
 var marked = require('marked');
@@ -6,11 +7,6 @@ hexo.extend.filter.register('before_post_render', data => {
   if (data.layout !== 'post' || !data.title) {
     return data;
   }
-  else {
-    console.log(data.layout, data.title);
-  }
-
-  var file = null;
 
   fs.stat(data.asset_dir, (err, stats) => {
     // make asset directory if it doesn't exist
@@ -18,23 +14,28 @@ hexo.extend.filter.register('before_post_render', data => {
       fs.mkdir(data.asset_dir)
     }
 
-    var filepath = path.join(data.asset_dir, 'comments.md');
+    var filepath = path.join(data.asset_dir, '_comments.yaml');
 
     if (fs.existsSync(filepath)) {
-      file = fs.readFileSync(filepath, 'utf8');
-      file = marked(file);
+
+      var comments = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
+
+      comments.forEach(comment => {
+        comment.comment = marked(comment.comment);
+      })
+
+      return data.markdown_comments = comments;
     }
     else {
-      var comment_file_default = `<!-- how to leave a comment: https://github.com/daiyi/blog/#how-to-add-comment-on-a-post -->
-<!-- template:
-
-* [name](url)
-
-  I am a comment! _yay markdown_
-
-  You can make paragraphs, too.
-
--->`
+      var comment_file_default = `# how to leave comments: https://github.com/daiyi/blog/#how-to-add-comment-on-a-post
+# template (whitespace sensitive!):
+# - name:
+#   date:
+#   url:
+#   color:
+#   comment: |
+#     words words words
+`
       fs.writeFile(filepath, comment_file_default, function (err) {
         if (err) {
           return console.log(err);
@@ -45,5 +46,5 @@ hexo.extend.filter.register('before_post_render', data => {
     }
   });
 
-  return data.markdown_comments = file
+  // console.log(file);
 });

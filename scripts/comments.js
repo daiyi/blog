@@ -20,11 +20,14 @@ hexo.extend.filter.register('before_post_render', data => {
 
       var comments = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
 
-      comments.forEach(comment => {
-        comment.comment = marked(comment.comment);
-      })
+      if (comments) {
+        comments.forEach(comment => {
+          comment.comment = marked(comment.comment);
+        })
 
-      return data.markdown_comments = comments;
+        return data.markdown_comments = comments;
+      }
+
     }
     else {
       var comment_file_default = `# how to leave comments: https://github.com/daiyi/blog/#how-to-add-comment-on-a-post
@@ -45,6 +48,4 @@ hexo.extend.filter.register('before_post_render', data => {
       });
     }
   });
-
-  // console.log(file);
 });

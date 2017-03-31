@@ -198,6 +198,8 @@ img + p {
 
 article {
   header {
+    margin-bottom: $gutter * 3/2;
+
     h2 {
       margin-bottom: 5px;
     }

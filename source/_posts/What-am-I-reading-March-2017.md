@@ -6,12 +6,11 @@ tags:
   - reviews
 summary: >-
   Books I read in March 2017! The Best We Could Do, Strange Pilgrims, A Tree
-  Grows in Brooklyn, & Confidence Code.
+  Grows in Brooklyn, The Confidence Code.
 location: London
 date: 2017-03-30 23:02:41
 image:
 ---
-
 
 Oh you know me, I only do things intensely. I'm either super into a book or throwing it away with disgust. \o/
 
@@ -43,8 +42,8 @@ I think my favourite was "I Only Came to Use the Phone", but honestly they're al
 
 ### _A Tree Grows In Brooklyn_ - Betty Smith (1943)
 
-*genre*&nbsp; short stories
-*tldr;*&nbsp; enchanting, quick and satisfying vignettes, highly recommended!
+*genre*&nbsp; historic fiction
+*tldr;*&nbsp; poverty and desperation + hope & the pre-WWI american dream. it's....really good.
 
 This was a nice read after living on Brooklyn. I imagined the Williamsburg streets I walked and biked past all winter, a hundred years ago, right before the first world war. I'm having trouble writing this review, I think it's because I have too many feelings ahh!
 

@@ -99,7 +99,6 @@ h4,
 h5,
 h6 {
   font-family: $header-font;
-  margin-top: 0;
   margin-bottom: $gutter;
   line-height: 1.2em;
 }
@@ -141,6 +140,10 @@ p {
 }
 img + p {
   margin-top: $gutter * 3/2;
+}
+
+.post h3 {
+  margin-top: 2em;
 }
 
 .lead {
@@ -459,8 +462,8 @@ ul.link-list {
 }
 
 blockquote {
-  color: lighten($black, 30);
-  border-left: 5px solid $black;
+  color: darken($black, 10);
+  border-left: 5px solid lighten($black, 70);
   padding-left: $gutter;
 }
 

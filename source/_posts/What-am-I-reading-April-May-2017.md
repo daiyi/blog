@@ -1,18 +1,17 @@
 ---
 title: What am I reading? (April/May 2017)
+date: 2017-06-08 19:02:05
 categories: what am I reading
 tags:
   - books
   - reviews
 summary: >-
-  I traveled the last two months, so I had a ton of free time to read, yet
-  hardly any free time to read. Nine books, wiki pages, and bonus travel
-  thoughts/life updates!
+  I traveled the last two months, so I had a ton of free time to read, yet hardly any free time to read. Nine books, wiki pages, and bonus travel thoughts/life updates!
 location: Berlin
-date: 2017-06-08 19:02:05
-image:
+image: velika-paklenica-sketch.jpg
 ---
 
+![sketch of velika paklenica](velika-paklenica-sketch.jpg)
 
 I spent the last two months "traveling" in the Balkans (to be detailed in a separate post!)
 

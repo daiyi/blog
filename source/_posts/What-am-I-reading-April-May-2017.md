@@ -11,7 +11,7 @@ location: Berlin
 image: velika-paklenica-sketch.jpg
 ---
 
-![sketch of velika paklenica](velika-paklenica-sketch.jpg)
+<figure>![sketch of velika paklenica](velika-paklenica-sketch.jpg)<figcaption>Sketch of [Velika Paklenica](https://en.wikipedia.org/wiki/Paklenica) in the Dinaric Alps, from a house on the mountain where I took shelter from thunder & lightning storms (:</figcaption></figure>
 
 I spent the last two months "traveling" in the Balkans (to be detailed in a separate post!)
 

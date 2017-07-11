@@ -5,9 +5,7 @@ tags:
   - personal
   - clojure
 summary: >-
-  I maintain this meat vessel of my consciousness / so I can work longer / so I
-  can earn more / so I can do more maintainance of this meat vessel of my
-  consciousness.
+  so I can do more maintainance on this meat vessel of my consciousness.
 location: Berlin
 date: 2017-07-10 23:49:15
 image:

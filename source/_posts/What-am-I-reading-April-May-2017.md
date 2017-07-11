@@ -130,6 +130,6 @@ And to conclude, a toast to a temporary end to my travels, here's some thoughts 
 There is a mirror that has seen me for the last time,
 There is a door I have shut until the end of the world.
 Among the books in my library
-There are some I shall never repoen.
+There are some I shall never reopen.
 >
 > <cite>(Limits, Borges)</cite>

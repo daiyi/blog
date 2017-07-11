@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Cousine:400|News+Cycle:400,700');
 // @import url('https://fonts.googleapis.com/css?family=Courgette|Cousine:400|News+Cycle:400,700|Noticia+Text:400');
 
+@import 'github.scss';
+
 @mixin caption-font() {
   font-size: 14px;
   font-family: $header-font;

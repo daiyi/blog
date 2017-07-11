@@ -49,6 +49,7 @@ html, body {
 }
 
 .box {
+  width: 100%;
   margin: 0;
   flex: 1;
 
@@ -180,6 +181,7 @@ img + p {
 }
 .post {
   margin-bottom: $gutter*2;
+  word-wrap: break-word;
 
   .post-content {
 
@@ -586,6 +588,10 @@ figure {
 
 
 @media (max-width: 940px) {
+
+  .page-content {
+    width: 100%;
+  }
 
   .box-content, .header {
     width: auto;

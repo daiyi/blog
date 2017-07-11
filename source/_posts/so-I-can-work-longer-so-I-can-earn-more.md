@@ -17,7 +17,7 @@ This song has been on my mind.
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228441637&amp;color=00bb93&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-I will save you the experience of listening to it! Spoilers: it's some trashy EDM about classical bottomless recursion:
+I will save you the experience of listening to it! Spoilers: it's some trashy EDM about bottomless recursion:
 
 > I do coke,
   so I can work longer,
@@ -26,7 +26,7 @@ I will save you the experience of listening to it! Spoilers: it's some trashy ED
 
 ## —
 
-I was talking to someone I met at my first [game jam](http://www.berlinminijam.de) (!!!), and he responded to my usual yearnings for mountains immediately by identifying it as an addiction. I felt pretty put off by this because addiction is a word for bad things, but a couple days later it came up in my thoughts again. I am dependent on movement and freedom for happiness and I feel withdrawal when I don't have these things, no matter how many other social/intellectual/career/emotional/artistic needs I'm hitting.
+I was talking to someone I met at my first [game jam](http://www.berlinminijam.de) (!!!) last month, and he responded to my usual yearnings for mountains immediately by identifying it as an addiction. I felt pretty put off by this because addiction is a word for bad things, but a couple days later it came up in my thoughts again. I am dependent on movement and freedom for happiness and I feel withdrawal when I don't have these things, no matter how many other social/intellectual/career/emotional/artistic needs I'm hitting.
 
 > I `{ exercise | hang out in nature | chill in mountains }`,
   so I can work longer,
@@ -44,7 +44,9 @@ Yes a lot of individuals actually care about taking care of themselves. But even
   so I can earn more,
   so I can `continue maintaining this meat vessel of my consciousness`.
 
-We're all robots already! Nothing has changed in the last milleniums, we're still all shackled to labor except we're ,,shipping stuff,, and ,,creating experiences,, instead of moving around dirt. We occasionally have some friends who leave their solid and stable white-collar office careers to be carpenters and farmers. This sounds super cute, but from my perspective, my dad spent most of his life working his ass off to not be a carpenter and farmer. This context makes these things a little weird for me.
+We're all robots already! Nothing has changed in the last milleniums, we're still all shackled to labor except we're shoveling digital dirt instead of moving around actual dirt. I think about my old landlord who made part of his living buying stuff for cheap on ebay and selling it again. This really shouldn't be a thing people need to do, it's just spinning wheels and it's ridiculous!
+
+We occasionally have some friends who leave their solid and stable white-collar office careers to be carpenters and farmers. This sounds super cute, but from my perspective, my dad spent most of his life working his ass off to not be a carpenter and farmer. This context makes these things a little weird for me.
 
 At this point I think I'm solidly in softcore existential crisis mode :^) Anyway I'm having a lot of fun learning clojurescript
 

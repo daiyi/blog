@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette|Cousine:400|News+Cycle:400,700');
+@import url("https://fonts.googleapis.com/css?family=Courgette|Cousine:400|News+Cycle:400,700");
 // @import url('https://fonts.googleapis.com/css?family=Courgette|Cousine:400|News+Cycle:400,700|Noticia+Text:400');
 
-@import 'github.scss';
+@import "github.scss";
 
 @mixin caption-font() {
   font-size: 14px;
@@ -15,15 +15,15 @@ $white: #ddd;
 $teal: #00a4a6;
 $highlight: $teal;
 
-$text-font: 'Cousine', monospace;
-$site-title-font: 'Courgette', cursive;
-$header-font: 'News Cycle', sans-serif;
-$lead-font: 'Noticia Text', serif;
+$text-font: "Cousine", monospace;
+$site-title-font: "Courgette", cursive;
+$header-font: "News Cycle", sans-serif;
+$lead-font: "Noticia Text", serif;
 
 $gutter: 20px;
 
-
-html, body {
+html,
+body {
   background: #fff;
   color: $black;
   font-family: $text-font;
@@ -61,7 +61,8 @@ html, body {
   }
 }
 
-.box-content, .header {
+.box-content,
+.header {
   width: 900px;
   margin: 0;
   padding: 0;
@@ -112,12 +113,20 @@ h1 {
   margin-top: -20px;
   font-weight: normal;
 }
-h1 a, h1 a:visited, h1 a:hover {
+h1 a,
+h1 a:visited,
+h1 a:hover {
   border: none;
 }
-h2 a, h2 a:visited, h2 a:hover,
-h3 a, h3 a:visited, h3 a:hover,
-h4 a, h4 a:visited, h4 a:hover {
+h2 a,
+h2 a:visited,
+h2 a:hover,
+h3 a,
+h3 a:visited,
+h3 a:hover,
+h4 a,
+h4 a:visited,
+h4 a:hover {
   border: none;
 }
 
@@ -155,7 +164,8 @@ img + p {
   line-height: 1.4em;
   margin-bottom: 30px;
 }
-.lead-simple, strong {
+.lead-simple,
+strong {
   font-size: 27px;
   font-family: "news cycle";
   line-height: 1em;
@@ -180,11 +190,10 @@ img + p {
   }
 }
 .post {
-  margin-bottom: $gutter*2;
+  margin-bottom: $gutter * 2;
   word-wrap: break-word;
 
   .post-content {
-
     ul {
       list-style-type: none;
       padding-inline-start: 60px;
@@ -200,7 +209,6 @@ img + p {
       }
     }
   }
-
 }
 
 article {
@@ -226,7 +234,8 @@ article {
 
       margin: $gutter 0 20px 0;
 
-      .date, .location {
+      .date,
+      .location {
         font-style: italic;
       }
     }
@@ -253,11 +262,11 @@ article {
   margin: -$gutter/2;
 
   .item {
-    flex: 0 0 calc(100%/3);
+    flex: 0 0 calc(100% / 3);
 
     .item-content {
       margin: $gutter/2;
-      margin-bottom: $gutter*2;
+      margin-bottom: $gutter * 2;
       padding-top: 5px;
 
       .excerpt {
@@ -302,7 +311,7 @@ article {
 
   .items {
     margin: 0;
-    margin-bottom: $gutter*2;
+    margin-bottom: $gutter * 2;
 
     h4 {
       margin-bottom: $gutter/2;
@@ -330,7 +339,8 @@ article {
     }
   }
 }
-.nav, .tags {
+.nav,
+.tags {
   ul {
     display: block;
     padding-left: 0;
@@ -351,7 +361,6 @@ article {
   }
 }
 
-
 .photo-block {
   display: block;
   width: 100%;
@@ -365,8 +374,8 @@ article {
   // justify-content: flex-start;
   align-items: flex-start;
   margin: 0 -5px;
-	// overflow: auto;
-	// width: 100%;
+  // overflow: auto;
+  // width: 100%;
 
   .photo {
     margin: 5px;
@@ -376,22 +385,22 @@ article {
 .photo-left-pull {
   float: left;
   margin-left: -10%;
-  margin-right: $gutter*4;
-  margin-bottom: $gutter*2;
+  margin-right: $gutter * 4;
+  margin-bottom: $gutter * 2;
   width: 60%;
 }
 .photo-right-pull {
   float: right;
   margin-right: -10%;
-  margin-left: $gutter*4;
-  margin-bottom: $gutter*2;
+  margin-left: $gutter * 4;
+  margin-bottom: $gutter * 2;
   width: 60%;
 }
 .photo-right-pull-tall {
   float: right;
   margin-right: -10%;
-  margin-left: $gutter*4;
-  margin-bottom: $gutter*2;
+  margin-left: $gutter * 4;
+  margin-bottom: $gutter * 2;
   height: 30%;
 
   img {
@@ -409,7 +418,7 @@ article {
 //   flex: 0 0 calc(100%/3);
 // }
 .photo-small {
-  margin: $gutter*2 0;
+  margin: $gutter * 2 0;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -420,12 +429,11 @@ article {
   }
 }
 
-
-
 a {
   text-decoration: none;
 }
-a, a:visited {
+a,
+a:visited {
   color: $black;
   border-bottom: 1px #666666 dotted;
 }
@@ -443,7 +451,6 @@ a.button:hover {
   border: 3px #000 solid;
 }
 
-
 ul.link-list {
   display: block;
   padding-left: 0;
@@ -454,14 +461,14 @@ ul.link-list {
     color: #999;
     display: inline-block;
     padding: 4px 10px 2px 10px;
-    margin:  10px;
+    margin: 10px;
   }
   a {
     border: none;
     color: #fff;
   }
   a:hover {
-    color: #05EBB1;
+    color: #05ebb1;
   }
 }
 
@@ -479,7 +486,7 @@ blockquote {
 
 figure {
   margin: 0;
-  margin-bottom: $gutter*3;
+  margin-bottom: $gutter * 3;
   padding: 0;
 
   figcaption {
@@ -487,9 +494,6 @@ figure {
     margin: $gutter;
   }
 }
-
-
-
 
 // COMMENTS
 
@@ -510,7 +514,7 @@ figure {
       line-height: 1.4em;
       margin: 0;
 
-      &+li {
+      & + li {
         margin-top: 20px;
       }
 
@@ -624,7 +628,9 @@ figure {
     padding-right: $gutter;
   }
 
-  .photo-left-pull, .photo-right-pull, .photo-right-pull-tall {
+  .photo-left-pull,
+  .photo-right-pull,
+  .photo-right-pull-tall {
     float: none;
     margin: 0;
     width: 100%;
@@ -634,7 +640,7 @@ figure {
     }
   }
   .photo-small {
-    margin: $gutter*2 0;
+    margin: $gutter * 2 0;
     display: block;
 
     img {
@@ -644,7 +650,7 @@ figure {
   }
 
   figure {
-    margin-bottom: $gutter*2;
+    margin-bottom: $gutter * 2;
 
     figcaption {
       @include caption-font;

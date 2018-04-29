@@ -584,16 +584,21 @@ figure {
   }
 }
 
-
-
+@media (max-width: 1440px) {
+  .box-content,
+  .header {
+    width: 650px;
+  }
+}
 
 @media (max-width: 940px) {
-
+  // fixes silly soundcloud resizing thing wtf
   .page-content {
     width: 100%;
   }
 
-  .box-content, .header {
+  .box-content,
+  .header {
     width: auto;
     margin: 0 10px;
   }

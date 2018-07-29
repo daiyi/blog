@@ -1,3 +1,12 @@
+HI MAYBE YOU FOUND ME FROM HACKERNEWS
+
+THIS IS WEIRD.
+
+Talk to me on twitter I guess: https://twitter.com/daiyitastic
+
+
+-- 
+
 blog is on the internet here: http://daiyi.co/blog
 
 ## How to add comment on a post

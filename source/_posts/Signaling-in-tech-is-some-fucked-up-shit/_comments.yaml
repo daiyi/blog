@@ -10,3 +10,8 @@
     Possibly we're conflating "using difficult tech" with "being a good engineer"? Should we be asking people we meet, instead of what languages they know, what causes they're interested in or what they're trying to achieve with whatever tech they choose to use? I don't think this quite covers all the bases, some people like learning languages for the sake of learning them/the paradigm, but I think this could be a better way to learn about someone. Perhaps this doesn't really address your point of being respectful no matter what.
 
     Last thing that's slightly off-topic, have you been working on any cool new things in ClojureScript? I tried setting up figwheel a while ago but couldn't really figure it out...but reagent, garden, etc. look pretty cool, especially as a way to think about the DOM statelessly.
+- name: Sasha
+  date: 29 July 2018
+  color: '#555'
+  comment: |
+    I noticed this in inverse; ever since I went from doing Infrastructure and DevOps to Frontend FT, I've felt slightly embarrassed about the fact that I only write JavaScript now, even though I think it's a cool ecosystem with a thriving community.

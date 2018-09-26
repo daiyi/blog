@@ -9,4 +9,5 @@ block site_body
     .box-content
       header
         h2= page.title
-        .meta 2017 03 04 | #{page.location}
+        div(class=page.layout + '-content')
+        !=page.content

@@ -29,7 +29,6 @@ It's fucked up that being interested in this random programming language, not ev
 I know railing against signaling is itself a signal that I am a naive member of society who has yet to smash out of my youthful optimism chrysalis into the apathetic reality machine. Signaling is going to be there no matter what, because human nature. All I can do is reflect in stupid amazement at this experience and compel you to treat others with respect by default. Seriously.
 
 --
-
 <span style="color: #999">_EPILOGUE 2018/07/29 15:11PST_</span>
 
 <span style="color: #999">Wowow HI HACKER NEWS \o/ my meatspace self (ordinarily in mountains on sundays) is having an unusually urban weekend at the [explorables jam](https://explorabl.es/jam) when suddenly I start getting an influx of emails from (shockingly kind) randos.</span>

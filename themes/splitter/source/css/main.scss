@@ -173,6 +173,9 @@ strong {
   letter-spacing: 2px;
   word-spacing: 1px;
 }
+.mute {
+  color: #999;
+}
 
 .meta {
   @include caption-font();

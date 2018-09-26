@@ -206,6 +206,9 @@ strong {
   letter-spacing: 2px;
   word-spacing: 1px; }
 
+.mute {
+  color: #999; }
+
 .meta {
   font-size: 14px;
   font-family: "News Cycle", sans-serif;

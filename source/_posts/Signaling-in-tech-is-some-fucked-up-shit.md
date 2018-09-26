@@ -7,7 +7,9 @@ tags:
 summary: I am exactly as cool as I was before I started writing clojure.
 location: Berlin
 ---
+
 <strong>I am exactly as cool as I was before I started writing clojure.</strong>
+
 <!-- more -->
 
 I've had a short, short life as a programmer and I've spent a lot of it making websites. Back in the day (as in a couple years ago) when I told other software people I'm a web developer, I got treated like shit. I was a lower class of coder because I wasn't "solving cool problems" because making web sites is easy. It was sad and confusing to receive unjustified hatred but I loved the internet and I thought it's pretty neat to make things that everyone can use and I like the visual component to my projects so I'd just go secretly cry in the bathroom (cool tricked I learned in college) like an ordinary functioning adult.
@@ -25,3 +27,17 @@ I mentioned to some people I was learning clojure. Everyone was _super_ into thi
 It's fucked up that being interested in this random programming language, not even for the reasons the fangirls love it, suddenly caused everyone to start being nice to me when I'm in fact the same trash can that I've been all along. Coming upon the Correct Signal by accident made it all feel extra wrong and extra strange, like I killed a man and wore his skin for a suit and suddenly inherited all the achievements ever made in that body.
 
 I know railing against signaling is itself a signal that I am a naive member of society who has yet to smash out of my youthful optimism chrysalis into the apathetic reality machine. Signaling is going to be there no matter what, because human nature. All I can do is reflect in stupid amazement at this experience and compel you to treat others with respect by default. Seriously.
+
+--
+
+<span style="color: #999">_EPILOGUE 2018/07/29 15:11PST_</span>
+
+<span style="color: #999">Wowow HI HACKER NEWS \o/ my meatspace self (ordinarily in mountains on sundays) is having an unusually urban weekend at the [explorables jam](https://explorabl.es/jam) when suddenly I start getting an influx of emails from (shockingly kind) randos.</span>
+
+<span style="color: #999">I admit I am slightly terrified to wade into internet comments so I write to you here:</span>
+
+<span style="color: #999">I had published this post out of bitterness shortly after I had decided to hard bail from San Francisco and live out of a bright orange backpack in various places doing various small projects and drifting in and out of small communities. I felt so adrift and disenchanted, if you know me then you know I have a huge amount of energy and at the time nowhere to put it to.</span>
+
+<span style="color: #999">Right now I find myself back in California, but under a completely different set of circumstances and attitudes: I am doing work that I feel is meaningful on a supportive and gentle team, I live in a wonderful house of interesting and rad roommates, I see my family often, and yes I feel the ambient pressure of a young american professional, yes sometimes it is rough and I lose sight of what is good, but overall I am satisfied with my life trajectory and have found my niche in the world. It makes me so sad that my most relatable content is the things I have posted out of bitterness two years ago from a past life that I no longer empathise or identify with. But perhaps it will comfort you to know that things can get better! that there are wonderful communities out there, perhaps difficult to find, but they exist. Find these people, surround yourself with them, and lift others up with you when you have the bandwidth. I know that happily ever after epilogues ruin the story but this is a story arc that I want to trash because sometimes when you are in the depths of cynicism it feeds on itself and it is helpful to remember that things are getting better all the time, whatever you are in you can pull yourself out and one day you too can be jammin with fun weirdos into the sunset \o/</span>
+
+<span style="color: #999">(if you want to interact with me your best bet is twitter @[daiyitastic](https://twitter.com/daiyitastic) or email. please be kind.)</span>

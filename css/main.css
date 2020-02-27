@@ -188,6 +188,10 @@ p {
 img + p {
   margin-top: 30px; }
 
+.description {
+  color: #666;
+  line-height: 1.4em; }
+
 .post h3 {
   margin-top: 2em; }
 
@@ -336,6 +340,15 @@ article .meta .date + .location {
   .tags ul a:hover {
     border-bottom: 2px solid #222; }
 
+.photo-small {
+  margin: 40px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; }
+  .photo-small img {
+    flex: 0 0 70%;
+    width: 70%; }
+
 .photo-block {
   display: block;
   width: 100%;
@@ -375,14 +388,9 @@ article .meta .date + .location {
     width: auto;
     max-height: 600px; }
 
-.photo-small {
-  margin: 40px 0;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center; }
-  .photo-small img {
-    flex: 0 0 70%;
-    width: 70%; }
+.photo-section {
+  position: relative;
+  display: inline-block; }
 
 a {
   text-decoration: none; }
@@ -502,6 +510,10 @@ figure {
     margin-top: 30px; }
     .comments .comment-instructions p {
       margin: 10px 0; }
+
+.header-anchor {
+  margin-left: -1em;
+  margin-right: 0.5em; }
 
 @media (max-width: 1440px) {
   .box-content,

@@ -12,7 +12,16 @@ location: Berlin
 image: velika-paklenica-sketch.jpg
 ---
 
-<figure>![sketch of velika paklenica](velika-paklenica-sketch.jpg)<figcaption>Sketch of [Velika Paklenica](https://en.wikipedia.org/wiki/Paklenica) in the Dinaric Alps, from a house on the mountain where I took shelter from thunder & lightning storms (:</figcaption></figure>
+<figure>
+
+![sketch of velika paklenica](velika-paklenica-sketch.jpg)
+
+<figcaption>
+
+Sketch of [Velika Paklenica](https://en.wikipedia.org/wiki/Paklenica) in the Dinaric Alps, from a house on the mountain where I took shelter from thunder & lightning storms (:
+
+</figcaption>
+</figure>
 
 I spent the last two months "traveling" in the Balkans (to be detailed in a separate post!)
 
@@ -128,9 +137,9 @@ Anyway, say hi if you're in Berlin, I don't have the budget to eat out but we ca
 And to conclude, a toast to a temporary end to my travels, here's some thoughts from Borges on mortality:
 
 > There is a nearby street forbidden to my step,
-There is a mirror that has seen me for the last time,
-There is a door I have shut until the end of the world.
-Among the books in my library
-There are some I shall never reopen.
+> There is a mirror that has seen me for the last time,
+> There is a door I have shut until the end of the world.
+> Among the books in my library
+> There are some I shall never reopen.
 >
 > <cite>(Limits, Borges)</cite>

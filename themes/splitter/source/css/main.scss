@@ -596,6 +596,11 @@ figure {
   }
 }
 
+.header-anchor {
+  margin-left: -1em;
+  margin-right: 0.5em;
+}
+
 @media (max-width: 1440px) {
   .box-content,
   .header {

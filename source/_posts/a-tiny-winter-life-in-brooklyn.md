@@ -14,7 +14,11 @@ date: 2017-03-20 23:51:15
 
 Three months later and I'm taking down my wall tapestries again, leaving the climbing gym where I've made friends with the regulars characters and routesetters, the cafes I work at often enough that they recognise my mannerisms but not enough that they remember my name, my tiny job, my tiny bike.
 
-<div class="photo-right-pull">![snow outside The Cliffs](the-cliffs-snow.jpg)</div>
+<div class="photo-right-pull">
+
+![snow outside The Cliffs](the-cliffs-snow.jpg)
+
+</div>
 
 I came to New York with high hopes of learning fun computery things at recurse center and ice climbing upstate -- I was rejected from rc, and found myself in the shortest and most indecisive, un-ice-forming conditions of northeast winter season in recent memory.
 
@@ -22,7 +26,11 @@ I did manage a lot of computery things on my own, was _super lucky_ to have met 
 
 I think it was an ok way to spend some time.
 
-<div class="photo-small">![snow on the roofs](rooftop-snow.jpg)</div>
+<div class="photo-small">
+
+![snow on the roofs](rooftop-snow.jpg)
+
+</div>
 
 In December I was in San Diego tessellating my objects into two checked bags, thinking I'd go live in New York for a long time. Metal and rope are bad at compressing so most of it was climbing and backpacking stuff by volume, but I did manage a few nice books too (:
 
@@ -58,7 +66,15 @@ A friend I'll miss along with my human friends, this little red aluminum bicycle
 
 I'd originally been planning to travel in south america during the nothern hemisphere's winter months, but after the election in November I felt so guilty for being in a selfish phase of my life that I decided to go to New York instead, to put my skills to work against something that felt so big and ominous and uncertain and terrible. We went to meetups and rallies and marches and talks and hackathons. I don't think I accomplished anything in particular. I feel pretty ineffective in general.
 
-<div class="photos"><div class="photo">![women's march nyc](womens-march.jpg)</div><div class="photo">![hack the ban](hack-the-ban.jpg)</div></div>
+<div class="photos"><div class="photo">
+
+![women's march nyc](womens-march.jpg)
+
+</div><div class="photo">
+
+![hack the ban](hack-the-ban.jpg)
+
+</div></div>
 
 In the end I spent most of my time being selfish anyway. After two weeks of deeply inspecting and making web tools and demos and builds for the first time I feel like I'm on the verge of not being a poser when I tell people I'm a frontend engineer. I think I'm starting to understand one reason people like school: it's a place where learning doesn't feel weirdly self-indulgent. It is a context for guilt-free exploration, where the world waits patiently as you take and take and build the potential to give back. Stay in school, kids.
 

@@ -9,7 +9,7 @@
     "hexo": "^4.2.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.1.0",
-    "hexo-generator-arcChive": "^1.0.0",
+    "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^2.2.0",
     "hexo-generator-index": "^1.0.0",

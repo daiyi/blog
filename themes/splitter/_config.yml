@@ -1,11 +1,17 @@
 # Header
 links:
   - name: about
-    url: http://daiyi.co
-  - name: by topic
-    url: http://daiyi.co/blog/archives
+    url: https://daiyi.co
+  - name: twitter
+    url: https://twitter.com/daiyitastic
+
+footer:
+  - name: archive
+    url: https://daiyi.co/blog/archives
+  - name: email updates
+    url: https://tinyletter.com/daiyi
   - name: rss
-    url: http://daiyi.co/blog/rss2.xml
+    url: https://daiyi.co/blog/rss2.xml
 
 # Content
 excerpt_link: Read More

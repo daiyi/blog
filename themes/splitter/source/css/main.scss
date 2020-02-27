@@ -219,6 +219,39 @@ strong {
   }
 }
 
+footer {
+  width: 100%;
+  background: #222;
+  color: #ddd;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7em;
+  padding: 20px 0;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+  }
+  a,
+  a:visited {
+    color: $white;
+    border-bottom: 1px #666666 dotted;
+  }
+  a:hover {
+    text-decoration: none;
+    border-bottom: 1px #ddd solid;
+  }
+
+  a.button {
+    padding: 10px 20px;
+    border: 3px #999 solid;
+    cursor: pointer;
+  }
+  a.button:hover {
+    border: 3px #000 solid;
+  }
+}
+
 article {
   header {
     margin-bottom: $gutter * 3/2;
@@ -348,6 +381,7 @@ article {
   }
 }
 .nav,
+nav,
 .tags {
   ul {
     display: block;

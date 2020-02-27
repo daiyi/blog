@@ -240,19 +240,44 @@ strong {
       .post .post-content ul li:before {
         content: "- "; }
 
+footer {
+  width: 100%;
+  background: #222;
+  color: #ddd;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7em;
+  padding: 20px 0;
+  align-items: center; }
+  footer a {
+    text-decoration: none; }
+  footer a,
+  footer a:visited {
+    color: #ddd;
+    border-bottom: 1px #666666 dotted; }
+  footer a:hover {
+    text-decoration: none;
+    border-bottom: 1px #ddd solid; }
+  footer a.button {
+    padding: 10px 20px;
+    border: 3px #999 solid;
+    cursor: pointer; }
+  footer a.button:hover {
+    border: 3px #000 solid; }
+
 article header {
   margin-bottom: 30px; }
   article header h2 {
     margin-bottom: 5px; }
 
-article footer {
+article .entry-footer {
   margin-top: 40px; }
-  article footer .signoff {
+  article .entry-footer .signoff {
     margin: 20px 0 20px 0; }
-    article footer .signoff p {
+    article .entry-footer .signoff p {
       margin: 0; }
-    article footer .signoff .date,
-    article footer .signoff .location {
+    article .entry-footer .signoff .date,
+    article .entry-footer .signoff .location {
       font-style: italic; }
 
 article .meta .date + .location {
@@ -320,6 +345,7 @@ article .meta .date + .location {
         letter-spacing: 2px; }
 
 .nav ul,
+nav ul,
 .tags ul {
   display: block;
   padding-left: 0;
@@ -329,14 +355,17 @@ article .meta .date + .location {
   text-transform: uppercase;
   letter-spacing: 2px; }
   .nav ul li,
+  nav ul li,
   .tags ul li {
     display: inline-block;
     padding: 0;
     margin: 0 10px; }
   .nav ul a,
+  nav ul a,
   .tags ul a {
     border: none; }
   .nav ul a:hover,
+  nav ul a:hover,
   .tags ul a:hover {
     border-bottom: 2px solid #222; }
 

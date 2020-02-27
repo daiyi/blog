@@ -369,6 +369,17 @@ article {
   }
 }
 
+.photo-small {
+  margin: $gutter * 2 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  img {
+    flex: 0 0 70%;
+    width: 70%;
+  }
+}
 .photo-block {
   display: block;
   width: 100%;
@@ -416,6 +427,10 @@ article {
     max-height: 600px;
   }
 }
+.photo-section {
+  position: relative;
+  display: inline-block;
+}
 
 // img {
 //   flex: 0 0 100%;
@@ -425,17 +440,6 @@ article {
 //   margin: 0 10px;
 //   flex: 0 0 calc(100%/3);
 // }
-.photo-small {
-  margin: $gutter * 2 0;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-
-  img {
-    flex: 0 0 70%;
-    width: 70%;
-  }
-}
 
 a {
   text-decoration: none;

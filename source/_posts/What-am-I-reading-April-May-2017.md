@@ -7,6 +7,7 @@ tags:
   - reviews
 summary: >-
   I traveled the last two months, so I had a ton of free time to read, yet hardly any free time to read. Nine books, wiki pages, and bonus travel thoughts/life updates!
+hideSummary: true
 location: Berlin
 image: velika-paklenica-sketch.jpg
 ---

@@ -5,9 +5,8 @@ tags:
   - new york
   - personal
 summary: >-
-  A photolog of 3 months in Brooklyn. These days I keep going back and forth
-  between being excited to be on the road again, and being exhausted from being
-  excited about things.
+  Excited to be on the road again, exhausted from being
+   excited about things.
 image: f-train.jpg
 location: Brooklyn
 date: 2017-03-20 23:51:15
@@ -57,15 +56,11 @@ So much ambient anxiety about my life choices dissipated after I regained wheele
 
 A friend I'll miss along with my human friends, this little red aluminum bicycle that happens to be the same age as me, my adventure twin.
 
-
 I'd originally been planning to travel in south america during the nothern hemisphere's winter months, but after the election in November I felt so guilty for being in a selfish phase of my life that I decided to go to New York instead, to put my skills to work against something that felt so big and ominous and uncertain and terrible. We went to meetups and rallies and marches and talks and hackathons. I don't think I accomplished anything in particular. I feel pretty ineffective in general.
 
 <div class="photos"><div class="photo">![women's march nyc](womens-march.jpg)</div><div class="photo">![hack the ban](hack-the-ban.jpg)</div></div>
 
 In the end I spent most of my time being selfish anyway. After two weeks of deeply inspecting and making web tools and demos and builds for the first time I feel like I'm on the verge of not being a poser when I tell people I'm a frontend engineer. I think I'm starting to understand one reason people like school: it's a place where learning doesn't feel weirdly self-indulgent. It is a context for guilt-free exploration, where the world waits patiently as you take and take and build the potential to give back. Stay in school, kids.
-
-
-
 
 Time is going by too quickly for how much novelty I'm desperately shoveling into my human experience. Many things are happening, and a lot of them don't feel real. It hasn't registered that I'm going to be in Romania in a week and a half, not because it's particularly shocking, but because it seems reasonable enough that it doesn't require a second thought.
 

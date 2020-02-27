@@ -6,6 +6,7 @@ tags:
   - backpacking
   - via alpina
 summary: Trip report! A week hiking the Via Alpina trail in Switzerland
+hideSummary: true
 image: daiyi-hikin.jpg
 location: Switzerland
 ---

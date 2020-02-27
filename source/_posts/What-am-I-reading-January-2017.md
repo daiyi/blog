@@ -5,7 +5,7 @@ tags:
   - books
   - reviews
 date: 2017-02-13 17:21:08
-summary: I love browsing other peoples' reading lists! Reviews of books I read in 2017 Jan
+summary: I love browsing other peoples' reading lists! and so I am making one too
 location: Brooklyn
 ---
 

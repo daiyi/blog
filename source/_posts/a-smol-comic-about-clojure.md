@@ -3,7 +3,8 @@ title: a smol comic about clojure
 categories: comics
 tags:
   - clojure
-summary: 'I drew clojure as a mushroom, multiple times!'
+summary: "I drew clojure as a mushroom, multiple times!"
+hideSummary: true
 image: clj_symbiot.jpg
 location: Berlin
 date: 2017-07-18 23:20:55
@@ -20,11 +21,9 @@ I made this cute comic because I've been writing a lot of clojure(/script) and p
 
 For those following along at home on shitty internet connections or screen readers or are struggling to parse my funky handwriting, I've transcribed the comic below!
 
-
-
 ## introducing clojure! (and clojurescript)
 
-([clojure](https://en.wikipedia.org/wiki/Clojure) says ♥, and clojurescript says ♥\_BANG\_ because alas, it has gone through the transpiler).
+([clojure](https://en.wikipedia.org/wiki/Clojure) says ♥, and clojurescript says ♥_BANG\_ because alas, it has gone through the transpiler).
 
 ### clojure is a dialect of lisp.
 

@@ -14,13 +14,14 @@ block site_body
             h3
               a(href=url_for(post.path))= post.title
 
-            if post.image
-              - var asset = url_for(post.path) + post.image
-              .excerpt
-                a(href=url_for(post.path))
-                  img(src=asset)
-            else
-              .excerpt!= post.summary
+            .excerpt
+              if post.image
+                - var asset = url_for(post.path) + post.image
+                  a(href=url_for(post.path))
+                    img(src=asset)
+              if !post.hideSummary
+                p.description 
+                  != post.summary
 
 
   //- include _partial/post/list_pagination

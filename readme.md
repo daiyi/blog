@@ -1,13 +1,4 @@
-HI MAYBE YOU FOUND ME FROM HACKERNEWS
-
-THIS IS WEIRD.
-
-Talk to me on twitter I guess: https://twitter.com/daiyitastic
-
-
--- 
-
-blog is on the internet here: http://daiyi.co/blog
+blog is on the internet here: https://daiyi.co/blog
 
 ## How to add comment on a post
 
@@ -38,6 +29,6 @@ blog is on the internet here: http://daiyi.co/blog
       Whales are _great_.
   ```
 
-- alternatively, email the comment to comments@daiyi.co
+- alternatively, email the comment https://daiyi.co/#contact
 
 - If you want to edit your comment, make another PR or email me or whatever. it's all cool.

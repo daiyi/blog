@@ -26,6 +26,7 @@
     "test": "hexo generate",
     "start": "hexo serve",
     "draft": "hexo serve --draft",
-    "deploy": "hexo clean && hexo deploy"
+    "deploy": "hexo clean && hexo deploy",
+    "build": "hexo clean && hexo generate"
   }
 }

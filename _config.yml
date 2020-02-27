@@ -86,6 +86,8 @@ pagination_dir: page
 theme: splitter
 
 # Deployment
+# This is the manual deploy summoned with `hexo deploy`.
+# The github actions hook is different, it uses a fancy package
 deploy:
   type: git
   repo: git@github.com:daiyi/blog.git

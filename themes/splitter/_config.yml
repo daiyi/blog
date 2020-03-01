@@ -1,15 +1,15 @@
 # Header
 links:
-  - name: about
-    url: https://daiyi.co
-  - name: twitter
-    url: https://twitter.com/daiyitastic
-
-footer:
   - name: archive
     url: https://daiyi.co/blog/archives
   - name: email updates
     url: https://tinyletter.com/daiyi
+  - name: twitter
+    url: https://twitter.com/daiyitastic
+  - name: about
+    url: https://daiyi.co
+
+footer:
   - name: rss
     url: https://daiyi.co/blog/rss2.xml
 

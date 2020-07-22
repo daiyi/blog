@@ -129,8 +129,9 @@ body {
   padding: 0; }
   .box-content img,
   .header img {
-    width: 100%;
-    display: block; }
+    max-width: 100%;
+    display: block;
+    margin: auto; }
 
 .box-content.index {
   margin-top: 20px; }
@@ -280,9 +281,9 @@ article .entry-footer {
     article .entry-footer .signoff .location {
       font-style: italic; }
 
-article .meta .date + .location {
+article .meta span:not(:first-child) {
   margin-left: 10px; }
-  article .meta .date + .location:before {
+  article .meta span:not(:first-child):before {
     content: "|";
     margin-right: 10px; }
 

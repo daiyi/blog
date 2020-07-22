@@ -6,6 +6,9 @@ article(class=page.layout).box-content
       span.date #{date(page.date, "YYYY MM DD")}
       if page.location
         span.location #{page.location}
+      if page.peakbaggerurl
+        span.peakbagger-url 
+          a(href=page.peakbaggerurl) Peakbagger link
     //- .meta
     //-   span.date #{date(page.date, "YY MM DD")}
     //-   span.location #{page.location}
@@ -14,7 +17,10 @@ article(class=page.layout).box-content
   .entry-footer
     .signoff
       p <3,
-      P daiyi
+      if page.author
+        p #{page.author}
+      else
+        p daiyi
     //- .signoff
     //-   if page.location
     //-     span.location #{page.location},&nbsp;

@@ -68,8 +68,9 @@ body {
   padding: 0;
 
   img {
-    width: 100%;
+    max-width: 100%;
     display: block;
+    margin: auto;
   }
 }
 
@@ -282,8 +283,8 @@ article {
     }
   }
 
-  .meta {
-    .date + .location {
+  .meta span {
+    &:not(:first-child) {
       margin-left: 10px;
 
       &:before {

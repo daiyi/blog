@@ -89,6 +89,18 @@ code {
 .strong {
   font-weight: bold; }
 
+:root {
+  --background: #efefef;
+  --background-dark: #222;
+  --focus: #00a4a6;
+  --border: #dbdbdb;
+  --border-dark: #808080;
+  --button-hover: #dddddd;
+  --button-hover-dark: #324759;
+  --form-placeholder: #949494;
+  --form-text: #000000;
+  --form-text-dark: #ffffff; }
+
 html,
 body {
   background: #fff;
@@ -189,6 +201,70 @@ p {
 img + p {
   margin-top: 30px; }
 
+::-webkit-input-placeholder {
+  color: var(--form-placeholder); }
+
+::-moz-placeholder {
+  color: var(--form-placeholder); }
+
+::-ms-input-placeholder {
+  color: var(--form-placeholder); }
+
+::placeholder {
+  color: var(--form-placeholder); }
+
+button,
+select,
+input[type="submit"],
+input[type="button"],
+input[type="checkbox"],
+input[type="range"],
+input[type="radio"] {
+  cursor: pointer; }
+
+button,
+input,
+select,
+textarea {
+  color: var(--form-text);
+  background-color: var(--background);
+  font-family: inherit;
+  font-size: inherit;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+  outline: none;
+  border-radius: 3px;
+  -webkit-appearance: none; }
+  button:disabled,
+  input:disabled,
+  select:disabled,
+  textarea:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+
+input[type="text"],
+textarea,
+button {
+  border: 1px solid var(--border); }
+
+button,
+input[type="submit"],
+input[type="button"] {
+  padding-right: 20px;
+  padding-left: 20px; }
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: var(--button-hover); }
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: 0 0 0 2px var(--focus); }
+
 .description {
   color: #666;
   line-height: 1.4em; }
@@ -243,7 +319,7 @@ strong {
 
 footer {
   width: 100%;
-  background: #222;
+  background: var(--background-dark);
   color: #ddd;
   display: flex;
   flex-direction: column;
@@ -265,6 +341,28 @@ footer {
     cursor: pointer; }
   footer a.button:hover {
     border: 3px #000 solid; }
+  footer ::-webkit-input-placeholder {
+    color: var(--form-placeholder-dark); }
+  footer ::-moz-placeholder {
+    color: var(--form-placeholder-dark); }
+  footer ::-ms-input-placeholder {
+    color: var(--form-placeholder-dark); }
+  footer ::placeholder {
+    color: var(--form-placeholder-dark); }
+  footer button,
+  footer input,
+  footer select,
+  footer textarea {
+    color: var(--form-text-dark);
+    background-color: var(--background-dark); }
+  footer input[type="text"],
+  footer textarea,
+  footer button {
+    border: 1px solid var(--border-dark); }
+  footer button:hover,
+  footer input[type="submit"]:hover,
+  footer input[type="button"]:hover {
+    background: var(--button-hover-dark); }
 
 article header {
   margin-bottom: 30px; }

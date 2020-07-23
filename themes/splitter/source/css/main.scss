@@ -533,12 +533,13 @@ blockquote {
 
 figure {
   margin: 0;
-  margin-bottom: $gutter * 3;
+  margin-bottom: $gutter * 2;
   padding: 0;
 
   figcaption {
     @include caption-font;
-    margin: $gutter;
+    margin: 0 auto;
+    width: 60%;
   }
 }
 
@@ -706,8 +707,9 @@ figure {
 
     figcaption {
       @include caption-font;
-      font-size: 10px;
-      margin: $gutter/2 0;
+      font-size: 80%;
+      margin: $gutter/2 auto;
+      width: 80%;
     }
   }
 }

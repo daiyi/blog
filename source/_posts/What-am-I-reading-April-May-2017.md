@@ -15,11 +15,9 @@ image: velika-paklenica-sketch.jpg
 <figure>
 
 ![sketch of velika paklenica](velika-paklenica-sketch.jpg)
-
 <figcaption>
 
 Sketch of [Velika Paklenica](https://en.wikipedia.org/wiki/Paklenica) in the Dinaric Alps, from a house on the mountain where I took shelter from thunder & lightning storms (:
-
 </figcaption>
 </figure>
 

@@ -470,14 +470,15 @@ blockquote {
 
 figure {
   margin: 0;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   padding: 0; }
   figure figcaption {
     font-size: 14px;
     font-family: "News Cycle", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 20px; }
+    margin: 0 auto;
+    width: 60%; }
 
 .comments {
   max-width: 600px;
@@ -594,5 +595,6 @@ figure {
       font-family: "News Cycle", sans-serif;
       text-transform: uppercase;
       letter-spacing: 2px;
-      font-size: 10px;
-      margin: 10px 0; } }
+      font-size: 80%;
+      margin: 10px auto;
+      width: 80%; } }

@@ -8,8 +8,8 @@ tags:
   - SPS
   - peakbagging
 summary: >-
-  At 20 miles and 5, my longest hike!
-image: morning-trailhead.jpg
+  Mica's longest day yet, a scenic 20 miles through Sierra highcountry with snow-tumbling and stream-crossing.
+image: summit-powernap.jpg
 location: Mammoth Lakes
 peakbaggerurl: 'https://www.peakbagger.com/climber/Ascent.aspx?aid=1432320'
 author: mica lynn copernicus

@@ -147,4 +147,6 @@ My second [SPS](https://en.wikipedia.org/wiki/Sierra_Peaks_Section#SPS_List) pea
 
 ![](slepy-dingo.jpg)
 
+_Thanks to [yelly](https://mountains.ayeletbitton.com), [rafee](https://www.peakbagger.com/climber/Climber.aspx?cid=18362), [daiyi](https://daiyi.co), and sadie for the photos ✨_
+
 _Edited: 2020-07-22_

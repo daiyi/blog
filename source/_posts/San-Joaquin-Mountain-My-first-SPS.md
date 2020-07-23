@@ -14,7 +14,6 @@ image: summit-friends.jpg
 location: Mammoth Lakes
 peakbaggerurl: 'https://www.peakbagger.com/climber/Ascent.aspx?aid=1432331'
 author: mica lynn copernicus
-hideSummary:
 ---
 
 

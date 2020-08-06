@@ -331,10 +331,10 @@ footer {
   footer a,
   footer a:visited {
     color: #ddd;
-    border-bottom: 1px #666666 dotted; }
+    border-bottom: 2px #666666 dotted; }
   footer a:hover {
     text-decoration: none;
-    border-bottom: 1px #ddd solid; }
+    border-bottom: 2px #ddd solid; }
   footer a.button {
     padding: 10px 20px;
     border: 3px #999 solid;
@@ -526,11 +526,11 @@ a {
 a,
 a:visited {
   color: #222;
-  border-bottom: 1px #666666 dotted; }
+  border-bottom: 2px #666666 dotted; }
 
 a:hover {
   text-decoration: none;
-  border-bottom: 1px #666666 solid; }
+  border-bottom: 2px #666666 solid; }
 
 a.button {
   padding: 10px 20px;
@@ -576,7 +576,14 @@ figure {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 0 auto;
-    width: 60%; }
+    width: 60%;
+    display: flex;
+    justify-content: center; }
+    figure figcaption p {
+      line-height: 1.8em;
+      margin: 0;
+      word-spacing: inherit;
+      letter-spacing: inherit; }
 
 .comments {
   max-width: 600px;

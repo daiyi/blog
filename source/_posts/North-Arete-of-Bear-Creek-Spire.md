@@ -93,7 +93,6 @@ In the summer the route gets full sun, though a nice breeze kept it pleasant eno
 ![](5.8-pitch.jpg)
 <figcaption>coming up the 5.8 pitch</figcaption>
 </figure>
-</div>
 
 Marco climbed so fast that I had few opportunities to eat bars because my hands were constantly belaying! After that was more easy 5th to the ridge then summit, including a neat tunnel-through:
 

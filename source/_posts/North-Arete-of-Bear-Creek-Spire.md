@@ -19,7 +19,7 @@ author: daiyi
 
 I was surprised when Marco's idea for "what do you want to do this weekend" involved more than a 20 minute stroll, and even more so when he agreed to a 4am wakeup after I heard stories of friends epic-ing on this climb after getting off-route. We managed it car-to-car (c2c) in 14+ hours, 5:10 - 19:25. Great granite with improbably friendly climbing, neat ridge traversing, sweeping views, amazing weather, and a sloggy but safe descent made a good Sunday run in the mountains.
 
-Gear: single rack to 2', large nuts, many slings, 60m alpine rope.
+Gear: single rack to 2', large nuts, a duck, many slings, 60m alpine rope.
 
 ![](ridge-simul.jpg)
 

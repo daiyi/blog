@@ -9,10 +9,10 @@ tags:
   - sierra
   - climbing
 summary: >-
-  Car-to-car day on Bear Creek Spire
+  Car-to-car climb of Bear Creek Spire
+hideSummary: true
 image: summit-block.jpg
 location: Mammoth Lakes
-peakbaggerurl: 'https://www.peakbagger.com/climber/Ascent.aspx?aid=1432320'
 author: daiyi
 ---
 
@@ -101,7 +101,7 @@ Marco climbed so fast that I had few opportunities to eat bars because my hands 
 
 The party we had passed earlier decided to solo to the summit, while I wanted to continue simuling, so they passed us here. From here we went up and along the ridge, dropping to the right when it got steep then up again. 
 
-We summitted around 2pm.
+We summitted around 2pm. (4.5 hours of climbing)
 
 ![](summit-block.jpg)
 

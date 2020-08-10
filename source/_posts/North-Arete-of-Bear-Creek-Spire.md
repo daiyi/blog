@@ -5,7 +5,6 @@ categories:
   - trip reports
 tags:
   - SPS
-  - peakbagging
   - sierra
   - climbing
 summary: >-
@@ -38,7 +37,7 @@ thanks for being a great map tool [caltopo](https://caltopo.com).
 
 We left the house in Mammoth at 4:10, starting off the Mosquito Flat trailhead at the end of Rock Creek at 5:10 as the light came in and made my sleepy mind's eye feel like I was walking in a claymation.
 
-Though crampons & ice axe are usually necessary this time of year, last season was a blessed (or cursed, depending on your inclinations) mediocre snow year, so we were treated to a minimalistic alpine experience with less gear and shockingly nonexistance mosquitos (spoken as the person who is always first to be bitten). You can see the climb from close to the trailhead, so if in doubt take a look with your eyes (maybe the day before if you're getting a pre-dawn start), or better yet, get a friend peakbagging in the area to snap a photo for you (thanks yelly!).
+Though crampons & ice axe are usually necessary this time of year, last season was a blessed (or cursed, depending on your inclinations) mediocre snow year, so we were treated to a minimalistic alpine experience with less gear and shockingly nonexistance mosquitos (spoken as the person who is always first to be bitten). You can see the climb from close to the trailhead, so if in doubt take a look with your eyes (maybe the day before if you're getting a pre-dawn start), or better yet, get a friend peakbagging in the area to snap a photo for you (thanks [Yelly](https://ayeletbitton.com)!)
 
 <figure>
 

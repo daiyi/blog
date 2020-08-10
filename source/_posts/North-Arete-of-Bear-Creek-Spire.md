@@ -8,8 +8,7 @@ tags:
   - sierra
   - climbing
 summary: >-
-  Car-to-car climb of Bear Creek Spire
-hideSummary: true
+  Car-to-car Bear Creek Spire on a bluebird Sierra Sunday ☀️
 image: summit-block.jpg
 location: Mammoth Lakes
 author: daiyi

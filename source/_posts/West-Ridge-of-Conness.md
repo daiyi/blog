@@ -7,9 +7,8 @@ tags:
   - SPS
   - sierra
   - climbing
-summary:
-hideSummary:
-image:
+summary: Fun day simul/soloing the west ridge and dodging afternoon hail & lightning. So good!
+image: upper-ridge.jpg
 location: Mammoth Lakes
 ---
 

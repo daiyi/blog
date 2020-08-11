@@ -538,6 +538,11 @@ nav,
   }
 }
 
+video {
+  margin: 60px auto;
+  display: block;
+}
+
 .photo-small {
   margin: $gutter * 2 0;
   display: flex;
@@ -548,6 +553,12 @@ nav,
     flex: 0 0 70%;
     width: 70%;
   }
+}
+.photo-inline {
+  margin: $gutter * 2 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 .photo-block {
   display: block;

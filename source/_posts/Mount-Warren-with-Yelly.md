@@ -119,3 +119,5 @@ We relaxed at the summit as Yelly ate snacks and video called Leo, and I checked
 The clouds rolled in for our descent, and Yelly finally stopped splashing me with water. I ran ahead but checked back occasionally to see that she was still following me. That was a great day!
 
 ![](descent.jpg)
+
+_Thanks to [yelly](https://ayeletbitton.com) for the photos. I'm a dog, I can't use cameras._

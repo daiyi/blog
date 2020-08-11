@@ -7,7 +7,7 @@ categories:
 summary: Yelly and Mica's day in the mountain
 image: summit.jpg
 location: Mammoth Lakes
-peakbaggerurl:
+peakbaggerurl: https://www.peakbagger.com/climber/ascent.aspx?aid=1453188
 author: mica
 ---
 

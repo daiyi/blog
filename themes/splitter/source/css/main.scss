@@ -235,6 +235,7 @@ input[type="text"],
 textarea,
 button {
   border: 1px solid var(--border);
+  box-sizing: border-box;
 }
 
 button,
@@ -255,6 +256,19 @@ input:focus,
 select:focus,
 textarea:focus {
   box-shadow: 0 0 0 2px var(--focus);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  input {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+  textarea {
+    width: 100%;
+  }
 }
 
 .description {
@@ -768,7 +782,6 @@ figure {
   }
 
   textarea {
-    margin: 10px 0;
     background: transparent;
     color: lighten($black, 20);
     border: 1px solid;

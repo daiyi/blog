@@ -20,21 +20,19 @@ div.comments
           span.date #{comment.date}
           .comment-content !{comment.comment}
   else
-    p No comments at the moment \o/ Hey, you could write one!
+    p No comments at the moment. Hey, you could write one \o/
 
-  .comment-instructions
-    h3 leave a comment
-    p
-      | I really like comments!! Easy mode:
-      | email #[a(href='mailto:' + theme.markdown_comments.email) #{theme.markdown_comments.email}],
-      | #[a(href='https://twitter.com/daiyitastic') @]
-      | me or send a
-      | #[a(href='https://twitter.com/direct_messages/create/' + theme.twitter) twitter dm].
-      | Hard mode: Make a
-      | #[a(href=theme.markdown_comments.repo_root + page.slug + '/' + theme.markdown_comments.file_name) PR].
-    textarea
-      | ;; email template!
-      | name:
-      | url: (or email or other optional public identifier)
-      | color:
-      | comment:
+  form(action=(theme.markdown_comments.endpoint) method="post").comment-instructions
+    h3 Take me to comment town
+    p Mica and I love to read your comments. It's easy to write one
+    label(for="name") Name*
+      input(type="text" name="name" placeholder="Mica" required)
+    label(for="url") Website/social URL
+      input(type="text" name="url" placeholder="https://www.strava.com/athletes/64615462")
+    label(for="color") Accent color (hex code or html color  name)
+      input(type="text" name="color" placeholder="#00ff7f or springgreen")
+    input(type="hidden" name="path" value=('source/_posts/' + page.slug + '/' + theme.markdown_comments.file_name))
+    label(for="comment") Comment*
+      textarea(placeholder="" name="comment" required)
+    button(type="submit" ) Submit
+      

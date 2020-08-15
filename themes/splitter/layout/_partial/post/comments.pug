@@ -12,8 +12,10 @@ div.comments
 
         li.comment
           span.commenter(style=border)
-            if comment.url
-              a(href=url_for(comment.url)) #{comment.name}
+            if comment.url && !comment.url.startsWith('http')
+              a(href=url_for('https://' + comment.url) rel="noopener noreferrer" target="_blank") #{comment.name}
+            else if comment.url
+              a(href=url_for(comment.url) rel="noopener noreferrer" target="_blank") #{comment.name}
             else
               | #{comment.name}
             |

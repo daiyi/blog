@@ -246,7 +246,8 @@ textarea {
 input[type="text"],
 textarea,
 button {
-  border: 1px solid var(--border); }
+  border: 1px solid var(--border);
+  box-sizing: border-box; }
 
 button,
 input[type="submit"],
@@ -264,6 +265,16 @@ input:focus,
 select:focus,
 textarea:focus {
   box-shadow: 0 0 0 2px var(--focus); }
+
+label {
+  display: block;
+  margin-bottom: 8px; }
+  label input {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px; }
+  label textarea {
+    width: 100%; }
 
 .description {
   color: #666;
@@ -640,7 +651,6 @@ figure {
       letter-spacing: 2px;
       font-size: 12px; }
   .comments textarea {
-    margin: 10px 0;
     background: transparent;
     color: #555555;
     border: 1px solid;

@@ -2,8 +2,8 @@
 title: Mount Warren with Yelly
 date: 2020-08-09
 categories:
-  - mica's journal
-  - trip reports
+  - [mica's journal]
+  - [trip reports]
 summary: Yelly and Mica's day in the mountain
 image: summit.jpg
 location: Mammoth Lakes

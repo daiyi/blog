@@ -1,6 +1,6 @@
 ---
 title: a tiny life in brooklyn winter
-categories: trip reports
+categories: life recap
 tags:
   - new york
   - personal

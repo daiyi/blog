@@ -1,7 +1,7 @@
 ---
 title: a dream sensation, life in berlin (2017)
 date: 2018-09-26
-categories: trip reports
+categories: life recap
 tags:
   - berlin
   - personal

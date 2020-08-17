@@ -2,8 +2,8 @@
 title: "San Joaquin Mountain: My first SPS"
 date: 2020-07-09
 categories:
-  - trip reports
-  - mica's journal
+  - [mica's journal]
+  - [trip reports]
 tags:
   - SPS
   - peakbagging

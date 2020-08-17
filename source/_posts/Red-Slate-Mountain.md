@@ -2,8 +2,8 @@
 title: "Hail on Red Slate Mountain"
 date: 2020-07-19
 categories:
-  - trip reports
-  - mica's journal
+  - [mica's journal]
+  - [trip reports]
 tags:
   - SPS
   - peakbagging

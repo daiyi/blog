@@ -100,3 +100,9 @@ feed:
   limit: false
   content: true
   excerpt_frontmatter_key: summary
+
+# category descriptions
+category_config:
+  "mica's journal":
+    description: Hi I'm Mica, I am a dog. I run the show as CEO. I live with my CTO (Chief Treats Officer) daiyi and my CMO (Chief Marco Officer) Marco. daiyi writes my story because I can't use a computer. I like to eat alpine chipmunks, heel next to mountain bikes, and bag peaks with my bff yelly.
+    image: "mica.jpg"

@@ -7,7 +7,7 @@ block site_body
   .box.archive
     .box-content
       header
-        h2 topic: #{page.category}
+        h2 #{page.category}
         - listToRender = []
         - listToRender.push(site.categories.findOne({name: page.category}))
 

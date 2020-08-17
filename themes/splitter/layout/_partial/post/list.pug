@@ -1,6 +1,12 @@
 // partial uses `listToRender` passed in from above ugh globals
 
 for category in listToRender
+  - categoryInfo = config.category_config[category.name] || {}
+  if categoryInfo.image
+    - var asset = href=url_for(categoryInfo.image)
+      img(src=asset)
+  p
+    | #{categoryInfo.description}
   .items
     if is_archive()
       h4

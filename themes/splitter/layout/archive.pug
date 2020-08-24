@@ -12,7 +12,6 @@ block site_body
           - listToRender = []
           - listToRender.push(site.tags.findOne({name: page.tag}))
         else if is_archive()
-          h2 by topic
           - listToRender = site.categories.toArray()
 
       include _partial/post/list

@@ -42,9 +42,7 @@ As we descended to Thousand Island Lake, the ridge to the summit came into view,
 
 ![Thousand Island Lake and the crest to Mount Davis](1000-island-lake-and-crest.jpg)
 
-A fisherperson from LA peeled off from his group to lement at us about the non-outdoorsy women of LA, who apparently couldn't be made to come out here to the mountains (it sounded like he was asking us where we were hiding them??).
-
-We left the lake-side use trail at the west end of Thousand Island and started up the slope. Intermittent use trails follow the Middle Fork San Joaquin River until the river peels off west to its snowfield origins, while the route continues south-ish up the gully.
+We left the lake at the west end of Thousand Island and started up the slope. Intermittent use trails follow the Middle Fork San Joaquin River until the river peels off west to its snowfield origins, while we continued south-ish up the gully.
 
 <div class="photos">
 <div class="photo">
@@ -118,11 +116,11 @@ Coming up to the summit, Thousand Island Lake down below.
 </figure>
 </div>
 
-We're at the top! It's 13:50. I inhaled a burrito. We updated Leo (who had been waiting for hours to meet us at Thousand Island Lake for the hike back) on the realities of our dramatically over-optimistic schedule, and he headed out without us.
+We're at the top! It's 13:50. I inhaled a burrito. We updated Leo (who had been waiting for hours at Thousand Island Lake to meet us for the hike back) on the realities of our dramatically over-optimistic schedule, and he headed out without us.
 
 We played the peak identification game, and it was getting hazier with incoming smoke even as we sat there. I was amazed at how close Lyell looked, and felt inspired to climb it :D
 
-After important summit selfies, we started down.
+After the ritual summit selfies, we started down.
 
 #### Time to Descend
 

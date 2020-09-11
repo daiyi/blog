@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: https://www.google.com
+  date: 9/11/2020
+  url: https://www.google.com
+  color: FM and BOP
+  comment: |
+    xxx
+  

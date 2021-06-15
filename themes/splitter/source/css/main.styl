@@ -1,0 +1,604 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette|Cousine:400|News+Cycle:400,700")
+@import 'github'
+caption-font()
+  font-size: 14px
+  font-family: $header-font
+  text-transform: uppercase
+  letter-spacing: 2px
+
+:root {
+  --background: #efefef;
+  --background-dark: #222;
+  --focus: #00a4a6;
+  --border: #dbdbdb;
+  --border-dark: #808080;
+  --button-hover: #dddddd;
+  --button-hover-dark: #324759;
+  --form-placeholder: #949494;
+  --form-text: #000000;
+  --form-text-dark: #ffffff;
+}
+
+$black = #222222
+$white = #dddddd
+$teal = #00a4a6
+$highlight = $teal
+$text-font = "Cousine", monospace
+$site-title-font = "Courgette", cursive
+$header-font = "News Cycle", sans-serif
+$lead-font = "Noticia Text", serif
+$gutter = 20px
+html,
+body
+  background: #fff
+  color: $black
+  font-family: $text-font
+  font-size: 16px
+  margin: 0
+  padding: 0
+.page
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+.page-content
+  margin-left: auto
+  margin-right: auto
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+.box
+  width: 100%
+  margin: 0
+  flex: 1
+  &.header
+    padding-top: 0
+    border-top: 20px lighten($black, 75) solid
+    width: 100%
+    margin-bottom: 40px
+.box-content,
+.header
+  width: 900px
+  margin: 0
+  padding: 0
+  img
+    max-width: 100%
+    display: block
+    margin: auto
+.box-content
+  &.index
+    margin-top: $gutter
+// .photo {
+//   width: 100%;
+//   margin: $gutter*2 0;
+//
+//   .caption {
+//     @include caption-font();
+//
+//     display: block;
+//     margin: 0;
+//     padding: 2px 10px;
+//     width: 100%;
+//     background: $black;
+//     color: $white;
+//     box-sizing: border-box;
+//   }
+// }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  font-family: $header-font
+  margin-bottom: $gutter
+  line-height: 1.2em
+h1
+  font-size: 38px
+  font-family: $site-title-font
+  margin-top: -20px
+  font-weight: normal
+h1 a,
+h1 a:visited,
+h1 a:hover
+  border: none
+h2 a,
+h2 a:visited,
+h2 a:hover,
+h3 a,
+h3 a:visited,
+h3 a:hover,
+h4 a,
+h4 a:visited,
+h4 a:hover
+  border: none
+h2
+  font-size: 38px
+h3
+  font-size: 28px
+h4
+  font-size: 20px
+h5
+  font-size: 18px
+p
+  line-height: 1.8em
+  margin: 30px 0
+  word-spacing: -1px
+  letter-spacing: -0.1px
+img + p
+  margin-top: ($gutter * 3 / 2)
+::-webkit-input-placeholder
+  color: var(--form-placeholder)
+::-moz-placeholder
+  color: var(--form-placeholder)
+::-ms-input-placeholder
+  color: var(--form-placeholder)
+::placeholder
+  color: var(--form-placeholder)
+button,
+select,
+input[type="submit"],
+input[type="button"],
+input[type="checkbox"],
+input[type="range"],
+input[type="radio"]
+  cursor: pointer
+button,
+input,
+select,
+textarea
+  color: var(--form-text)
+  background-color: var(--background)
+  font-family: inherit
+  font-size: inherit
+  margin-right: 6px
+  margin-bottom: 6px
+  padding: 3px 10px
+  outline: none
+  border-radius: 3px
+  -webkit-appearance: none
+  &:disabled
+    cursor: not-allowed
+    opacity: 0.5
+input[type="text"],
+textarea,
+button
+  border: 1px solid var(--border)
+  box-sizing: border-box
+button,
+input[type="submit"],
+input[type="button"]
+  padding-right: 20px
+  padding-left: 20px
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover
+  background: var(--button-hover)
+button:focus,
+input:focus,
+select:focus,
+textarea:focus
+  box-shadow: 0 0 0 2px var(--focus)
+label
+  display: block
+  margin-bottom: 8px
+  input
+    width: 100%
+    display: block
+    margin-bottom: 15px
+  textarea
+    width: 100%
+.description
+  color: #666
+  line-height: 1.4em
+.post h3
+  margin-top: 2em
+.lead
+  font-size: 36px
+  font-family: $lead-font
+  line-height: 1.4em
+  margin-bottom: 30px
+.lead-simple,
+strong
+  font-size: 27px
+  font-family: "news cycle"
+  line-height: 1em
+  margin-bottom: 30px
+  letter-spacing: 2px
+  word-spacing: 1px
+.mute
+  color: #999
+.meta
+  caption-font()
+  // margin-top: -5px;
+.header
+  h1
+    display: inline-block
+    margin-right: $gutter
+    margin-bottom: 0
+  .nav
+    display: inline-block
+.post
+  margin-bottom: ($gutter * 2)
+  word-wrap: break-word
+  .post-content
+    ul
+      list-style-type: none
+      padding-inline-start: 60px
+      li
+        text-indent: -20px
+        line-height: 1.4em
+        margin: 20px 0
+        &:before
+          content: "- "
+footer
+  width: 100%
+  background: var(--background-dark)
+  color: #ddd
+  display: flex
+  flex-direction: column
+  margin-top: 7em
+  padding: 20px 0
+  align-items: center
+  a
+    text-decoration: none
+  a,
+  a:visited
+    color: $white
+    border-bottom: 2px #666666 dotted
+  a:hover
+    text-decoration: none
+    border-bottom: 2px #ddd solid
+  a.button
+    padding: 10px 20px
+    border: 3px #999 solid
+    cursor: pointer
+  a.button:hover
+    border: 3px #000 solid
+  ::-webkit-input-placeholder
+    color: var(--form-placeholder-dark)
+  ::-moz-placeholder
+    color: var(--form-placeholder-dark)
+  ::-ms-input-placeholder
+    color: var(--form-placeholder-dark)
+  ::placeholder
+    color: var(--form-placeholder-dark)
+  button,
+  input,
+  select,
+  textarea
+    color: var(--form-text-dark)
+    background-color: var(--background-dark)
+  input[type="text"],
+  textarea,
+  button
+    border: 1px solid var(--border-dark)
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="button"]:hover
+    background: var(--button-hover-dark)
+article
+  header
+    margin-bottom: ($gutter * 3 / 2)
+    h2
+      margin-bottom: 5px
+  .entry-footer
+    margin-top: 40px
+    // &:before {
+    //   content: "____";
+    //   font-weight: bold;
+    // }
+    .signoff
+      p
+        margin: 0
+      margin: $gutter 0 20px 0
+      .date,
+      .location
+        font-style: italic
+  .meta span
+    &:not(:first-child)
+      margin-left: 10px
+      &:before
+        content: "|"
+        margin-right: 10px
+.items
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: flex-start
+  align-items: flex-start
+  margin: -1*($gutter / 2)
+  .item
+    flex: 0 0 calc(100% / 3)
+    .item-content
+      margin: ($gutter / 2)
+      margin-bottom: ($gutter * 2)
+      padding-top: 5px
+      .excerpt
+        font-size: 15px
+        line-height: 1.2em
+        margin: 30px 0
+        img
+          margin-top: -20px
+    .meta
+      .date
+        font-size: 110%
+        font-weight: bold
+        word-spacing: 0px
+        letter-spacing: 0px
+        margin-right: 5px
+    h3
+      margin-top: 5px
+      margin-bottom: 5px
+      line-height: 1.1em
+.items.article-spread
+  .item-content
+    border-top: 4px solid $black
+.archive
+  h2
+    display: inline-block
+    border-bottom: 4px solid $black
+  .items
+    margin: 0
+    margin-bottom: ($gutter * 2)
+    h4
+      margin-bottom: ($gutter / 2)
+    .item
+      flex: 0 0 100%
+      a
+        border: none
+      a:hover
+        border-bottom: 2px solid #333
+      .item-content
+        margin: 0
+        .date
+          margin-right: $gutter
+        .title
+          caption-font()
+.nav,
+nav,
+.tags
+  ul
+    display: block
+    padding-left: 0
+    margin: 0 -10px
+    caption-font()
+    li
+      display: inline-block
+      padding: 0
+      margin: 0 10px
+    a
+      border: none
+    a:hover
+      border-bottom: 2px solid #222
+video
+  margin: 60px auto
+  display: block
+.photo-small
+  margin: $gutter * 2 0
+  display: flex
+  align-items: flex-start
+  justify-content: center
+  img
+    flex: 0 0 70%
+    width: 70%
+.photo-inline
+  margin: $gutter * 2 0
+  display: flex
+  align-items: flex-start
+  justify-content: center
+.photo-block
+  display: block
+  width: 100%
+  overflow: auto
+.photos
+  display: flex
+  flex-direction: column
+  flex-flow: row nowrap
+  // justify-content: flex-start;
+  align-items: flex-start
+  margin: 0 -5px
+  // overflow: auto;
+  // width: 100%;
+  .photo
+    margin: 5px
+    flex: 1
+.photo-left-pull
+  float: left
+  margin-left: -10%
+  margin-right: ($gutter * 4)
+  margin-bottom: ($gutter * 2)
+  width: 60%
+.photo-right-pull
+  float: right
+  margin-right: -10%
+  margin-left: ($gutter * 4)
+  margin-bottom: ($gutter * 2)
+  width: 60%
+.photo-right-pull-tall
+  float: right
+  margin-right: -10%
+  margin-left: ($gutter * 4)
+  margin-bottom: ($gutter * 2)
+  height: 30%
+  img
+    width: auto
+    max-height: 600px
+.photo-section
+  position: relative
+  display: inline-block
+// img {
+//   flex: 0 0 100%;
+// }
+// .photo {
+//   margin: 0 10px;
+//   flex: 0 0 calc(100%/3);
+// }
+a
+  text-decoration: none
+a,
+a:visited
+  color: $black
+  border-bottom: 2px #666666 dotted
+a:hover
+  text-decoration: none
+  border-bottom: 2px #666666 solid
+a.button
+  padding: 10px 20px
+  border: 3px #999 solid
+  cursor: pointer
+a.button:hover
+  border: 3px #000 solid
+ul.link-list
+  display: block
+  padding-left: 0
+  margin: -10px
+  li
+    background: #000
+    color: #999
+    display: inline-block
+    padding: 4px 10px 2px 10px
+    margin: 10px
+  a
+    border: none
+    color: #fff
+  a:hover
+    color: #05ebb1
+blockquote
+  color: darken($black, 10)
+  border-left: 5px solid lighten($black, 70)
+  padding-left: $gutter
+.linebreak
+  height: 1px
+  width: 40px
+  border-top: 3px solid $black
+figure
+  margin: 0
+  margin-bottom: ($gutter * 2)
+  padding: 0
+  figcaption
+    caption-font()
+    margin: 0 auto
+    width: 60%
+    display: flex
+    justify-content: center
+    // markdown inserts extra paragraphs u_u
+    p
+      line-height: 1.8em
+      margin: 0
+      word-spacing: inherit
+      letter-spacing: inherit
+// COMMENTS
+.comments
+  max-width: 600px
+  font-size: 14px
+  border-top: 3px solid $black
+  padding: 5px 0
+  margin-top: 50px
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    li
+      text-indent: 0px
+      line-height: 1.4em
+      margin: 0
+      & + li
+        margin-top: 20px
+      margin-left: 10px
+      border-left: 3px solid #ddd
+      padding-left: 20px
+      // &> p:first-child {
+      //   font-weight: bold;
+      //   margin-top: 20px;
+      // }
+      p
+        margin: 10px 0
+  h2
+    font-size: 22px
+  h3
+    font-size: 18px
+  .comment
+    .commenter
+      // highlight
+      border-bottom: 5px solid #ddd
+      display: inline-block
+      line-height: 0.6
+      font-family: $header-font
+      font-weight: bold
+      font-size: 16px
+      margin: 10px 0
+      a
+        border: none
+    .date
+      margin-left: 20px
+      caption-font()
+      font-size: 12px
+    margin: 25px 10px
+  textarea
+    background: transparent
+    color: lighten($black, 20)
+    border: 1px solid
+    border-color: lighten($black, 20)
+    padding: 10px
+    width: 100%
+    height: 8em
+    box-sizing: border-box
+  textarea:focus
+    color: $black
+    border-color: $black
+  .comment-instructions
+    p
+      margin: 10px 0
+    margin-top: 30px
+.header-anchor
+  margin-left: -1em
+  margin-right: 0.5em
+@media (max-width: 1440px)
+  .box-content,
+  .header
+    width: 650px
+@media (max-width: 940px)
+  // fixes silly soundcloud resizing thing wtf
+  .page-content
+    width: 100%
+  .box-content,
+  .header
+    width: auto
+    margin: 0 10px
+  .items
+    margin: 0
+    .item
+      flex: 0 0 100%
+      .item-content
+        margin: 0
+        .date
+          margin-right: $gutter
+  blockquote
+    margin-left: -1*($gutter / 2)
+    border-width: 10px
+    margin-right: 0
+    padding-left: $gutter
+    padding-right: $gutter
+  .photo-left-pull,
+  .photo-right-pull,
+  .photo-right-pull-tall
+    float: none
+    margin: 0
+    width: 100%
+    .photo
+      margin: 0
+  .photo-small
+    margin: $gutter * 2 0
+    display: block
+    img
+      flex: none
+      width: 100%
+  figure
+    margin-bottom: ($gutter * 2)
+    figcaption
+      caption-font()
+      font-size: 80%
+      margin: $gutter / 2 auto
+      width: 80%

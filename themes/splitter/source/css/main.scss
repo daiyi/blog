@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Courgette|Cousine:400|News+Cycle:400,700");
 // @import url('https://fonts.googleapis.com/css?family=Courgette|Cousine:400|News+Cycle:400,700|Noticia+Text:400');
 
-@import "github.scss";
+@import "github.styl";
 
 @mixin caption-font() {
   font-size: 14px;
@@ -11,30 +11,13 @@
 }
 
 :root {
-  // --background-body: #ffffff;
   --background: #efefef;
   --background-dark: #222;
-  // --background-alt: #f7f7f7;
-
-  // --selection: #9e9e9e;
-
-  // --text-main: #363636;
-  // --text-bright: #000000;
-  // --text-muted: #999999;
-
-  // --links: #0076d1;
   --focus: #00a4a6;
   --border: #dbdbdb;
   --border-dark: #808080;
-  // --code: #000000;
-
-  // --animation-duration: 0.1s;
   --button-hover: #dddddd;
   --button-hover-dark: #324759;
-
-  // --scrollbar-thumb: rgb(213, 213, 213);
-  // --scrollbar-thumb-hover: rgb(196, 196, 196);
-
   --form-placeholder: #949494;
   --form-text: #000000;
   --form-text-dark: #ffffff;

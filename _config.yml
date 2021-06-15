@@ -102,6 +102,16 @@ feed:
   content: true
   excerpt_frontmatter_key: summary
 
+# css processing
+stylus:
+  compress: false
+  sourcemaps:
+    comment: true
+    inline: true
+    sourceRoot: ""
+    basePath: .
+  plugins: "nib"
+
 # category descriptions
 category_config:
   "mica's journal":

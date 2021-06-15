@@ -24,7 +24,6 @@ Here I am totally passed out in the front yard, instead of my normal squirrel-hu
 
 How did I get here??
 
-  </div>
 </div>
 
 <div class="photo-section">

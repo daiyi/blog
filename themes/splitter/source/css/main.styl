@@ -162,10 +162,12 @@ textarea
     cursor: not-allowed
     opacity: 0.5
 input[type="text"],
+input[type="email"],
 textarea,
 button
   border: 1px solid var(--border)
   box-sizing: border-box
+  background: none
 button,
 input[type="submit"],
 input[type="button"]
@@ -278,6 +280,11 @@ footer
   input[type="submit"]:hover,
   input[type="button"]:hover
     background: var(--button-hover-dark)
+  nav
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    column-gap: 20px
 article
   header
     margin-bottom: ($gutter * 3 / 2)
@@ -602,3 +609,13 @@ figure
       font-size: 80%
       margin: $gutter / 2 auto
       width: 80%
+
+// accessibly hidden
+// https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/
+.hidden { 
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}

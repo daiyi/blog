@@ -4,10 +4,10 @@
       for link in theme.footer
         li
           a(href=link.url) #{link.name}
-      li
-        <form action="https://tinyletter.com/daiyi" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/daiyi', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-          <label for="tlemail">Subscribe to updates: </label>
-          <input type="text" name="email" id="tlemail" placeholder="daiyi@hey.com" />
-          <input type="hidden" value="1" name="embed"/>
-          <button type="submit">Subscribe</button>
-        </form>
+    div
+      <form action="https://buttondown.email/api/emails/embed-subscribe/daiyi" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/daiyi', 'popupwindow')">
+        <label for="bd-email" class="hidden">Get email updates</label>
+        <input type="email" name="email" id="bd-email" placeholder="Get email updates" />
+        <input type="hidden" value="1" name="embed" />
+        <button type="submit">Subscribe</button>
+      </form>

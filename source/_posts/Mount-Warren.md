@@ -8,6 +8,8 @@ image: summit.jpg
 location: Mammoth Lakes
 peakbaggerurl: https://www.peakbagger.com/climber/ascent.aspx?aid=1453188
 author: mica
+redirect_from:
+  - /2020/08/09/Mount-Warren-with-Yelly
 ---
 
 ![](ridge.jpg)

@@ -8,6 +8,8 @@ hideSummary: true
 image: clj_symbiot.jpg
 location: Berlin
 date: 2017-07-18 23:20:55
+redirect_from:
+  - /2017/07/19/a-smol-comic-about-clojure
 ---
 
 ![](clj_0.jpg)

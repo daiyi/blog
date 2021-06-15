@@ -29,6 +29,14 @@
     "start": "hexo serve",
     "draft": "hexo serve --draft",
     "deploy": "hexo clean && hexo deploy",
-    "build": "hexo clean && hexo generate"
+    "build": "hexo clean && hexo generate",
+    "clean": "hexo clean",
+    "new": "hexo new post"
+  },
+  "volta": {
+    "node": "12.22.1"
+  },
+  "devDependencies": {
+    "hexo-generator-redirect": "^1.4.0"
   }
 }

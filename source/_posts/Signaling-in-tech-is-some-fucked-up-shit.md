@@ -6,6 +6,8 @@ tags:
   - personal
 summary: I am exactly as cool as I was before I started writing clojure.
 location: Berlin
+redirect_from:
+  - /2016/11/30/Signaling-in-tech-is-some-fucked-up-shit
 ---
 
 <strong>I am exactly as cool as I was before I started writing clojure.</strong>

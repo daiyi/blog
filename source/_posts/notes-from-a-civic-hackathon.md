@@ -8,9 +8,9 @@ summary: >-
   activism.
 location: Brooklyn
 date: 2017-02-26 03:34:24
-image:
+redirect_from:
+  - /2017/02/26/notes-from-a-civic-hackathon
 ---
-
 
 [Hack The Ban](https://www.hacktheban.org/) was an anomaly among tech events, with a focus on building relationships between local activist groups and the local tech community. Though the event was formed in response to the immigration executive order, organisations representing immigration rights/marginalised communities have existed for a very long time. Startup folk have an impulse to prop up new solutions when they see problems, which is great in many cases, but sometimes it is also worth considering joining forces with organisations that have intimate ties with and understanding of the community they are serving, a decade of work, and a diversity of skillsets and backgrounds and experiences.
 

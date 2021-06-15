@@ -8,9 +8,9 @@ timezone: America/Los_Angeles # Europe/Berlin
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://daiyi.co/blog
+url: https://daiyi.co/blog
 root: /blog/
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory

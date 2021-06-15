@@ -7,6 +7,8 @@ tags:
 date: 2017-02-13 17:21:08
 summary: I love browsing other peoples' reading lists! and so I am making one too
 location: Brooklyn
+redirect_from:
+  - /2017/02/14/What-am-I-reading-January-2017
 ---
 
 <strong>I love browsing other peoples' reading lists!</strong>

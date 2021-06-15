@@ -10,6 +10,8 @@ summary: |
   Foiled by wildfire smoke from starting our backpacking trip, we accidentally agreed to a 27-mile car-to-car ascent of an obscure peak behind Ritter & Banner!
 image: catherine-pan.jpg
 location: Mammoth Lakes
+redirect_from:
+  - /2020/08/22/Mount-Davis
 ---
 
 Mount Davis is an unremarkable lump of rotten talus overshadowed by the iconic peaks Ritter and Banner to the southeast, its redeeming qualities being the vast summit views of the classic peaks surrounding it, and its membership on the [SPS list](https://en.wikipedia.org/wiki/Sierra_Peaks_Section#SPS_List). 

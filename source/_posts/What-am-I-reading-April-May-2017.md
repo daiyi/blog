@@ -10,6 +10,8 @@ summary: >-
 hideSummary: true
 location: Berlin
 image: velika-paklenica-sketch.jpg
+redirect_from:
+  - /2017/06/12/What-am-I-reading-April-May-2017
 ---
 
 <figure>

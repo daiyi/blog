@@ -8,6 +8,8 @@ tags:
 summary: A lifetime ago.
 image: tempelhof-daiyi-riding-bicycle.jpg
 location: Berlin
+redirect_from:
+  - /2018/09/26/a-dream-sensation-life-in-berlin
 ---
 
 Feeling feelings with higher highs and lower lowers in a place with actual seasons.

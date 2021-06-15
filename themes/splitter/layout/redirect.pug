@@ -1,0 +1,13 @@
+- const newUrl = url_for(page.target.path)
+- const fullUrl = full_url_for(page.target.path)
+
+head
+  meta(http-equiv="refresh", content='0; url=' + newUrl)
+  link(rel="canonical" href=fullUrl)
+
+p If you are not redirected automatically, here is where you are supposed to go: 
+a(href=newUrl)=fullUrl
+
+//- backup javascript redirect in 3 seconds
+script.
+  setTimeout(function(){document.location.href = '#{newUrl}'; }, 3000)

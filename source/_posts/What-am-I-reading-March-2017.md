@@ -9,7 +9,8 @@ summary: >-
   Grows in Brooklyn, The Confidence Code.
 location: London
 date: 2017-03-30 23:02:41
-image:
+redirect_from:
+  - /2017/03/31/What-am-I-reading-March-2017
 ---
 
 Oh you know me, I only do things intensely. I'm either super into a book or throwing it away with disgust. \o/

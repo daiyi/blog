@@ -10,6 +10,8 @@ tags:
 summary: Fun day simul/soloing the west ridge and dodging afternoon hail & lightning. So good!
 image: upper-ridge.jpg
 location: Mammoth Lakes
+redirect_from:
+  - /2020/08/07/West-Ridge-of-Conness
 ---
 
 In these weird COVID times, the leadership at my job decided there should be at least one company-wide 3-day weekend per month, and if the federal holiday calendar didn't provide, they would manufacture it. In search of a partner for my random Friday off in August, I hit up my teacher-friend still enjoying the remains of summer break.

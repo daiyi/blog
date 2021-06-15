@@ -12,6 +12,8 @@ summary: >-
 image: summit-block.jpg
 location: Mammoth Lakes
 author: daiyi
+redirect_from:
+  - /2020/08/02/North-Arete-of-Bear-Creek-Spire
 ---
 
 

@@ -10,6 +10,8 @@ summary: >-
 image: f-train.jpg
 location: Brooklyn
 date: 2017-03-20 23:51:15
+redirect_from:
+  - /2017/03/21/a-tiny-winter-life-in-brooklyn
 ---
 
 Three months later and I'm taking down my wall tapestries again, leaving the climbing gym where I've made friends with the regulars characters and routesetters, the cafes I work at often enough that they recognise my mannerisms but not enough that they remember my name, my tiny job, my tiny bike.

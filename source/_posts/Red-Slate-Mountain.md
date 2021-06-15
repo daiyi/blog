@@ -13,6 +13,8 @@ image: summit-powernap.jpg
 location: Mammoth Lakes
 peakbaggerurl: 'https://www.peakbagger.com/climber/Ascent.aspx?aid=1432320'
 author: mica lynn copernicus
+redirect_from:
+  - /2020/07/19/Red-Slate-Mountain
 ---
 
 Red Slate Mountain is a 20 mile hike with 5700ft gain from McGee Creek Trailhead, mostly on scenic trail, with the last mile a straightforward class 1-2 scree ridge. It took us 10.5 hours. That's a pretty good day, for a dog.

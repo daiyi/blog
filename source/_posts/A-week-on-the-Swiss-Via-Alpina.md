@@ -9,6 +9,8 @@ summary: Trip report! A week hiking the Via Alpina trail in Switzerland
 hideSummary: true
 image: daiyi-hikin.jpg
 location: Switzerland
+redirect_from:
+  - /2016/11/08/A-week-on-the-Swiss-Via-Alpina
 ---
 
 {% asset_img daiyi-hikin.jpg 'daiyi unable to face the camera due to overwhelming beauty of alps' %}

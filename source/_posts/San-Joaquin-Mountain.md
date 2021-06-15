@@ -12,10 +12,11 @@ summary: >-
   about my first peakbagging adventure.
 image: summit-friends.jpg
 location: Mammoth Lakes
-peakbaggerurl: 'https://www.peakbagger.com/climber/Ascent.aspx?aid=1432331'
+peakbaggerurl: "https://www.peakbagger.com/climber/Ascent.aspx?aid=1432331"
 author: mica lynn copernicus
+redirect_from:
+  - /2020/07/09/San-Joaquin-Mountain-My-first-SPS
 ---
-
 
 > No pudeo escribir mi blog, porque soy una perra. Mi CTO daiyi traduce la historia de mi primera aventura de [peak bagging](https://en.wikipedia.org/wiki/Peak_bagging).
 > – Mica
@@ -56,7 +57,7 @@ I can't read, but this is what they drew:
 
 ![our entry in the summit register](summit-register.jpg)
 
-Wait, we have to turn around?? Is this why the humans weren't running circles the whole time like I was? 
+Wait, we have to turn around?? Is this why the humans weren't running circles the whole time like I was?
 
 Here's a view of the endless sandy ridge on the hike down:
 

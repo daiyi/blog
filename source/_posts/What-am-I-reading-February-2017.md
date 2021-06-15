@@ -7,6 +7,8 @@ tags:
 date: 2017-02-28 16:16:59
 summary: Books I read in February! Part of an ongoing series.
 location: Brooklyn
+redirect_from:
+  - /2017/03/01/What-am-I-reading-February-2017
 ---
 
 

@@ -62,7 +62,8 @@ body
   width: 900px
   margin: 0
   padding: 0
-  img
+  img,
+  video
     max-width: 100%
     display: block
     margin: auto
@@ -226,14 +227,11 @@ strong
   word-wrap: break-word
   .post-content
     ul
-      list-style-type: none
+      list-style-type: '✦ '
       padding-inline-start: 60px
       li
-        text-indent: -20px
         line-height: 1.4em
         margin: 20px 0
-        &:before
-          content: "- "
 footer
   width: 100%
   background: var(--background-dark)
@@ -486,8 +484,9 @@ figure
   padding: 0
   figcaption
     caption-font()
+    padding: 0 ($gutter/2)
     margin: 0 auto
-    width: 60%
+    max-width: 400px;
     display: flex
     justify-content: center
     // markdown inserts extra paragraphs u_u
@@ -603,12 +602,14 @@ figure
       flex: none
       width: 100%
   figure
-    margin-bottom: ($gutter * 2)
     figcaption
-      caption-font()
       font-size: 80%
-      margin: $gutter / 2 auto
-      width: 80%
+      margin: ($gutter/2) auto
+@media (max-width: 550px)
+  .photos
+    flex-flow: row wrap
+    .photo
+      flex: 1 1 auto
 
 // accessibly hidden
 // https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/
@@ -619,3 +620,6 @@ figure
   height: 1px; width: 1px; 
   margin: -1px; padding: 0; border: 0; 
 }
+
+a.leaflet-popup-close-button
+  border-bottom: none;

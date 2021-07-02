@@ -6,8 +6,8 @@ categories:
 tags:
   - SPS
   - peakbagging
-summary:
-  - A fun class 2 hike with views of Yosemite and beyond, great for cross-country beginners and expert dingos!
+summary: A fun class 2 hike with views of Yosemite and beyond, great for cross-country beginners and expert dingos!
+peakbaggerurl: https://www.peakbagger.com/climber/ascent.aspx?aid=1694696
 image: mica-on-north-peak.jpg
 location: Mammoth Lakes
 author: Mica
@@ -218,7 +218,7 @@ Hiking back from the summit took about 2 hours. The sandy slope makes a quick de
 ![](high-descent.jpg)
 
 <figcaption>
-fig.8: Staying high on the way back to Conness Lakes to avoid that snow from earlier. 
+fig.8: Staying high on the way back to Conness Lakes to avoid that snow from earlier.
 </figcaption>
 </figure>
 

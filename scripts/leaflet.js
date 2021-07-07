@@ -154,10 +154,10 @@ const template = `
 // {% endleaflet %}
 // ```
 
-// You may need to exclude geojson files in your `_config.yml` so that they don't get rendered as posts:
+// You may need to `skip_render` geojson files in your `_config.yml` so that they don't get rendered as posts:
 
 // ```md
-// exclude:
+// skip_render:
 // - "**.json"
 // ```
 

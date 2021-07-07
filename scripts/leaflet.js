@@ -154,6 +154,13 @@ const template = `
 // {% endleaflet %}
 // ```
 
+// You may need to exclude geojson files in your `_config.yml` so that they don't get rendered as posts:
+
+// ```md
+// exclude:
+// - "**.json"
+// ```
+
 // ## Config
 
 // You can configure the plugin within the `_config.yml` file. More baselayers: https://osmlab.github.io/editor-layer-index

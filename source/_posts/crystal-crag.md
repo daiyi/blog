@@ -6,7 +6,7 @@ categories:
 tags:
   - peakbagging
 summary: Mica tackles the iconic Mammoth feature and confirms it is definitely no less than a class 3 scramble to the top
-peakbaggerurl: ""
+peakbaggerurl: "https://www.peakbagger.com/climber/ascent.aspx?aid=1699179"
 image: mica-bag.jpg
 location: Mammoth Lakes
 author: Mica
@@ -151,12 +151,3 @@ Getting shoved into a backpack is aid. Not my most ding-nified moment.
 </div>
 
 We made it to the ground safely! and the clouds cleared up as we strolled back to the car. Will I ever learn to climb class 3? Will I grow thumbs and be allowed into Yosemite? Tune in next time.
-
-<figure>
-
-![](.jpg)
-
-<figcaption>
-
-</figcaption>
-</figure>

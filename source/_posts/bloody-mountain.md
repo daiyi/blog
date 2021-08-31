@@ -7,7 +7,7 @@ tags:
   - SPS
   - peakbagging
 summary: A Mammoth skyline classic! good for dogs.
-peakbaggerurl: ""
+peakbaggerurl: "https://www.peakbagger.com/climber/ascent.aspx?aid=1746834"
 image: scree-ridge-forever.jpg
 location: Mammoth Lakes
 author: Mica the dog

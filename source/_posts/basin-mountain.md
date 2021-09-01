@@ -1,15 +1,16 @@
 ---
-title: Basin Mountain (13,181+ ft)
+title: Basin Mountain
 date: 2021-07-17
 categories:
   - mica's journal
 tags:
   - SPS
   - peakbagging
-summary: After staring at this peak all winter while bouldering at the Buttermilks, we reverse the roles and get a view of the Peabodies from 6000ft above
+summary: After staring at this peak all winter while bouldering at the Buttermilks, we reverse the roles and get a view of the Peabodies from 6000ft above. Good for dogs!
 image: chang.jpg
 location: Mammoth Lakes
 author: Mica the red heeler
+peakbaggerurl: "https://www.peakbagger.com/climber/ascent.aspx?aid=1747099"
 ---
 
 <figure>

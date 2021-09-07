@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" version="1.1" creator="https://gpx.studio">
-<metadata>
-    <name>track-8621-051342</name>
-    <author>
-        <name>gpx.studio</name>
-        <link href="https://gpx.studio"></link>
-    </author>
-</metadata>
 <trk>
-    <type>Cycling</type>
+    <name>Rodgers Peak - daiyi</name>
     <trkseg>
     <trkpt lat="37.778989" lon="-119.129342">
         <ele>2206.7</ele>

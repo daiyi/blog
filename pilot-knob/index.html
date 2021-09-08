@@ -1,0 +1,368 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width, initial-scale=1" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta name="description" content="thoughts and ideas and essays by daiyi; unrefined brain-to-internet pipe; public journaling"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@daiyitastic"><meta name="twitter:creator" content="@daiyitastic"><meta name="twitter:description" content="Mica's 12th SPS and longest dayhike at 22.5+ miles!"><meta name="twitter:image" content="https://daiyi.co/blog/pilot-knob/summit-ridge.jpg"><meta property="og:url" content="https://daiyi.co/blog/pilot-knob/index.html"><meta property="og:title" content="Pilot Knob (12,245 ft)"><meta property="og:description" content="Mica's 12th SPS and longest dayhike at 22.5+ miles!"><meta property="og:image" content="https://daiyi.co/blog/pilot-knob/summit-ridge.jpg"><link rel="Shortcut Icon" type="image/x-icon" href="/blog/favicon.png"><link rel="alternate" href="/blog/rss2.xml"><meta name="author" content="daiyi"><meta name="description" content="thoughts and ideas and essays by daiyi; unrefined brain-to-internet pipe; public journaling"><title>Pilot Knob (12,245 ft) &mdash;&nbsp;daiyi</title><link rel="alternate" href="/blog/rss2.xml" title="daiyi" type="application/rss2.xml">
+<link rel="stylesheet" href="/blog/css/main.css">
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/blog/rss2.xml" title="daiyi" type="application/rss+xml">
+</head><body><div class="page"><div class="page-content"><div class="box header"><div class="box-content"><h1><a href="/blog/">daiyi</a></h1><div class="nav"><ul><li><a href="https://daiyi.co/blog/archives">archive</a></li><li><a href="https://daiyi.co">about</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/daiyitastic">twitter</a></li><li><a target="_blank" rel="noopener" href="https://buttondown.email/daiyi">email updates</a></li></ul></div></div></div><div class="box"><article class="post box-content"><header><h2><a href="/blog/pilot-knob/">Pilot Knob (12,245 ft)</a></h2><div class="meta"><span class="date">2021 08 29</span><span class="location">Mammoth Lakes</span></div></header><div class="post-content"><figure>
+<p><img src="pond.jpg" alt=""></p>
+<figcaption>
+Hot dog! Mica went for a swim at every opportunity to stay cool.
+</figcaption>
+</figure>
+<p>There was a lot of smoke lately, but it cleared up in time for a Sunday peak! This was going to be Mica’s longest hike yet, and daiyi’s second time up Paiute Pass Trail this season (1.5 weeks ago to climb <a href="/blog/emerson">Emerson</a>). Long and good day out with friends.</p>
+<ul>
+<li>Trailhead: North Lake Hiker Parking (37.230580, -118.618835), or the overflow up the road. Many stern warnings against day parking at North Lake Campground.</li>
+<li>Route: Paiute Pass to East Ridge</li>
+<li>Total distance: 22.5 miles, 5,242 ft gain
+<ul>
+<li>14.2 miles and 3,047 ft gain on trail</li>
+<li>8.4 miles and 2,155 ft gain cross-country</li>
+</ul>
+</li>
+<li>Time car-to-car: 12 hours</li>
+<li>Good for dogs? Long but great terrain. Last 100 vertical feet is tricky routefinding for dogs</li>
+</ul>
+<figure>
+
+<div id="leaflet1375" style="
+            height: 250px;
+            width: 100%;
+            margin: 0px;
+            padding: 0px
+            ">
+</div>
+<script defer="defer">
+  window.hexoLmaps = window.hexoLmaps || { maps: {}};
+  window.hexoLmaps.maps['initleaflet1375'] = function init() {
+    var mymap = L.map('leaflet1375');
+    mymap.setView([0 , 0], 0);
+    var osmURL = 'https://caltopo.s3.amazonaws.com/topo/{z}/{x}/{y}.png';
+    L.tileLayer(osmURL, {
+        attribution: 'Map data © USGS. Hosted by Caltopo',
+        maxZoom: 18
+    }).addTo(mymap);
+    var geoJSON = 'pilot-knob.json'
+    if (geoJSON) {
+      doLoadFile(geoJSON, function(data) {
+        var layer = L.geoJson(JSON.parse(data), {
+          onEachFeature: function (feature, layer) {
+            var title = '<b>'+feature.properties.title+'</b>';
+            var description = feature.properties.description ? '<p>'+feature.properties.description+'</p>' : '';
+            layer.bindPopup(title+description);
+          }
+        });
+        layer.addTo(mymap);
+        mymap.fitBounds(layer.getBounds());
+      });
+    }
+  }
+  function doLoadFile(url, callback) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (xhttp.readyState == 4 && xhttp.status == 200) {
+        callback(xhttp.responseText);
+      }
+    };
+    xhttp.open("GET", url, true);
+    xhttp.send();
+  }
+  function makeMaps() {
+    for (var map in window.hexoLmaps.maps) {
+       console.log('map #', map);
+       window.hexoLmaps.maps[map]();
+    }
+  }
+  function doLoadScript(url, callback) {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+    script.onreadystatechange = script.onload = function() {
+      if (!callback.done && (!script.readyState || /loaded|complete/.test(script.readyState))) {
+        callback.done = true;
+        callback();
+      }
+    };
+    document.querySelector('head').appendChild(script);
+  }
+  function loadScript() {
+    window.hexoLmaps.mapScripLoaded = true;
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css';
+    document.querySelector('head').appendChild(css);
+
+    doLoadScript('https://unpkg.com/leaflet@1.7.1/dist/leaflet-src.js', makeMaps)
+  }
+  if (!window.hexoLmaps.mapScripLoaded) {
+    loadScript();
+  }
+</script>
+<noscript>You'll need javacript to see the map.</noscript>
+<figcaption>
+<p>Paiute Pass to East Ridge of Pilot Knob. <a href="pilot-knob-mica.gpx">gpx</a>.</p>
+</figcaption>
+</figure>
+<h3 id="Mica’s-trip-report"><a class="header-anchor" href="#Mica’s-trip-report">&gt;</a>Mica’s trip report</h3>
+<p>Hi, I’m Mica, I’m a dog. Today I hike my 12th <a target="_blank" rel="noopener" href="https://www.sierraclub.org/angeles/sierra-peaks/sps-peaks-list">SPS</a>, which stands for Sierra Pup Summits ;D</p>
+<figure>
+<p><img src="trailhead.jpg" alt=""></p>
+<figcaption>
+Trailhead selfie! (left to right) my housemates daiyi and Yelly, and my friend Stephanie (our first hike together!)
+</figcaption>
+</figure>
+<p>Some shenanigans at the start of the day. As we drive to the trailhead my friend Spot texts us that their home got broken into by a human over night and they were 30 minutes late to meet us. The decision-making and communication were rushed, so we end up starting without them a bit past 8am, thinking they would be fast and catch.</p>
+<figure>
+<p><img src="paiute-lake.jpg" alt=""></p>
+<figcaption>
+It's hot!! I take a dip and a sip in Paiute Lake
+</figcaption>
+</figure>
+<p>We pull over after 1 hour 45 min at the beach at Paiute Lake, seeing if Spot and company would catch up.</p>
+<figure>
+<p><img src="paiute-lake-beach.jpg" alt=""></p>
+<figcaption>
+Waiting for half an hour at the beach
+</figcaption>
+</figure>
+<p>After 30 minutes they hadn’t arrived, so we continue. The humans sound worried, but I knew Spot is great at hiking!</p>
+<p>At Paiute Pass we have a big view of the trail, and Yelly spies a white dot that could be a dog. Soon Spot is here, with his people Lucas and Jaymie close behind!</p>
+<figure>
+<p><img src="dingos.jpg" alt=""></p>
+<figcaption>
+I greet Spot at Paiute Pass!!
+</figcaption>
+</figure>
+<p>The humans sound excited and relieved, and resolve to call each other to hash out specifics in the future. I don’t know how to use a phone, I’m a dog!</p>
+<figure>
+<p><img src="paiute-pass.jpg" alt=""></p>
+<figcaption>
+Crossing Paiute Pass, now a party of 5 people and 2 dingos
+</figcaption>
+</figure>
+<p>7 miles into the hike, Spot’s humans Jaymie and Lucas are ready to turn around. It’s been a rough morning for them with the break-in. We have a big group hug, I give Spot a goodbye lick, and we head northwest off the trail to start the big cross-country part of the day.</p>
+<div class="photo-small">
+<figure>
+<p><img src="bye-spot.jpg" alt=""></p>
+<figcaption>
+Bye spot! bye Jaymie and Lucas <3
+</figcaption>
+</figure>
+</div>
+<figure>
+<p><img src="crosscountry.jpg" alt=""></p>
+<figcaption>
+Starting off cross-country. You can see Pilot Knob rising in the distance! about 4.25 miles away.
+</figcaption>
+</figure>
+<p>It’s super hot and my tongue is dragging on the floor. We pass by some streams on the map but they’re dry, because it’s late season. Luckily there’s a lot of little run-offs as we do the long, lumpy traverse of Humphreys Basin. I go for a swim every opportunity I can!</p>
+<figure>
+<p><img src="meadow-stream.jpg" alt=""></p>
+<figcaption>
+I find a gross little stream and immediately get inside!
+</figcaption>
+</figure>
+<p>The humans find a running stream and fill up on water, treating with tablets. I can drink anything, I’m a dog!</p>
+<figure>
+<p><img src="humphreys-basin.jpg" alt=""></p>
+<figcaption>
+Crossing Humphreys Basin, with big views of Mount Humphreys. It looks so much more imposing from the west side than the usual east-side Bishop views!
+</figcaption>
+</figure>
+<figure>
+<p><img src="grass.jpg" alt=""></p>
+<figcaption>
+Very bio-core grass patterns in the basin.
+</figcaption>
+</figure>
+<div class="photos">
+<figure>
+<p><img src="water-hole.jpg" alt=""></p>
+<figcaption>
+I'm in a water hole
+</figcaption>
+</figure>
+<figure>
+<p><img src="water-hole-2.jpg" alt=""></p>
+<figcaption>
+Aw yis
+</figcaption>
+</figure>
+</div>
+<figure>
+<p><img src="square-lake-lookout.jpg" alt=""></p>
+<figcaption>
+I found Square Lake! You can see Pilot Knob again, straight ahead.
+</figcaption>
+</figure>
+<figure>
+<p><img src="square-lake-mica.jpg" alt=""></p>
+<figcaption>
+I scout out the beachy north end of Square Lake
+</figcaption>
+</figure>
+<figure>
+<p><img src="square-lake-lunch.jpg" alt=""></p>
+<figcaption>
+Lunch at the beach. Stephanie's sandwich smells so good! Why don't I get a sandwich??
+</figcaption>
+</figure>
+<figure>
+<p><img src="square-lake-pan.jpg" alt=""></p>
+<figcaption>
+Birb-eye view of our lunching spot 
+</figcaption>
+</figure>
+<div class="photos">
+<figure>
+<p><img src="square-lake-swim.jpg" alt=""></p>
+<figcaption>
+One last swim before leaving Square Lake
+</figcaption>
+</figure>
+<figure>
+<p><img src="square-lake-photo.jpg" alt=""></p>
+<figcaption>
+Behind the scenes
+</figcaption>
+</figure>
+</div>
+<figure>
+<p><img src="pilot-knob.jpg" alt=""></p>
+<figcaption>
+More cross-country to Pilot Knob, descending a little bit and then contouring to gain the saddle. That's it right there! So close!
+</figcaption>
+</figure>
+<figure>
+<p><img src="pilot-knob-ridge.jpg" alt=""></p>
+<figcaption>
+Going up from the saddle. Very hot!! no more water to jump into.
+</figcaption>
+</figure>
+<p>Stephanie is satisfied with how far she’s come, so she finds a shady rock to camp out under while the rest of us continue. daiyi gives her a foam sitting pad they found on the ground earlier!</p>
+<figure>
+<p><img src="stephanie-under-a-rock.jpg" alt=""></p>
+<figcaption>
+Stephanie waits for us in the best nook on the mountain.
+</figcaption>
+</figure>
+<p>The first part of the slopes is sandy scree and small talus, which is easy for dogs. The last hundred feet of gain to the top gets trickier. It’s definitely possible for a dog, but keeping it class 2 is not always obvious. I’m lucky to have daiyi and Yelly working together to help me find the best way up.</p>
+<figure>
+<p><img src="summit-ridge.jpg" alt=""></p>
+<figcaption>
+Once at the top, you have to traverse the ridge further than expected to find the official summit.
+</figcaption>
+</figure>
+<div class="photos">
+<figure>
+<p><img src="register.jpg" alt=""></p>
+<figcaption>
+We did it! Yelly finds the register. 
+</figcaption>
+</figure>
+<figure>
+<p><img src="register-2.jpg" alt=""></p>
+<figcaption>
+Entering our paw prints into the history book
+</figcaption>
+</figure>
+</div>
+<figure>
+<p><img src="summit-mica.jpg" alt=""></p>
+<figcaption>
+Top dog on Pilot Knob around 2:45pm, 6 hours 45 min after leaving the trailhead. SPS #12!
+</figcaption>
+</figure>
+<p>It’s still hot! I’m panting up a storm and Yelly shares some of her funky tube water.</p>
+<figure>
+<p><img src="summit-selfie.jpg" alt=""></p>
+<figcaption>
+Summit selfie!
+</figcaption>
+</figure>
+<p>Our long day is only halfway done! The way down is much easier for me than the way up, because we drop on the slope earlier instead of following the ridge like we did on the way up. Soon we reunite with Stephanie, who looks very happily rested. Now we have 4 miles of cross-country back to the trail.</p>
+<figure>
+<p><img src="ridge-down.jpg" alt=""></p>
+<figcaption>
+Coming down the slopes together.
+</figcaption>
+</figure>
+<figure>
+<p><img src="meadow.jpg" alt=""></p>
+<figcaption>
+Yelly crossing a scenic stream and meadow.
+</figcaption>
+</figure>
+<figure>
+<p><img src="pond-again.jpg" alt=""></p>
+<figcaption>
+It's nice to be off of Pilot Knob, where I can once again go swimming every chance I get! Gotta stay cool with prosthetic sweat.
+</figcaption>
+</figure>
+<figure>
+<p><img src="square-lake-redux.jpg" alt=""></p>
+<figcaption>
+We're back at Square Lake, and this time humans go swimming too! Stephanie and daiyi take a cool dip. Yelly eats human kibbles (peanut M&Ms).
+</figcaption>
+</figure>
+<figure>
+<p><img src="twins.jpg" alt=""></p>
+<figcaption>
+Twinning with our packs!
+</figcaption>
+</figure>
+<p>We’re all really feeling the small ups and downs on the remaining cross-country. Daiyi has had holes in their shoes for the last couple of hikes and it makes their soles sore. I’m a dog, I don’t wear shoes! My toe beans were definitely getting a little beat, I shed a bit of top skin and had some rubbing, but no lost toe nails or blisters :D</p>
+<figure>
+<p><img src="trail-YAY.jpg" alt=""></p>
+<figcaption>
+Great excitement finally getting back on the trail! 2 hours 40 min after leaving the summit. 
+</figcaption>
+</figure>
+<p>Just 7 miles of Paiute Pass trail left, which goes by much quicker. I’m getting tired, and sticking to the heels of my human friends.</p>
+<figure>
+<p><img src="paiute-pass-pm.jpg" alt=""></p>
+<figcaption>
+Looking back into Humphreys Basin at Paiute Pass
+</figcaption>
+</figure>
+<p>Although I somehow still have energy to chase one last squirrel! I almost get it this time but it tricks me by standing very very still.</p>
+<p>It’s much cooler now, but I still go for a swim in the ponds between Paiute Pass and Loch Leven.</p>
+<figure>
+<p><img src="dingo-roll.gif" alt=""></p>
+<figcaption>
+Doing my dingo roll after a swim in the lake.
+</figcaption>
+</figure>
+<figure>
+<p><img src="dusk.jpg" alt=""></p>
+<figcaption>
+Descending past Emerson and Paiute Crags, distant mountains glowing with dusk.
+</figcaption>
+</figure>
+<figure>
+<p>We wind through the forest at sunset, and make it to the dirt road just as it’s too dark to see! No headlamps! It’s 8pm, which makes our dayhike a total of 12 hours. I jump into the EV and immediately curl up into a donut. We drive down to Bishop, and I inhale kibble and water in the car and go back to sleep while the humans meet up with Astro Ben at Mountain Rambler for dinner.</p>
+<p>I’m totally passed out for the whole ride back to Mammoth.</p>
+<figure>
+<p><img src="dingo-slep.jpg" alt=""></p>
+<figcaption>
+Back home, I am v v sleepy.
+</figcaption>
+</figure>
+<div class="photo-small">
+<figure>
+<p><img src="leo-ice-cream.jpg" alt=""></p>
+<figcaption>
+Leo made more ice cream that I can't eat!
+</figcaption>
+</figure>
+</div>
+<figure>
+<p><img src="ding-still-slep.jpg" alt=""></p>
+<figcaption>
+The next day, I'm pretty beat and sleep on every surface in the house.
+</figcaption>
+</figure>
+<p>It was my longest hike yet for my 12th SPS! And then I slept for two whole days.</p>
+</div><div class="entry-footer"><div class="signoff"><p><3,</p><p>Mica the dingo</p></div><div class="tags"><ul><li><a href="/blog/categories/mica-s-journal/">mica's journal</a></li><li><a href="/blog/tags/SPS/">SPS</a></li><li><a href="/blog/tags/peakbagging/">peakbagging</a></li></ul></div><div class="comments"><h2><a href="#comments" id="comments">comments</a></h2><p>No comments at the moment. Hey, you could write one \o/</p><form class="comment-instructions" action="https://comment-pr.vercel.app/api" method="post"><h3>Take me to comment town</h3><p>Mica and I love to read your comments. It's easy to write one</p><label for="name">Name*<input type="text" name="name" placeholder="Mica" required></label><label for="url">Website/social URL<input type="text" name="url" placeholder="https://www.strava.com/athletes/64615462"></label><label for="color">Accent color (hex code or html color  name)<input type="text" name="color" placeholder="#00ff7f or springgreen"></label><input type="hidden" name="path" value="source/_posts/pilot-knob/_comments.yaml"><label for="comment">Comment*<textarea placeholder="" name="comment" required></textarea></label><button type="submit">Submit</button></form></div></div></article></div></div><footer><div class="box-content"><nav><ul><li><a href="https://daiyi.co/blog/rss2.xml">rss</a></li><li><a href="https://daiyi.co/blog/archives">archive</a></li></ul><div><form action="https://buttondown.email/api/emails/embed-subscribe/daiyi" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/daiyi', 'popupwindow')">
+<label for="bd-email" class="hidden">Get email updates</label>
+<input type="email" name="email" id="bd-email" placeholder="Get email updates" />
+<input type="hidden" value="1" name="embed" />
+<button type="submit">Subscribe</button>
+</form></div></nav></div></footer></div></body></html>

@@ -7,7 +7,7 @@ tags:
   - SPS
   - peakbagging
 summary: Mica's 12th SPS and longest dayhike at 22.5+ miles!
-peakbaggerurl: ""
+peakbaggerurl: "https://www.peakbagger.com/climber/ascent.aspx?aid=1755045"
 image: summit-ridge.jpg
 location: Mammoth Lakes
 author: Mica the dingo

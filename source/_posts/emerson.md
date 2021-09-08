@@ -1,13 +1,13 @@
 ---
-title: Mount Emerson (13,204 ft) - Waterfall Route and homemade ice cream
+title: Mount Emerson - Waterfall Route and homemade ice cream
 date: 2021-08-19
 categories: trip reports
 tags:
   - SPS
   - climbing
   - peakbagging
-summary: Chancing the fire smoke for a big cardio day. A comfy chimney to a solid, exposed ridge. Fun!
-image:
+summary: A comfy chimney to a solid, exposed ridge. Fun!
+image: emerson-mica-x.jpg
 location: Mammoth Lakes
 ---
 

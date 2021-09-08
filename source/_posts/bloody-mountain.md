@@ -24,6 +24,8 @@ Sipping that spicy trail juice on Laurel Lakes Road. Bloody Mountain in the far 
 
 The crux of this peak is [Laurel Lakes Road](#A-Note-on-Road-Conditions), a spoopy high-clearance dirt road with large washouts that's class 1 for dogs but class 4 for cars. There's also not much tree cover or water, so I got an early start on an overcast day, and the clouds made the views dramatic. The cross-country is tame, though steep and exposed at times, and solidly class 2 that's friendly for dingos!
 
+EDIT: Laurel Lakes Road is closed as of July 24, 2021. [Details here](#A-Note-on-Road-Conditions).
+
 - trailhead: Laurel Lakes Road
 - route: northeast ridge, class 2
 - total distance: 14.6 miles (23.5 km). Only 5.5mi if you drive all the way up Laurel Lakes Rd
@@ -48,7 +50,11 @@ Northeast ridge of Bloody Mountain. [Download gpx](bloody-mountain_mica.gpx).
 
 ### A Note on Road Conditions
 
-So that you are emotionally prepared, know that you might have to start your hike more than 4 miles before the trailhead listed on hiking websites. There are 9 miles round-trip of washed out driving to and from the true trailhead (9,895') of Bloody Mountain. This isn't an ordinary dirt road, it's real 4x4/high clearance with 3-foot chasms and requires a capable vehicle and capable driver. My housemates did it with their truck and said it was an hour each way. We opted instead to walk from the very start of the road (7,320'), which took 1.5 hours each way. Between 2 hour of internally screaming in a car, or 3 hours of uneventful walking, I thought the extra hour of walking was fine :'D
+EDIT: Laurel Lakes road is [closed as of July 24, 2021](https://www.fs.usda.gov/alerts/inyo/alerts-notices/?aid=67754), so expect a 14.6 mile hike. Check road conditions [here](https://www.fs.usda.gov/recarea/inyo/recreation/hiking/recarea/?recid=20464&actid=51).
+
+> Recent heavy rain has washed out Laurel Lakes Road 28E201 south of Sherwin Creek Road near Mammoth Lakes. This road is impassible and the public is asked to refrain driving on the road until repairs are made.
+
+So that you are emotionally prepared, know that you might have to start your hike more than 4 miles before the trailhead listed on hiking websites. There are 9 miles round-trip of washed out driving to and from the true trailhead (9,895') of Bloody Mountain. This isn't an ordinary dirt road, it's real 4x4/high clearance with 3-foot chasms and requires a capable vehicle and capable driver. My [housemates did it](https://www.peakbagger.com/climber/ascent.aspx?aid=1454752) with their truck in August 2020 and said it was an hour each way. We opted instead to walk from the very start of the road (7,320'), which took 1.5 hours each way. Between 2 hour of internally screaming in a car, or 3 hours of uneventful walking, I thought the extra hour of walking was fine :'D
 
 <figure>
 

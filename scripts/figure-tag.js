@@ -1,33 +1,43 @@
 /** Usage
-{% figure src="dog-van-sit.jpeg" %}
+ 
+1) markdown caption:
+
+{% figureMD src="dog-van-sit.jpeg" %}
 Have you ever seen a van sitting so nicely?
-{% endfigure %} 
+{% endfigureMD %} 
+
+2) txt caption:
+
+{% figure src="dog-van-sit.jpeg" alt="Have you ever seen a van sitting so nicely?" %}
+
 */
 
 "use strict";
 
-var marked = require("marked");
+const marked = require("marked");
 
 function argsToAttrs(attrs) {
-  var attrString = '{key}="{values}"';
+  let attrString = '{key}="{values}"';
+  let alt = "";
 
   attrs.forEach(function (attr, index) {
-    var pair = attr.split("=");
+    const pair = attr.split("=");
+    if (pair[0] === "alt") {
+      alt = pair[1];
+    }
 
     attrs[index] = attrString
       .replace(/{key}/g, pair[0])
       .replace(/{values}/g, pair[1]);
   });
 
-  return attrs.join(" ");
+  return [attrs, alt];
 }
 
 hexo.extend.tag.register(
-  "figure",
+  "figureMD",
   function (args, body) {
-    let caption = marked(body),
-      attrs = "",
-      html = `
+    let html = `
 <figure>
     <img {attrs}>
     <figcaption>
@@ -35,9 +45,30 @@ hexo.extend.tag.register(
     </figcaption>
 </figure>`;
 
-    attrs = argsToAttrs(args);
+    const [attrs, alt] = argsToAttrs(args);
+    const attrString = attrs.join(" ");
+    const caption = marked(body);
 
-    return html.replace(/{attrs}/g, attrs).replace(/{caption}/g, caption);
+    return html.replace(/{attrs}/g, attrString).replace(/{caption}/g, caption);
   },
   { ends: true }
+);
+
+hexo.extend.tag.register(
+  "figure",
+  function (args, body) {
+    let html = `
+  <figure>
+      <img {attrs}>
+      <figcaption>
+      {caption}
+      </figcaption>
+  </figure>`;
+
+    const [attrs, alt] = argsToAttrs(args);
+    const attrString = attrs.join(" ");
+
+    return html.replace(/{attrs}/g, attrString).replace(/{caption}/g, alt);
+  },
+  { ends: false }
 );

@@ -385,6 +385,8 @@ video
   display: flex
   align-items: flex-start
   justify-content: center
+  figure
+    margin-bottom: 0
   img
     flex: 0 0 70%
     width: 70%
@@ -568,20 +570,28 @@ figure
   .box-content,
   .header
     width: 650px
+    &.index
+      width: 900px;
 @media (max-width: 940px)
+  .box-content,
+  .header
+    margin: 0 10px
+    &.index
+      width: auto;
+@media (max-width: 700px)
   // fixes silly soundcloud resizing thing wtf
   .page-content
     width: 100%
   .box-content,
   .header
     width: auto
-    margin: 0 10px
+    &.index
+      width: auto;
   .items
     margin: 0
     .item
-      flex: 0 0 100%
+      flex: 0 0 calc(100% / 2)
       .item-content
-        margin: 0
         .date
           margin-right: $gutter
   blockquote
@@ -614,6 +624,11 @@ figure
     .photo,
     figure
       flex: 1 1 auto
+  .items
+    .item
+      flex: 0 0 100%
+      .item-content
+        margin: 0
 
 // accessibly hidden
 // https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/

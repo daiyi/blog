@@ -4,7 +4,7 @@ for category in listToRender
   - posts = category.posts.sort('date', 'desc').toArray()
   - categoryInfo = config.category_config[category.name] || {}
   if is_archive()
-      h2
+      h1
         a(href=url_for(category.path)) #{category.name}
   if categoryInfo.image
     - var asset = href=url_for(categoryInfo.image)

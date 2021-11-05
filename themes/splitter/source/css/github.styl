@@ -1,19 +1,43 @@
+
+:root {
+  --code-highlight: #f5f3f9
+  --code-background: #f5f3f9
+  --code-text: #75629c
+  --code-deletion: #fdd
+  --code-addition: #dfd
+  --code-gutter: #999;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --code-highlight: #3b3940
+    --code-background: #2c2933
+    --code-text: #dbd2ee
+    --code-deletion: #771515
+    --code-addition: #305730
+    --code-gutter: #666;
+  }
+}
+
 code
-  background: #f5f3f9
-  color: #75629c
-  font-family: 'courier new', monospace
+  background: var(--code-highlight)
+  color: var(--code-text)
+  padding: 0 0.2em
+  border-radius: 2px
 .highlight
   display: block
   overflow-x: auto
   padding: 0.5em
-  color: #333
-  background: #f5f3f9
+  background: var(--code-background)
+  color: var(--code-text)
   line-height: 1.5em
   .line
     min-height: 10px
 .gutter
+  // padding-right: 1em
   pre
-    color: #f5f3f9
+    display: none
+    // color: var(--code-gutter)
     margin-block-start: 0
     margin-block-end: 0
 .comment,
@@ -63,9 +87,9 @@ code
   color: #999
   font-weight: bold
 .deletion
-  background: #fdd
+  background: var(--code-deletion)
 .addition
-  background: #dfd
+  background: var(--code-addition)
 .emphasis
   font-style: italic
 .strong

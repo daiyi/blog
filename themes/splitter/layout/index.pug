@@ -11,7 +11,7 @@ block site_body
             .meta
               span.date #{date(post.date, "YY MM DD")}
               != post.location
-            h3
+            h2
               a(href=url_for(post.path))= post.title
 
             .excerpt

@@ -8,7 +8,7 @@ block site_body
     .box-content
       header
         if is_tag()
-          h2 topic: #{page.tag}
+          h1 topic: #{page.tag}
           - listToRender = []
           - listToRender.push(site.tags.findOne({name: page.tag}))
         else if is_archive()

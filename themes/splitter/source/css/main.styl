@@ -1,37 +1,56 @@
-@import url("https://fonts.googleapis.com/css?family=Courgette|Cousine:400|News+Cycle:400,700")
+@import url("https://fonts.googleapis.com/css?family=Cousine:400|News+Cycle:400,700")
+
+:root {
+  --background: #fff;
+  --background-inverse: #222;
+  --text: #222;
+  --text-secondary: #666;
+  --hover-underline: #aaa;
+  --focus: #00a4a6;
+  --border: #dbdbdb;
+  --border-inverse: #808080;
+  --button-hover: #dddddd;
+  --button-hover-inverse: #324759;
+  --form-placeholder: #949494;
+  --form-text: #000000;
+  --form-text-inverse: #ffffff;
+  --code-highlight:#f5f3f9
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #222;
+    --background-inverse: #333;
+    --text: #ddd;
+    --text-secondary: #999;
+    --hover-underline: #999;
+    --focus: #00a4a6;
+    --border: #444;
+    --border-inverse: #999;
+    --button-hover: #324759;
+    --button-hover-inverse: #dddddd;
+    --form-placeholder: #949494;
+    --form-text: #ffffff;
+    --form-text-inverse: #999;
+  }
+}
+
 @import 'github'
+
 caption-font()
   font-size: 14px
   font-family: $header-font
   text-transform: uppercase
   letter-spacing: 2px
-
-:root {
-  --background: #efefef;
-  --background-dark: #222;
-  --focus: #00a4a6;
-  --border: #dbdbdb;
-  --border-dark: #808080;
-  --button-hover: #dddddd;
-  --button-hover-dark: #324759;
-  --form-placeholder: #949494;
-  --form-text: #000000;
-  --form-text-dark: #ffffff;
-}
-
-$black = #222222
-$white = #dddddd
-$teal = #00a4a6
-$highlight = $teal
 $text-font = "Cousine", monospace
-$site-title-font = "Courgette", cursive
+$site-title-font = "Cousine", monospace
 $header-font = "News Cycle", sans-serif
 $lead-font = "Noticia Text", serif
 $gutter = 20px
 html,
 body
-  background: #fff
-  color: $black
+  background: var(--background)
+  color: var(--text)
   font-family: $text-font
   font-size: 16px
   margin: 0
@@ -54,7 +73,7 @@ body
   flex: 1
   &.header
     padding-top: 0
-    border-top: 20px lighten($black, 75) solid
+    border-top: 20px var(--border) solid
     width: 100%
     margin-bottom: 40px
 .box-content,
@@ -70,22 +89,6 @@ body
 .box-content
   &.index
     margin-top: $gutter
-// .photo {
-//   width: 100%;
-//   margin: $gutter*2 0;
-//
-//   .caption {
-//     @include caption-font();
-//
-//     display: block;
-//     margin: 0;
-//     padding: 2px 10px;
-//     width: 100%;
-//     background: $black;
-//     color: $white;
-//     box-sizing: border-box;
-//   }
-// }
 h1,
 h2,
 h3,
@@ -97,13 +100,14 @@ h6
   line-height: 1.2em
 h1
   font-size: 38px
-  font-family: $site-title-font
-  margin-top: -20px
-  font-weight: normal
-h1 a,
-h1 a:visited,
-h1 a:hover
-  border: none
+  a,
+  a:visited,
+  a:hover
+    border: none
+.header h1
+    font-family: $site-title-font
+    margin-top: -20px
+    font-weight: normal
 h2 a,
 h2 a:visited,
 h2 a:hover,
@@ -115,13 +119,13 @@ h4 a:visited,
 h4 a:hover
   border: none
 h2
-  font-size: 38px
-h3
   font-size: 28px
-h4
+h3
   font-size: 20px
-h5
+h4
   font-size: 18px
+h5
+  font-size: 16px
 p
   line-height: 1.8em
   margin: 30px 0
@@ -162,8 +166,7 @@ textarea
   &:disabled
     cursor: not-allowed
     opacity: 0.5
-input[type="text"],
-input[type="email"],
+input,
 textarea,
 button
   border: 1px solid var(--border)
@@ -193,9 +196,9 @@ label
   textarea
     width: 100%
 .description
-  color: #666
+  color: var(--text-secondary)
   line-height: 1.4em
-.post h3
+.post h2
   margin-top: 2em
 .lead
   font-size: 36px
@@ -204,7 +207,6 @@ label
   margin-bottom: 30px
 .lead-simple,
 strong
-  font-size: 27px
   font-family: "news cycle"
   line-height: 1em
   margin-bottom: 30px
@@ -234,7 +236,7 @@ strong
         margin: 20px 0
 footer
   width: 100%
-  background: var(--background-dark)
+  background: var(--background-inverse)
   color: #ddd
   display: flex
   flex-direction: column
@@ -245,11 +247,11 @@ footer
     text-decoration: none
   a,
   a:visited
-    color: $white
-    border-bottom: 2px #666666 dotted
+    color: var(--text-inverse)
+    border-bottom: 2px var(--hover-underline) dotted
   a:hover
     text-decoration: none
-    border-bottom: 2px #ddd solid
+    border-bottom: 2px var(--hover-underline) solid
   a.button
     padding: 10px 20px
     border: 3px #999 solid
@@ -268,16 +270,17 @@ footer
   input,
   select,
   textarea
-    color: var(--form-text-dark)
-    background-color: var(--background-dark)
+    color: var(--form-text-inverse)
+    background-color: var(--background-inverse)
+    border: 1px solid var(--border-inverse)
   input[type="text"],
   textarea,
   button
-    border: 1px solid var(--border-dark)
+    border: 1px solid var(--border-inverse)
   button:hover,
   input[type="submit"]:hover,
   input[type="button"]:hover
-    background: var(--button-hover-dark)
+    background: var(--button-hover-inverse)
   nav
     display: flex
     flex-direction: row
@@ -286,7 +289,7 @@ footer
 article
   header
     margin-bottom: ($gutter * 3 / 2)
-    h2
+    h1
       margin-bottom: 5px
   .entry-footer
     margin-top: 40px
@@ -333,17 +336,17 @@ article
         word-spacing: 0px
         letter-spacing: 0px
         margin-right: 5px
-    h3
+    h2
       margin-top: 5px
       margin-bottom: 5px
       line-height: 1.1em
 .items.article-spread
   .item-content
-    border-top: 4px solid $black
+    border-top: 4px solid var(--text)
 .archive
   h2
     display: inline-block
-    border-bottom: 4px solid $black
+    border-bottom: 4px solid var(--border)
   .items
     margin: 0
     margin-bottom: ($gutter * 2)
@@ -376,7 +379,7 @@ nav,
     a
       border: none
     a:hover
-      border-bottom: 2px solid #222
+      border-bottom: 2px solid var(--hover-underline)
 video
   margin: 60px auto
   display: block
@@ -447,7 +450,7 @@ a
   text-decoration: none
 a,
 a:visited
-  color: $black
+  color: var(--text)
   border-bottom: 2px #666666 dotted
 a:hover
   text-decoration: none
@@ -474,13 +477,12 @@ ul.link-list
   a:hover
     color: #05ebb1
 blockquote
-  color: darken($black, 10)
-  border-left: 5px solid lighten($black, 70)
+  border-left: 5px solid var(--border)
   padding-left: $gutter
 .linebreak
   height: 1px
   width: 40px
-  border-top: 3px solid $black
+  border-top: 3px solid var(--border)
 figure
   margin: 0
   margin-bottom: ($gutter * 2)
@@ -504,7 +506,7 @@ figure
 .comments
   max-width: 600px
   font-size: 14px
-  border-top: 3px solid $black
+  border-top: 3px solid var(--border)
   padding: 5px 0
   margin-top: 50px
   ul
@@ -549,16 +551,15 @@ figure
     margin: 25px 10px
   textarea
     background: transparent
-    color: lighten($black, 20)
     border: 1px solid
-    border-color: lighten($black, 20)
+    border-color: var(--border)
     padding: 10px
     width: 100%
     height: 8em
     box-sizing: border-box
   textarea:focus
-    color: $black
-    border-color: $black
+    color: var(--text)
+    border-color: var(--text)
   .comment-instructions
     p
       margin: 10px 0

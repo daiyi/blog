@@ -8,6 +8,7 @@ tags:
 summary: Merino is too good to throw away. Minimal sewing skills were used to transform ripped activewear into winter hacking accessories ✨
 image: handwarmers.jpeg
 location: Mammoth Lakes
+showSummary: false
 ---
 
 {% figure src="handwarmers.jpeg" alt="DIY fingerless gloves for typing at your maximal productive speed. Jk I was playing video games." %}

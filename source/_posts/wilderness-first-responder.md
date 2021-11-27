@@ -3,7 +3,7 @@ title: Wilderness First Responder (WFR)
 date: 2021-11-26 13:18:57
 categories:
   - life recap
-  - trip report
+  - trip reports
 tags:
 summary: "80 hours of bootcamp in an outdoor classroom between the mountains and the desert. Totally exhausting to the bone but that really felt like the most satisfying and empowering way I've spent time since the pandemic."
 image: classroom.jpeg

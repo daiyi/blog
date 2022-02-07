@@ -126,11 +126,13 @@ h4
   font-size: 18px
 h5
   font-size: 16px
-p
+p,
+li
   line-height: 1.8em
-  margin: 30px 0
   word-spacing: -1px
   letter-spacing: -0.1px
+p
+  margin: 30px 0
 img + p
   margin-top: ($gutter * 3 / 2)
 ::-webkit-input-placeholder
@@ -392,9 +394,11 @@ video
   justify-content: center
   figure
     margin-bottom: 0
-  img
-    flex: 0 0 70%
-    width: 70%
+
+.photo-small img,
+img.small
+  flex: 0 0 70%
+  width: 70%
 .photo-inline
   margin: $gutter * 2 0
   display: flex
@@ -619,9 +623,10 @@ figure
   .photo-small
     margin: $gutter * 2 0
     display: block
-    img
-      flex: none
-      width: 100%
+  .photo-small img,
+  img.small
+    flex: none
+    width: 100%
   figure
     figcaption
       font-size: 80%

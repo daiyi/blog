@@ -22,7 +22,7 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^1.0.0",
     "js-yaml": "^3.13.1",
-    "marked": "^4.0.10"
+    "marked": "^0.8.0"
   },
   "scripts": {
     "test": "hexo generate",

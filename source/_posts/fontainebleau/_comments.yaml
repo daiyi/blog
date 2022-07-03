@@ -1,0 +1,8 @@
+# how to leave comments: https://github.com/daiyi/blog/#how-to-add-comment-on-a-post
+# template (whitespace sensitive!):
+# - name:
+#   date:
+#   url:
+#   color:
+#   comment: |
+#     words words words

@@ -6,7 +6,7 @@ tags:
   - SPS
   - peakbagging
   - sierra challenge
-summary: Big dayhike to a remote peak with rad views of Yosemite, Tuolumne, and Mammoth. I got kind of fucked by wildfire smoke on the way out though!
+summary: Big dayhike to a remote peak with rad views of Yosemite, Tuolumne, and Mammoth. Wildfire smoke.
 image: rafee-scramble.jpg
 location: June Lake, CA
 ---

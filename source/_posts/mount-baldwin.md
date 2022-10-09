@@ -8,7 +8,7 @@ tags:
   - peakbagging
   - good for dogs
 summary: Good for dogs
-image: 
+image: preview.jpeg
 location: Mammoth Lakes
 author: Mica
 ---

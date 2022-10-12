@@ -1,0 +1,225 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width, initial-scale=1" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta name="description" content="thoughts and ideas and essays by daiyi; unrefined brain-to-internet pipe; public journaling"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@daiyitastic"><meta name="twitter:creator" content="@daiyitastic"><meta name="twitter:description" content="Pipe hike!! remote like the moon, uphill both ways, great views of the Palisades, good for dogs!"><meta name="twitter:image" content="https://daiyi.co/blog/cloudripper/cloudripper-summit.jpeg"><meta property="og:url" content="https://daiyi.co/blog/cloudripper/index.html"><meta property="og:title" content="Cloudripper &amp; Vagabond"><meta property="og:description" content="Pipe hike!! remote like the moon, uphill both ways, great views of the Palisades, good for dogs!"><meta property="og:image" content="https://daiyi.co/blog/cloudripper/cloudripper-summit.jpeg"><link rel="Shortcut Icon" type="image/x-icon" href="/blog/favicon.png"><link rel="alternate" href="/blog/rss2.xml"><meta name="author" content="daiyi"><meta name="description" content="thoughts and ideas and essays by daiyi; unrefined brain-to-internet pipe; public journaling"><title>Cloudripper &amp; Vagabond &mdash;&nbsp;daiyi</title><link rel="alternate" href="/blog/rss2.xml" title="daiyi" type="application/rss2.xml">
+<link rel="stylesheet" href="/blog/css/main.css">
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/blog/rss2.xml" title="daiyi" type="application/rss+xml">
+</head><body><div class="page"><div class="page-content"><div class="box header"><div class="box-content"><h1><a href="/blog/">daiyi</a></h1><div class="nav"><ul><li><a href="https://daiyi.co/blog/archives">archive</a></li><li><a href="https://daiyi.co">about</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/daiyitastic">twitter</a></li><li><a target="_blank" rel="noopener" href="https://buttondown.email/daiyi">email updates</a></li></ul></div></div></div><div class="box"><article class="post box-content"><header><h1><a href="/blog/cloudripper/">Cloudripper &amp; Vagabond</a></h1><div class="meta"><span class="date">2022 09 28</span><span class="location">Mammoth Lakes</span></div></header><div class="post-content"><p>Fairly easygoing Bishop-area Sierra peaks with extremely sick fall colours (~early October) at the start. 20 minutes of walking on a big old pipe–what more could you ask for?</p>
+<ul>
+<li>Trailhead: South Lake</li>
+<li>Route: Green Lake to Vagabond, then up the north slope of Cloudripper (class 2). Some exposed summit moves (class 3). 12.5mi, 4500ft vert (2500ft of which is easy cross-country, bits of scrambling)</li>
+<li>(4hr 10m to summit) + (4hr 30m down) = 8hr 40m total. (We booked it on the way up, and were knee-limited on the way down)</li>
+<li>PIPE HIKE</li>
+<li>Vagabond: aim for the notch (look behind you and identify the notch for the way back, it’s less obvious from the other side)</li>
+<li>Cloudripper: stay on the right side of slope</li>
+</ul>
+<figure>
+
+<div id="leaflet9354" style="
+            height: 250px;
+            width: 100%;
+            margin: 0px;
+            padding: 0px
+            ">
+</div>
+<script defer="defer">
+  window.hexoLmaps = window.hexoLmaps || { maps: {}};
+  window.hexoLmaps.maps['initleaflet9354'] = function init() {
+    var mymap = L.map('leaflet9354');
+    mymap.setView([0 , 0], 0);
+    var osmURL = 'https://caltopo.s3.amazonaws.com/topo/{z}/{x}/{y}.png';
+    L.tileLayer(osmURL, {
+        attribution: 'Map data © USGS. Hosted by Caltopo',
+        maxZoom: 18
+    }).addTo(mymap);
+    var geoJSON = 'cloudripper-vagabond.json'
+    if (geoJSON) {
+      doLoadFile(geoJSON, function(data) {
+        var layer = L.geoJson(JSON.parse(data), {
+          onEachFeature: function (feature, layer) {
+            var title = '<b>'+feature.properties.title+'</b>';
+            var description = feature.properties.description ? '<p>'+feature.properties.description+'</p>' : '';
+            layer.bindPopup(title+description);
+          }
+        });
+        layer.addTo(mymap);
+        mymap.fitBounds(layer.getBounds());
+      });
+    }
+  }
+  function doLoadFile(url, callback) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (xhttp.readyState == 4 && xhttp.status == 200) {
+        callback(xhttp.responseText);
+      }
+    };
+    xhttp.open("GET", url, true);
+    xhttp.send();
+  }
+  function makeMaps() {
+    for (var map in window.hexoLmaps.maps) {
+       console.log('map #', map);
+       window.hexoLmaps.maps[map]();
+    }
+  }
+  function doLoadScript(url, callback) {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+    script.onreadystatechange = script.onload = function() {
+      if (!callback.done && (!script.readyState || /loaded|complete/.test(script.readyState))) {
+        callback.done = true;
+        callback();
+      }
+    };
+    document.querySelector('head').appendChild(script);
+  }
+  function loadScript() {
+    window.hexoLmaps.mapScripLoaded = true;
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css';
+    document.querySelector('head').appendChild(css);
+
+    doLoadScript('https://unpkg.com/leaflet@1.7.1/dist/leaflet-src.js', makeMaps)
+  }
+  if (!window.hexoLmaps.mapScripLoaded) {
+    loadScript();
+  }
+</script>
+<noscript>You'll need javacript to see the map.</noscript>
+<figcaption>
+<p>Vagabond via Green Lake, then over to Cloudripper. <a href="cloudripper-vagabond.gpx">gpx</a>.</p>
+</figcaption>
+</figure>
+<p>My first hike with Nicole! Excited to be a part of her knee surgery recovery journey.</p>
+<p>Right off the bat there’s a huge show of fall colours painting the aspens. Staying on the pipe is a fun challenge, although as a dog it’s quite easy for me.</p>
+
+  <figure>
+      <img src="pipe-morning.jpeg" alt="20 minutes of PIPE HIKE">
+      <figcaption>
+      20 minutes of PIPE HIKE
+      </figcaption>
+  </figure>
+<p>After the pipe, there’s switchbacks to an open meadow!</p>
+
+  <figure>
+      <img src="meadow.jpeg" alt="Juicy mud to wet the toe beans">
+      <figcaption>
+      Juicy mud to wet the toe beans
+      </figcaption>
+  </figure>
+<p>Soon we arrive at Green Lake, contour around the lake a bit, then climb up the scooped valley slope on nice trail to an open table.</p>
+
+  <figure>
+      <img src="scoping-green-lake.jpeg" alt="Coming up from Green Lake (as seen from later in the hike)">
+      <figcaption>
+      Coming up from Green Lake (as seen from later in the hike)
+      </figcaption>
+  </figure>
+<p>After walking across the relatively flat table, it’s time to leave the comforts of the trail and go south cross-country. We contoured the left side of the bowl (in which a huge juicy rabbit was sighted diving into the talus). Upon gaining the lip of the bowl, a peak comes into view. That’s not Cloudripper, it’s Vagabond Peak.</p>
+
+  <figure>
+      <img src="toward-vagabond.jpeg" alt="Looking towards Vagabond. Aim for the notch!">
+      <figcaption>
+      Looking towards Vagabond. Aim for the notch!
+      </figcaption>
+  </figure>
+<p>Routefinding in this terrain was surprisingly pleasant! Basically you can see where you want to go, and when you get there, it’s easy-going. It’s mostly sand with easy talus. If you’re a clever human you can avoid 4-points-on scrambling for the most part (I always walk with all 4 legs though, because I’m a dog).</p>
+<div class="photos">
+
+  <figure>
+      <img src="scrambling-vagabond.jpeg" alt="Scrambling talus">
+      <figcaption>
+      Scrambling talus
+      </figcaption>
+  </figure>
+
+  <figure>
+      <img src="talus.jpg" alt="Big steps">
+      <figcaption>
+      Big steps
+      </figcaption>
+  </figure>
+</div>
+<p>We’re super lucky that it’s unseasonably cold today with chilly wind blasts, because otherwise this landscape is extremely exposed with little water, and I imagine you’d get hot pretty quickly. Nicole experiments with monching salt tablets and feels great. Intriguing!</p>
+<p>After passing through the notch, Cloudripper comes into view!</p>
+
+  <figure>
+      <img src="toward-cloudripper.jpeg" alt="View of Cloudripper, from Vagabond. It's not the most striking peak, it's a pile of sand and talus. Summit is on the right.">
+      <figcaption>
+      View of Cloudripper, from Vagabond. It's not the most striking peak, it's a pile of sand and talus. Summit is on the right.
+      </figcaption>
+  </figure>
+<p>It’s wise to turn around and look back as you’re crossing the notch, because it doesn’t look as distinct from the other side. Going down Vagabond and then up the slopes of Cloudripper is easy for dogs! Humans may have to butt-scootch on occasion. Try staying on the right side of the slope, the talus gets big on the left.</p>
+
+  <figure>
+      <img src="palisade-view.jpeg" alt="Views of the Palisades as I gain the summit ridge">
+      <figcaption>
+      Views of the Palisades as I gain the summit ridge
+      </figcaption>
+  </figure>
+
+  <figure>
+      <img src="cloudripper-summit-ridge.jpeg" alt="The summit is within sight!">
+      <figcaption>
+      The summit is within sight!
+      </figcaption>
+  </figure>
+<p>A couple of exposed moves (I got my dog butt pushed; power spot) to the summit and we did it!</p>
+
+  <figure>
+      <img src="cloudripper-summit.jpeg" alt="Checking out the Palisades from the summit!" class="small">
+      <figcaption>
+      Checking out the Palisades from the summit!
+      </figcaption>
+  </figure>
+
+  <figure>
+      <img src="goode.jpeg" alt="Views to the west towards the Bishop area peaks. Mt Goode is striking.">
+      <figcaption>
+      Views to the west towards the Bishop area peaks. Mt Goode is striking.
+      </figcaption>
+  </figure>
+<p>After a rest and some snacks, it’s time to head down. We gotta go back up Vagabond:</p>
+
+  <figure>
+      <img src="vagabond-backside.jpeg" alt="Vagabond, the other side. What a blob. Note the notch.">
+      <figcaption>
+      Vagabond, the other side. What a blob. Note the notch.
+      </figcaption>
+  </figure>
+<p>We’re feeling great at the Vagabond notch, so we take a couple minutes to tag the summit.</p>
+
+  <figure>
+      <img src="vagabond-register.jpeg" alt="The Vagabond register is hidden in a hueco!" class="small">
+      <figcaption>
+      The Vagabond register is hidden in a hueco!
+      </figcaption>
+  </figure>
+<p>Heading down from Vagabond, the knees are starting to rattle. It’s a relief to be back on trail.</p>
+
+  <figure>
+      <img src="descending-green-lake.jpeg" alt="Descending back to Green Lake. Shiny!">
+      <figcaption>
+      Descending back to Green Lake. Shiny!
+      </figcaption>
+  </figure>
+<p>The aspens on the final stretch of pipe hike are glowing!</p>
+
+  <figure>
+      <img src="pipe-afternoon.jpeg" alt="">
+      <figcaption>
+      
+      </figcaption>
+  </figure>
+
+  <figure>
+      <img src="pipe-afternoon2.jpeg" alt="">
+      <figcaption>
+      
+      </figcaption>
+  </figure></div><div class="entry-footer"><div class="signoff"><p><3,</p><p>Mica</p></div><div class="tags"><ul><li><a href="/blog/categories/mica-s-journal/">mica's journal</a></li><li><a href="/blog/tags/SPS/">SPS</a></li><li><a href="/blog/tags/peakbagging/">peakbagging</a></li><li><a href="/blog/tags/good-for-dogs/">good for dogs</a></li></ul></div><div class="comments"><h2><a href="#comments" id="comments">Comments</a></h2><p>No comments at the moment. Hey, you could write one \o/</p><form class="comment-instructions" action="https://comment-pr.vercel.app/api" method="post"><h3>Take me to comment town</h3><p>Mica and I love to read your comments. It's easy to write one</p><label for="name">Name*<input type="text" name="name" placeholder="Mica" required></label><label for="url">Website/social URL<input type="text" name="url" placeholder="https://www.strava.com/athletes/64615462"></label><label for="color">Accent color (hex code or html color  name)<input type="text" name="color" placeholder="#00ff7f or springgreen"></label><input type="hidden" name="path" value="source/_posts/cloudripper/_comments.yaml"><label for="comment">Comment*<textarea placeholder="" name="comment" required></textarea></label><button type="submit">Submit</button></form></div></div></article></div></div><footer><div class="box-content"><nav><ul><li><a href="https://daiyi.co/blog/rss2.xml">rss</a></li><li><a href="https://daiyi.co/blog/archives">archive</a></li></ul><div><form action="https://buttondown.email/api/emails/embed-subscribe/daiyi" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/daiyi', 'popupwindow')">
+<label for="bd-email" class="hidden">Get email updates</label>
+<input type="email" name="email" id="bd-email" placeholder="Get email updates" />
+<input type="hidden" value="1" name="embed" />
+<button type="submit">Subscribe</button>
+</form></div></nav></div></footer></div></body></html>

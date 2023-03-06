@@ -1,0 +1,106 @@
+---
+title: Summer bouldering in Tuolumne
+date: 2023-03-05 19:21:00
+categories:
+- trip reports
+tags:
+- climbing
+- bouldering
+summary: Summer dreaming
+hideSummary: true
+image: sunrise-boulder.jpg
+location: Bishop, CA
+---
+
+{% figure src="sunrise-boulder.jpg" alt="Sunrise Boulder, with a view of Tenaya Peak" %}
+
+The masses have shockingly failed to notice the summer bouldering in Tuolumne. The subalpine pebbles retain their solitude despite being attached to the top-mobbed National Park of the country (Yosemite). The rock is textured Eastern Sierra granite with plentiful crystals and improbable knobs. There's overhanging 3D route shapes and unique movement, often like stacked pancakes toppled over in various orientations. With the seasonal appearances of alpine wildflowers, grasses, and mushrooms, it's a fairy hallow. Then you jump into the big cold lake after a session. I ran into maybe 3 other parties this past season. It's so easy to wild camp in the East side compared to the Valley. It's just an hour drive from where I lived in Mammoth. So good!
+
+{% figure src="summertime.jpg" alt="Views of Tenaya Peak from Summertime Boulder <3" class="small" %}
+
+I find the easy range to be pretty underdeveloped, though you can often play around on unnamed and undocumented v0-1 in the vicinity of the classics. I also found v3 and below to be sparse (or height-dependent, or super scary), but the v4-5 zone was very engaging for me! and plenty of v6-9 for my friends to play on. Fun for the whole family. Here's my season roundup:
+
+### Tuolumne v5-6
+- Kauk problem v5 (The Knobs). this is the send that led me to finally believe I can climb v5. powerful, crimpy, precise moves (I guess this is my style??)
+
+*For next time:*
+- Cellulite Eliminator stand v5 (The Gunks) - need to refine my left heel hook!
+- Black matter v6 (Tenaya Lake Boulders) - so powerful so sharp! gotta go back with more pads. I do love a crimp. Looks like it's been downgraded to v5 on the Proj.
+- Unnamed v5 next to Detached (Medlicott Boulder) - it's the sit start to the unnamed v4
+
+{% figure src="medlicott-approach.jpg" alt="Wandering between Medlicott boulders. So pretty!" %}
+
+### Tuolumne v4
+- Solar Flare v4 (Sunrise Boulder) - moderately overhanging crimps to a tall but protectable mantle. fun! Sunrise boulder is a lone, massive boulder on a massive slab, with all-time views of Tenaya and Cloudsrest. Great hang.
+- Short Train v4 (Pywiak Boulder) - start horizontal and escape from a chilly creekside cave. very workable, kind of enduro. nice to have a couple pads for the talus-y landing. fun!
+{% figure src="short-train.jpg" alt="Pulling out of the streamside cave on Short Train v4 - Pywiak Boulder" class="small" %}
+- Summer Vacation v4 (Summertime Boulder) - it's a hike, and difficult to find, but the climb has unique granite features in a scenic location. another tuolumne escape-the-cave triller. Directions: Turn left (uphill) off the lake trail at (37.83242, -119.45311). Boulder is at (37.82888, -119.45279)
+{% figure src="summer-vacation-v4.jpg" alt="Summer Vacation v4 on Summertime boulder" class="small" %}
+- Knobs Creek v4 (The Knobs) - tall but straightfoward, for vertical crimping enthusiasts
+- Spaceballs v4 (Raisin Creek) - tough!!! the tension required for shorter-spanned people is incredible. proud v4 for me. Location: (37.82868, -119.47559)
+- Slopers and Dopers v4 (Drug Dome Trees) - another route with cool movement for granite
+- Unnamed v4 next to Detached (Medlicott Boulder)  - crimpy, technical sequencing and footwork, a bit overhanging, playing with body tension, funky visual feature. love it! 
+{% figure src="detached.png" alt="Unnamed v4 on Medlicott boulder" class="small" %}
+- Unnamed v4 (Arena Boulder backside)  - overhanging lowball transitions into surprising mantle topout! more harder (tall) stuff on this boulder, including the ominous Buttermilks Simulator.
+{% figure src="arena.jpg" alt="Under the v4 and v6 of the backside of Arena boulder (you can see the car parked by the road)" class="small" %}
+
+*For next time:*
+- Cave route v4 (Olmsted Canyon)  - very cool big moves between crimps under the roof felt SO hard. there's a wild mantle move at the top as a treat 
+{% figure src="cave-route.jpg" alt="Not your typical topout mantle on Cave Route v4" class="small" %}
+
+### Tuolumne v3
+- Medlicott warmup boulder unnamed v3 - fun big movements! 1 min south of Medlicott boulder, location: (37.86200, -119.42924)
+- Unnamed v3 at Pywiak Boulder - The finish to Short Train
+- Sunshine stand v3 (Sunrise boulder)
+- Solar eclipse v3 (Sunrise boulder) - both worthwhile and at a super pretty location
+
+*For next time:*
+- double dyno v3 - the dyno feels super sandbagged if you're shorter
+- leap of faith v3 - just feels impossibly tall at the top
+- Machine World v3 - I kept meaning to come out here to work long traverse on a solo day, but I was busy all summer. 2 min approach and looks super fun.
+
+### Tuolumne v2
+In the classic Eastern Sierra style, there is no shortage of extremely sandbagged, harrowing v2's. Standouts for me:
+- Dark Helmet v2 - work checking out if you're at Spaceballs, warning about the spicy topout!
+- v2 on Sunrise Boulder - I actually thought this was pretty fun, managed to do a ridiculous hand-foot match piano
+
+### Tuolumne v0-1
+Carefully read the descriptions in the book because many of the 0s and 1s listed are actually super scary slabs and not necessarily beginner friendly! Areas to play around it: 
+
+- The Knobs - People love to pull on knobs, fun for the whole family. Many v0s and v1's that are fairly vertical.
+- Puppy Dome - mostly scary slab highballs but you can find lines self-discovery style. and bail to swim in the river if you're over the sandbagged routes!
+
+
+
+After writing this all out and rifling through the photos, I am so so so homesick for summer, missing the carefree days and the merry crew. It's also a celebration of the friends I made this year who stuck with me through snow, heat, t-storm, bushwhacking, injuries, loneliness, and getting super sick. The Eastern Sierra will always be home and I know I will be back. <3
+
+{% figure src="dura-mater-slab.jpg" alt="Bravely climbing the v4 slab without pants protection! on Dura Mater boulder (behind Summertime Boulder)" %}
+{% figure src="car-tesselation.jpg" alt="The summer of tessellating crash pads and friends into cars" class="small" %}
+
+{% figure src="olmsted.jpg" alt="Someone forgot to pack jackets and had to use the car dog blanket! Early season problems at Olmsted Point Boulders (isn't that the trad cragging in the background?)" %}
+
+{% figure src="the-seam-v8.jpg" alt="Team color-coordination at The Seam v8 - Medlicott Boulder" class="small" %}
+
+{% figure src="sun-hoodie-vibes.jpg" alt="Gotta keep that skin fresh" class="small" %}
+
+{% figure src="my-first-crash-pad.jpg" alt="Bought my first crash pad!! Thanks to my housemate Leo for the multi-year interest-free crash pad loan <3" class="small" %}
+
+
+---
+## Tuolumne tips
+
+- The season is whenever [Tioga pass opens](https://www.nps.gov/yose/planyourvisit/seasonal.htm) until whenever it closes (roughly May/June - Oct/Nov), with spring season possible (depending on snow pack) and fall being pretty cool and bug-free.
+- There's usually a few weeks of mosquitos in the summer. The timing depends on the snow pack, but I'd count on July or August being the most intense. most areas that aren't under moist trees don't get that bad, but definitely bring bug spray (or permethrin-treated clothing if you want to swim without getting bug spray into the super clean waters). 
+- You kind of need the book (or a friend with the book), because even with all its inaccuracies (I've taken a sharpie to some of the gps points in my housemate's copy out of frustration), Mountain Project is very incomplete for this area (maybe related to its relative obscurity?)
+- There's water (and bathrooms) at the JMT station 
+- not much cell signal in Tuolumne, download your offline maps and beta ahead of time. Make a meetup plan and a backup meetup plan. 
+- The Tuolumne general store is open seasonally, don't depend on it for food (especially spring and fall)
+- There's sometimes live music at the Mobile in the summer (Saturday?)
+- If your fingers cry for mercy, there's a great swimming spot on the river by Puppy Dome Boulders. Tenaya Lake is a classic of course. There's some waterslides around Tuolumne, go look for them (wear shorts though LOL)
+- The Tuolumne campgrounds have been closed for renovations for a few years :/ Anyway those suckers need to be reserved like 6 months in advanced
+- There's walk-in car camping outside the east gate/just past Tioga pass on the 120
+- Put your food in the bear boxes (if there's any at the parking spot) or lock your van. Bears will actually break in (they're pros at door handles) and smash open your van fridge
+- The bustability of sleeping in your van inside the park is high, I wouldn't count on it
+- Thunderstorms tend to happen in the afternoon, so you can often get a morning session in (just don't forget to keep track of both sides of the sky)
+- weather.gov is your most reliable weather source
+- If the mushroom has gills, probably don't eat it

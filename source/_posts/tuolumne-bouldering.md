@@ -1,12 +1,12 @@
 ---
-title: Summer bouldering in Tuolumne
+title: "Bouldering in Tuolumne:  summer's best-kept secret"
 date: 2023-03-05 19:21:00
 categories:
 - trip reports
 tags:
 - climbing
 - bouldering
-summary: Summer dreaming
+summary: My dreamy 2022 season in Yosemite highcountry
 hideSummary: true
 image: sunrise-boulder.jpg
 location: Bishop, CA

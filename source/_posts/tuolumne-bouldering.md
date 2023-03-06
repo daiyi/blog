@@ -10,6 +10,7 @@ summary: My dreamy 2022 season in Yosemite highcountry
 hideSummary: true
 image: sunrise-boulder.jpg
 location: Bishop, CA
+draft: true
 ---
 
 {% figure src="sunrise-boulder.jpg" alt="Sunrise Boulder, with a view of Tenaya Peak" %}

@@ -77,7 +77,7 @@ I find the easy range to be pretty underdeveloped, with v3 and below sparse or h
 
 ### Tuolumne v2
 In the classic Eastern Sierra style, there is no shortage of extremely sandbagged, harrowing v2's. Standouts for me:
-- Dark Helmet v2 - work checking out if you're at Spaceballs, warning about the spicy topout!
+- Dark Helmet v2 - worth checking out if you're at Spaceballs, warning about the spicy topout!
 - v2 on Sunrise Boulder - I actually thought this was pretty fun, managed to do a ridiculous hand-foot match piano
 
 ### Tuolumne v0-1

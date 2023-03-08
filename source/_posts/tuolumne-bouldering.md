@@ -9,7 +9,6 @@ tags:
 summary: My 2022 pebble wrestling season in Yosemite highcountry
 image: tenaya-lake-approach.jpg
 location: Bishop, CA
-draft: true
 ---
 
 {% figure src="sunrise-boulder.jpg" alt="Sunrise Boulder, with a view of Tenaya Peak" %}

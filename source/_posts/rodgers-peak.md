@@ -294,7 +294,7 @@ Gem Lake rocking that Mad Max post-apocalyptic vibe.
 </figcaption>
 </figure>
 
-There were a lot of small ups and downs along the lakes, which I'd forgotten about, and I really felt it while jogging out. I startled a resting backpacking at a log crossing, who was surprised dayhikers were still out so late, asking if I had a headlamp. I did have one! but the goal was not to use it (again) :P
+There were a lot of small ups and downs along the lakes, which I'd forgotten about, and I really felt it while jogging out. I startled a resting backpacker at a log crossing, who was surprised dayhikers were still out so late, asking if I had a headlamp. I did have one! but the goal was not to use it (again) :P
 
 <div class="photo-small">
 <figure>

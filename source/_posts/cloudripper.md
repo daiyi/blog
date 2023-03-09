@@ -8,8 +8,7 @@ tags:
   - peakbagging
   - good for dogs
 summary: Pipe hike!! remote like the moon, uphill both ways, great views of the Palisades, good for dogs!
-hideSummary: true
-image: cloudripper-summit.jpeg
+image: pipe-morning.jpeg
 location: Mammoth Lakes
 author: Mica
 ---

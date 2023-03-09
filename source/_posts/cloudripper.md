@@ -7,7 +7,7 @@ tags:
   - SPS
   - peakbagging
   - good for dogs
-summary: Pipe hike!! remote like the moon, uphill both ways, great views of the Palisades, good for dogs!
+summary: Pipe hike!! Fall colours, remote like the moon, uphill both ways, great views of the Palisades, good for dogs!
 image: pipe-morning.jpeg
 location: Mammoth Lakes
 author: Mica

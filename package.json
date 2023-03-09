@@ -19,7 +19,7 @@
     "hexo-generator-tag": "^1.0.0",
     "hexo-render-pug": "^2.1.4",
     "hexo-renderer-markdown-it": "^4.1.0",
-    "hexo-renderer-stylus": "^2.0.1",
+    "hexo-renderer-stylus": "2.1.0",
     "hexo-server": "^1.0.0",
     "js-yaml": "^3.13.1",
     "marked": "^0.8.0"
@@ -34,7 +34,7 @@
     "new": "hexo new post"
   },
   "volta": {
-    "node": "12.22.1"
+    "node": "16.19.1"
   },
   "devDependencies": {
     "hexo-generator-redirect": "^1.4.0"

@@ -54,6 +54,8 @@ tag_map:
 markdown:
   html: true # don't escape html
   breaks: false
+  plugins:
+    - markdown-it-footnote
   anchors:
     # Minimum level for ID creation. (Ex. h2 to h6)
     level: 2

@@ -13,12 +13,14 @@ date: 2017-03-20 23:51:15
 redirect_from:
   - /2017/03/21/a-tiny-winter-life-in-brooklyn
 ---
-
-Three months later and I'm taking down my wall tapestries again, leaving the climbing gym where I've made friends with the regulars characters and routesetters, the cafes I work at often enough that they recognise my mannerisms but not enough that they remember my name, my tiny job, my tiny bike.
-
+<div class="photo-section">
 <div class="photo-right-pull">
 
 ![snow outside The Cliffs](the-cliffs-snow.jpg)
+
+</div>
+
+Three months later and I'm taking down my wall tapestries again, leaving the climbing gym where I've made friends with the regulars characters and routesetters, the cafes I work at often enough that they recognise my mannerisms but not enough that they remember my name, my tiny job, my tiny bike.
 
 </div>
 
@@ -62,13 +64,13 @@ I live close to the subway, but a round trip costs a pint of nice ice cream (eve
 
 So much ambient anxiety about my life choices dissipated after I regained wheeled status \o/ I need a hammerspace bike to explore the world with.
 
-![f train](east-river-park.jpg)
+{% figure src="east-river-park.jpg" alt="" class="large" %}
 
 A friend I'll miss along with my human friends, this little red aluminum bicycle that happens to be the same age as me, my adventure twin.
 
 I'd originally been planning to travel in south america during the nothern hemisphere's winter months, but after the election in November I felt so guilty for being in a selfish phase of my life that I decided to go to New York instead, to put my skills to work against something that felt so big and ominous and uncertain and terrible. We went to meetups and rallies and marches and talks and hackathons. I don't think I accomplished anything in particular. I feel pretty ineffective in general.
 
-<div class="photos"><div class="photo">
+<div class="photos large"><div class="photo">
 
 ![women's march nyc](womens-march.jpg)
 
@@ -86,4 +88,4 @@ I was obsessive about spending my time as efficiently as possible when I set out
 
 These days I keep going back and forth between being really excited to be on the road again and seeing friends and reading and learning and chasing opportunities, and being exhausted from being excited about things.
 
-![central park sunset with snowy rocks](rocks-cityskyline.jpg)
+{% figure src="rocks-cityskyline.jpg" alt="central park sunset with snowy rocks" class="large" %}

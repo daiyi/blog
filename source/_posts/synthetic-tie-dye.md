@@ -33,10 +33,10 @@ The tldr of any plastic dying project is, don't do it! It's time-consuming and m
 
 The patient is a minty pastel Patagonia sun shirt. I like how soft the material is, and it's thicker than my running sun shirts and thus durable enough for my bad-technique trad climbing flails. But over time I wanted to appear less cake-like and more moss-like. So the goal was to make the shirt more green, but not too much darker (or it'll get hotter in the sun).
 
-<div class="photos">
-{% figure src="sunshirt-before.jpg" alt="Original colour (with Philip on Cathedral!)" %}
-{% figure src="sunshirt-after-2.jpg" alt="Tie-dyed result (Aspen Boulder)" %}
-{% figure src="sunshirt-after.jpg" alt="Tie-dyed result (The Seam at Way Lake) " %}
+<div class="photos large">
+{% figure src="sunshirt-before.jpg" caption="Original colour (with Philip on Cathedral!)" %}
+{% figure src="sunshirt-after-2.jpg" caption="Tie-dyed result (Aspen Boulder)" %}
+{% figure src="sunshirt-after.jpg" caption="Tie-dyed result (The Seam at Way Lake) " %}
 </div>
 
 It may not be easy to tell from these low-fi climbing video stills, but I _love_ how the colour turned out. It led to 300% more wearing of this shirt and 400% more compliments (including delightful bewilderment at the rouge-patterned Patagonia item). The dying step turned out to be a breeze compared to the unwrinkling step, which was extremely manual and somewhat finicky.
@@ -45,9 +45,9 @@ It may not be easy to tell from these low-fi climbing video stills, but I _love_
 
 On a warm summer day because I wanted to keep the fumes outside :D
 
-<div class="photos">
-{% figure src="tool-spread.jpg" alt="The tools" %}
-{% figure src="green-dye.jpg" alt="Poison soup, yum" %}
+<div class="photos large">
+{% figure src="tool-spread.jpg" caption="The tools" %}
+{% figure src="green-dye.jpg" caption="Poison soup, yum" %}
 </div>
 
 1. Prepare the shirt: wet it, then pinched off parts of the shirt and rubber banded them off. 
@@ -62,7 +62,7 @@ On a warm summer day because I wanted to keep the fumes outside :D
    - If your clothes sink, I imagine you can put a cotton rag between the bottom of the pot and the synthetic item as a buffer.
    - I hung out within eyesight to supervise in case of disaster (didn't want it to splash or melt)
    - I live at 8000ft, where water boils at 198f. So it was actually slightly below the recommendation.
-        <p>{% figure src="supervising.jpg" alt="Watching a pot boil at 8000ft on a pleasant summer day, as one does." class="small" %}<p/>
+        <p>{% figure src="supervising.jpg" caption="Watching a pot boil at 8000ft on a pleasant summer day, as one does." %}<p/>
 4. Rinse: Filled a small trash can (or other food-unsafe bucket) with fresh water. (With plastic gloves on) removed shirt and try to squeeze as much dye water out as possible (it's difficult because it is hot), then transferred shirt into fresh water. Rinse rinse rinse. 
    - I poured this water into my bathtub drain (making sure it was cool, so it didn't dye the bathtub LOL). I think you're not supposed to just toss this water into the yard or your street because it'll leach into the environment.
    - Maybe too paranoid, but I avoided rinsing in my kitchen sink because I didn't want the hot food-unsafe dye to touch my food prep zone.  
@@ -71,7 +71,7 @@ On a warm summer day because I wanted to keep the fumes outside :D
    - The colour result: The tie-dye look is on the sparse side, I went overboard during the rubber band step and it was too tight to allow much dye penetration. (the [video I linked](#reference-video) had a similar result with the dress). However, this is great for not letting the shirt get too dark. I could have rubber banded again and gone for round two.
    - At this point the shirt is SUPER wrinkly and not wearable! It seems like the dye temps was high enough to set the wrinkle shape into the polyester fabric. 
    - (I actually don't know if all polyester would wrinkle like this, of if it's just this specific shirt.)
-        <p>{% figure src="sunshirt-wrinkly.jpg" alt="Very wrinkly D:" class="small" %}</p>
+        <p>{% figure src="sunshirt-wrinkly.jpg" caption="Very wrinkly D:" %}</p>
 6. Unwrinkle the shirt: 
    -  I ironed the shirt one side at a time by putting a small wooden board into the body of the shirt, stretching the shirt so it's flat and not wrinkly, putting a damp cotton fabric down (so the iron never directly touches polyester), and then applying the iron firmly but slowly a few swipes across the area
    -  don't stretch the shirt TOO much because it'll result in your shirt to be a bigger size than it started. Just enough so it's not wrinkly.
@@ -85,17 +85,17 @@ All done! Great results, I'm super happy with it.
 The patient is a mauve-pink crop top. I like the built-in bra and thin straps, but I felt like the colour clashed with my skin tone and wanted more purple.
 
 <div class="photos">
-{% figure src="crop-before.jpg" alt="Top before. You know this is an ancient photo because it's back when I used to think hangboarding wasn't totally useless for me :P" %}
-{% figure src="crop-after.jpg" alt="Top after, now with more purp." %}
+{% figure src="crop-before.jpg" caption="Top before. You know this is an ancient photo because it's back when I used to think hangboarding wasn't totally useless for me :P" %}
+{% figure src="crop-after.jpg" caption="Top after, now with more purp." %}
 </div>
 
 ### The nylon process 
 
 The steps were similar to the polyster shirt, I will note only the differences:
 
-<div class="photos">
-{% figure src="crop-dip.jpg" alt="Dip-dye attempt (step 3a)" %}
-{% figure src="crop-midway.jpg" alt="After the dip-dye attempt (step 3a). Not really a strong gradient." %}
+<div class="photos large">
+{% figure src="crop-dip.jpg" caption="Dip-dye attempt (step 3a)" %}
+{% figure src="crop-midway.jpg" caption="After the dip-dye attempt (step 3a). Not really a strong gradient." %}
 </div>
 
 1. Prepare the shirt
@@ -123,4 +123,4 @@ The steps were similar to the polyster shirt, I will note only the differences:
 
 Cumbersome process notwithstanding, I'm happy with the results of these two items and they've returned into the rotation!
 
-{% figure src="../tuolumne-bouldering/tenaya-lake-approach.jpg" alt="Ambulating moss on the beach" class="small" %}
+{% figure src="../tuolumne-bouldering/tenaya-lake-approach.jpg" caption="Ambulating moss on the beach" %}

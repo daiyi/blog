@@ -62,7 +62,7 @@ Leaving Paiute Pass trail at 2.5 miles, going crosscountry towards the waterfall
 
 The air felt more clean as we went higher up! which made me feel optimistic about this excursion turning out better than holing up at home with the air purifiers.
 
-<div class="photos">
+<div class="photos large">
 <figure>
 
 ![](shade.jpg)
@@ -110,16 +110,9 @@ Plenty of places to take breaks. The shade was great on the hot day.
 </figcaption>
 </figure>
 
-<figure>
+{% figure src="waterfall-out.jpg" caption="Coming up a shallow section, looking down at Paiute Pass Trail" class="large" %}
 
-![](waterfall-out.jpg)
-
-<figcaption>
-Coming up a shallow section, looking down at Paiute Pass Trail
-</figcaption>
-</figure>
-
-<div class="photos">
+<div class="photos large">
 <figure>
 
 ![](yellow-monkeyflower.jpg)
@@ -156,14 +149,7 @@ At one point I knocked off a small rock, which hit my hand as it tumbled down th
 
 If this climb were 10 miles further into the backcountry then I'd say the route is solid and safe for small parties that are communicating, but since it's just an hour or two from the road, the chance of multiple parties is high, and that makes rockfall a serious issue ):
 
-<figure>
-
-![](ridge-start.jpg)
-
-<figcaption>
-After the scrambling up the gully.
-</figcaption>
-</figure>
+{% figure src="ridge-start.jpg" caption="After the scrambling up the gully." class="large" %}
 
 ### Ridge
 
@@ -176,50 +162,15 @@ Headed around a gendarme, up to the ridge.
 </figcaption>
 </figure>
 
-<figure>
+{% figure src="paiute-crags.jpg" caption="Geological view of the Paiute crags to climber's right (east)." class="large" %}
 
-![](paiute-crags.jpg)
+{% figure src="ridge-paiute.jpg" caption="At the start of the ridge!" class="large" %}
 
-<figcaption>
-Geological view of the Paiute crags to climber's right (east).
-</figcaption>
-</figure>
+{% figure src="ridge-traverse.jpg" caption="Traversing the ridge. The exposure was intense at times, but I don't think I made harder than class 3 moves. Although I was wearing climbing shoes :P" class="large" %}
 
-<figure>
+{% figure src="ridge-rest.jpg" caption="he ridge is pretty ding dang cool. And solid!" class="large" %}
 
-![](ridge-paiute.jpg)
-
-<figcaption>
-At the start of the ridge!
-</figcaption>
-</figure>
-
-<figure>
-
-![](ridge-traverse.jpg)
-
-<figcaption>
-Traversing the ridge. The exposure was intense at times, but I don't think I made harder than class 3 moves. Although I was wearing climbing shoes :P
-</figcaption>
-</figure>
-
-<figure>
-
-![](ridge-rest.jpg)
-
-<figcaption>
-The ridge is pretty ding dang cool. And solid!
-</figcaption>
-</figure>
-
-<figure>
-
-![](ridge-back.jpg)
-
-<figcaption>
-Looking back. Some downclimbing is about to happen.
-</figcaption>
-</figure>
+{% figure src="ridge-back.jpg" caption="Looking back. Some downclimbing is about to happen." class="large" %}
 
 <figure>
 

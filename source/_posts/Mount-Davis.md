@@ -36,39 +36,19 @@ The first 8 miles were a mellow stroll in the woods that flew by with pleasant c
 
 As we neared Thousand Island Lake, we got our first glimpse of Banner Peak:
 
-![Banner Peak from Thousand Island Lake](first-sighting-of-banner.jpg)
+{% figure alt="Banner Peak from Thousand Island Lake" src="first-sighting-of-banner.jpg" class="large" %}
 
 There was a curtain of haze in the air, but the mountain was definitely visible!
 
 As we descended to Thousand Island Lake, the ridge to the summit came into view, although we weren't sure which one it would be at the time:
 
-![Thousand Island Lake and the crest to Mount Davis](1000-island-lake-and-crest.jpg)
+{% figure alt="Thousand Island Lake and the crest to Mount Davis" src="1000-island-lake-and-crest.jpg" class="large" %}
 
 We left the lake at the west end of Thousand Island and started up the slope. Intermittent use trails follow the Middle Fork San Joaquin River until the river peels off west to its snowfield origins, while we continued south-ish up the gully.
 
-<div class="photos">
-<div class="photo">
-<figure>
-
-![stream crossing](water-source.jpg)
-
-<figcaption>
-Last water refill (unless you want to descend to Catherine Lake),
-</figcaption>
-</figure>
-
-</div>
-<div class="photo">
-<figure>
-
-![north glacier pass](to-north-glacier-pass.jpg)
-
-<figcaption>
-followed by talus up to North Glacier Pass.
-</figcaption>
-</figure>
-
-</div>
+<div class="photos large">
+{% figure alt="stream crossing" src="water-source.jpg" caption="Last water refill (unless you want to descend to Catherine Lake)" class="" %}
+{% figure alt="north glacier pass" src="to-north-glacier-pass.jpg" caption="followed by talus up to North Glacier Pass." class="" %}
 </div>
 
 At the pass we saw Lake Catherine, it had the bluest water. The wind got pretty intense here and was intense for the next mile.
@@ -78,14 +58,8 @@ From here we had the option of going straight up and along the ridge, or skirtin
 <div class="photo-section">
 <div class="photo-left-pull">
 
-<figure>
+{% figure alt="looking at towards the summit" caption="Mount Davis is the white/red lump in the distance." src="talus-to-summit.jpg" %}
 
-![looking at towards the summit](talus-to-summit.jpg) 
-
-<figcaption>
-Mount Davis is the white/red lump in the distance.
-</figcaption>
-</figure>
 </div>
 
 Then we crested a local maxima and could finally see Mount Davis. We scooted down this snow patch into the gully below, which had easier terrain. 
@@ -94,29 +68,8 @@ I pulled something on the top of my right foot, which hurt with a shooting pain 
 
 </div>
 
-
-<div class="photo-small">
-
-<figure>
-
-![under the summit](summit-ahead.jpg)
-
-<figcaption>
-Nearing the photogenic summit of Mount Davis.
-</figcaption>
-</figure>
-</div>
-
-<div class="photo-small">
-<figure>
-
-![at the summit](summitting.jpg)
-
-<figcaption>
-Coming up to the summit, Thousand Island Lake down below.
-</figcaption>
-</figure>
-</div>
+{% figure alt="under the summit" src="summit-ahead.jpg" alt="Nearing the photogenic summit of Mount Davis." class="large" %}
+{% figure alt="at the summit" src="summitting.jpg" alt="Coming up to the summit, Thousand Island Lake down below." class="large" %}
 
 We're at the top! It's 13:50. I inhaled a burrito. We updated Leo (who had been waiting for hours at Thousand Island Lake to meet us for the hike back) on the realities of our dramatically over-optimistic schedule, and he headed out without us.
 
@@ -126,49 +79,25 @@ After the ritual summit selfies, we started down.
 
 #### Time to Descend
 
-<div class="photo-small">
-
-<figure>
-
-![descending talus](talus-going-back.jpg)
-
-<figcaption>
-Look at all of this talus we crossed. And now we go back.
-</figcaption>
-</figure>
-</div>
+{% figure alt="descending talus" src="talus-going-back.jpg" alt="Look at all of this talus we crossed. And now we go back." class="" %}
 
 <div class="photo-section">
 <div class="photo-right-pull">
 
-![talus gully](talus.jpg)
+{% figure alt="talus gully" src="talus.jpg" %}
 </div>
 
 We took a slightly different way down, I descended a chute and went further west, where I was met with gentle slab (which could be scary with the wrong shoes). I had decided to wear my new Altras (King MT 2) on this hike, and I found the rubber to be sufficiently sticky (noticably not as good as actual approach shoes, but better than any other trailrunner I've had).
 
 </div>
 
-<figure>
-
-![Lake Catherine](catherine-pan.jpg)
-
-<figcaption>
-Lake Catherine being extremely blue, and the less dignified backsides of Banner (left) and Ritter (right).
-</figcaption>
-</figure>
+{% figure alt="Lake Catherine" src="catherine-pan.jpg" alt="Lake Catherine being extremely blue, and the less dignified backsides of Banner (left) and Ritter (right)." class="large" %}
 
 <div class="photo-section">
 <div class="photo-left-pull photo-small">
-<figure>
-
-![meadow](meadow-back.jpg)
-
-<figcaption>
-
+{% figure alt="meadow" src="meadow-back.jpg" alt="
 The talus is over, I can finally turn off my brain!
-
-</figcaption>
-</figure>
+" class="" %}
 </div>
 
 <br><br><br>
@@ -181,7 +110,7 @@ We passed a pair of rangers with shovels, which they said was for _burying human
 
 The islands in the lake had a sunset glow. Me and Phil dunked our sticky bodies into the water, it was as glorious as I'd dreamed of all day.
 
-![Thousand Island Lake at sunset](thousand-island-lake-evening.jpg)
+{% figure alt="Thousand Island Lake at sunset" src="thousand-island-lake-evening.jpg" class="large" %}
 
 The smoke got noticably worse on the hike back, by the last couple miles I felt like I was going to crash a BBQ at any minute. Our spirits remained mysteriously high, even when we started hallucinating bears. Night fell, but we were rich in headlamps and made it to the truck without incident at 20:45. When we got home 20 minutes later, Marco had dinner ready!
 

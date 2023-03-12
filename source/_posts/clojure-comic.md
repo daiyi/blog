@@ -12,10 +12,10 @@ redirect_from:
   - /2017/07/19/a-smol-comic-about-clojure
 ---
 
-![](clj_0.jpg)
-![](clj_1.jpg)
-![](clj_2.jpg)
-![](clj_3.jpg)
+{% figure src="clj_0.jpg" alt="" class='large' %}
+{% figure src="clj_1.jpg" alt="" class='large' %}
+{% figure src="clj_2.jpg" alt="" class='large' %}
+{% figure src="clj_3.jpg" alt="" class='large' %}
 
 <br><br>
 

@@ -18,12 +18,16 @@ const marked = require("marked");
 
 function argsToAttrs(attrs) {
   let attrString = '{key}="{values}"';
-  let alt = "";
+  let alt = "photo";
+  let caption = "";
 
   attrs.forEach(function (attr, index) {
     const pair = attr.split("=");
     if (pair[0] === "alt") {
       alt = pair[1];
+    }
+    else if (pair[0] === "caption") {
+      caption = pair[1];
     }
 
     attrs[index] = attrString
@@ -31,7 +35,7 @@ function argsToAttrs(attrs) {
       .replace(/{values}/g, pair[1]);
   });
 
-  return [attrs, alt];
+  return [attrs, alt, caption];
 }
 
 hexo.extend.tag.register(
@@ -45,7 +49,7 @@ hexo.extend.tag.register(
     </figcaption>
 </figure>`;
 
-    const [attrs, alt] = argsToAttrs(args);
+    const [attrs] = argsToAttrs(args);
     const attrString = attrs.join(" ");
     const caption = marked(body);
 
@@ -56,19 +60,19 @@ hexo.extend.tag.register(
 
 hexo.extend.tag.register(
   "figure",
-  function (args, body) {
+  function (args) {
     let html = `
-  <figure>
-      <img {attrs}>
-      <figcaption>
-      {caption}
-      </figcaption>
-  </figure>`;
+<figure>
+    <img {attrs}>
+    <figcaption>
+    {caption}
+    </figcaption>
+</figure>`;
 
-    const [attrs, alt] = argsToAttrs(args);
+    const [attrs, alt, caption] = argsToAttrs(args);
     const attrString = attrs.join(" ");
-
-    return html.replace(/{attrs}/g, attrString).replace(/{caption}/g, alt);
+    
+    return html.replace(/{attrs}/g, attrString).replace(/{caption}/g, caption);
   },
   { ends: false }
 );

@@ -13,14 +13,7 @@ location: Mammoth Lakes
 author: Mica the dingo
 ---
 
-<figure>
-
-![](pond.jpg)
-
-<figcaption>
-Hot dog! Mica went for a swim at every opportunity to stay cool.
-</figcaption>
-</figure>
+{% figure src="pond.jpg" caption="Hot dog! Mica went for a swim at every opportunity to stay cool." class="large" %}
 
 There was a lot of smoke lately, but it cleared up in time for a Sunday peak! This was going to be Mica's longest hike yet, and daiyi's second time up Paiute Pass Trail this season (1.5 weeks ago to climb [Emerson](/blog/emerson)). Long and good day out with friends.
 
@@ -95,14 +88,7 @@ I greet Spot at Paiute Pass!!
 
 The humans sound excited and relieved, and resolve to call each other to hash out specifics in the future. I don't know how to use a phone, I'm a dog!
 
-<figure>
-
-![](paiute-pass.jpg)
-
-<figcaption>
-Crossing Paiute Pass, now a party of 5 people and 2 dingos
-</figcaption>
-</figure>
+{% figure src="paiute-pass.jpg" caption="Crossing Paiute Pass, now a party of 5 people and 2 dingos" class="large" %}
 
 7 miles into the hike, Spot's humans Jaymie and Lucas are ready to turn around. It's been a rough morning for them with the break-in. We have a big group hug, I give Spot a goodbye lick, and we head northwest off the trail to start the big cross-country part of the day.
 
@@ -157,7 +143,7 @@ Very bio-core grass patterns in the basin.
 </figcaption>
 </figure>
 
-<div class="photos">
+<div class="photos large">
 <figure>
 
 ![](water-hole.jpg)
@@ -177,43 +163,16 @@ Aw yis
 </figure>
 </div>
 
-<figure>
 
-![](square-lake-lookout.jpg)
+{% figure src="square-lake-lookout.jpg" caption="I found Square Lake! You can see Pilot Knob again, straight ahead." class="large" %}
 
-<figcaption>
-I found Square Lake! You can see Pilot Knob again, straight ahead.
-</figcaption>
-</figure>
+{% figure src="square-lake-mica.jpg" caption="I scout out the beachy north end of Square Lake" class="large" %}
 
-<figure>
+{% figure src="square-lake-lunch.jpg" caption="Lunch at the beach. Stephanie's sandwich smells so good! Why don't I get a sandwich??" class="large" %}
 
-![](square-lake-mica.jpg)
+{% figure src="square-lake-pan.jpg" caption="Birb-eye view of our lunching spot" class="large" %}
 
-<figcaption>
-I scout out the beachy north end of Square Lake
-</figcaption>
-</figure>
-
-<figure>
-
-![](square-lake-lunch.jpg)
-
-<figcaption>
-Lunch at the beach. Stephanie's sandwich smells so good! Why don't I get a sandwich??
-</figcaption>
-</figure>
-
-<figure>
-
-![](square-lake-pan.jpg)
-
-<figcaption>
-Birb-eye view of our lunching spot 
-</figcaption>
-</figure>
-
-<div class="photos">
+<div class="photos large">
 <figure>
 
 ![](square-lake-swim.jpg)
@@ -264,16 +223,9 @@ Stephanie waits for us in the best nook on the mountain.
 
 The first part of the slopes is sandy scree and small talus, which is easy for dogs. The last hundred feet of gain to the top gets trickier. It's definitely possible for a dog, but keeping it class 2 is not always obvious. I'm lucky to have daiyi and Yelly working together to help me find the best way up.
 
-<figure>
+{% figure src="summit-ridge.jpg" caption="Once at the top, you have to traverse the ridge further than expected to find the official summit." class="large" %}
 
-![](summit-ridge.jpg)
-
-<figcaption>
-Once at the top, you have to traverse the ridge further than expected to find the official summit.
-</figcaption>
-</figure>
-
-<div class="photos">
+<div class="photos large">
 <figure>
 
 ![](register.jpg)
@@ -293,14 +245,7 @@ Entering our paw prints into the history book
 </figure>
 </div>
 
-<figure>
-
-![](summit-mica.jpg)
-
-<figcaption>
-Top dog on Pilot Knob around 2:45pm, 6 hours 45 min after leaving the trailhead. SPS #12!
-</figcaption>
-</figure>
+{% figure src="summit-mica.jpg" caption="Top dog on Pilot Knob around 2:45pm, 6 hours 45 min after leaving the trailhead. SPS #12!" class="large" %}
 
 It's still hot! I'm panting up a storm and Yelly shares some of her funky tube water.
 

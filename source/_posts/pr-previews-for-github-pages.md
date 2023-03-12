@@ -286,7 +286,7 @@ The comment will update with preview urls once the preview is ready:
 
 Check out the link in the preview. It should contain a site that is exactly like the site at `main`, since we haven't made changes to it. If everything looks good, merge that PR, upon which the robots will come in and [clean up](https://github.com/daiyi/gh-pages-pr-previews/pull/1#issuecomment-960087228):
 
-{% figure src="comment-delete.jpg" alt="bye" %}
+{% figure src="comment-delete.jpg" caption="bye" %}
 
 Here's a demo of [an open pull request](https://github.com/daiyi/gh-pages-pr-previews/pull/2) where I add a new blog post:
 

@@ -31,37 +31,37 @@ The trail starts from Minaret Summit, a quick 10 minute drive from our house, wh
 
 During the forest trail, I ran laps around the humans and investigated the local wildlife!
 
-![mica digging](mica-digging.gif)
+{% figure src="mica-digging.gif" alt="mica digging" caption="" %}
 
 While trail planning, daiyi had misread the map thinking that the end of the OHV road was the end of the hike, so we only packed for 5 miles of water. Actually we were only halfway there! and at Deadman Pass is where the shadeless sand and scree slopes began. Luckily, I am a dog, so I didn't get sand in my shoe like the humans did. Sandals not recommended.
 
-![mica on the ridge](on-the-ridge.jpg)
+{% figure src="on-the-ridge.jpg" alt="mica on the ridge" caption="" class="large" %}
 
 You can see the Minarets and Ritter and Banner on the opposing side of the valley for most of the ridge-top hike, they seemed to get closer and closer the entire time until you felt certain you would run right into them.
 
 There was no water or snow except for a tiny patch on the side of the ridge, but I still found a couple mosquitos to snap at while the humans were stopped to eat their lunch burritos and plucots. The sun was out in full force, the sky was an uninterrupted blue. I was a hot dingo!
 
-![mica seeking shade](hot-dingo.jpg)
+{% figure src="hot-dingo.jpg" alt="mica seeking shade" caption="" %}
 
 I sat down in the shade whenever I found the opportunity, but the humans kept us moving.
 
 We reached the summit around 2pm.
 
-![mica on the summit of San Joaquin Mountain](san-joaquin-summit.jpg)
+{% figure src="san-joaquin-summit.jpg" alt="mica on the summit of San Joaquin Mountain" caption=""  class="large" %}
 
 While the humans pointed their phones into the air and signed the summit register, I took a powernap in Marco's shade.
 
-![mica sleeping under summit register](summit-register-nap.jpg)
+{% figure src="summit-register-nap.jpg" alt="mica sleeping under summit register" caption="" %}
 
 I can't read, but this is what they drew:
 
-![our entry in the summit register](summit-register.jpg)
+{% figure src="summit-register.jpg" alt="our entry in the summit register" caption="" %}
 
 Wait, we have to turn around?? Is this why the humans weren't running circles the whole time like I was?
 
 Here's a view of the endless sandy ridge on the hike down:
 
-![sandy ridge](ridge-going-back.jpg)
+{% figure src="ridge-going-back.jpg" alt="sandy ridge" caption="" class="large" %}
 
 That was my biggest day yet, but it's only the beginning!
 

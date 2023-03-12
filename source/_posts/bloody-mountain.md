@@ -13,14 +13,7 @@ location: Mammoth Lakes
 author: Mica the dog
 ---
 
-<figure>
-
-![](bloody-mt-puddle-sip.jpg)
-
-<figcaption>
-Sipping that spicy trail juice on Laurel Lakes Road. Bloody Mountain in the far back.
-</figcaption>
-</figure>
+{% figure src="bloody-mt-puddle-sip.jpg" caption="Sipping that spicy trail juice on Laurel Lakes Road. Bloody Mountain in the far back." class="" %}
 
 The crux of this peak is [Laurel Lakes Road](#A-Note-on-Road-Conditions), a spoopy high-clearance dirt road with large washouts that's class 1 for dogs but class 4 for cars. There's also not much tree cover or water, so I got an early start on an overcast day, and the clouds made the views dramatic. The cross-country is tame, though steep and exposed at times, and solidly class 2 that's friendly for dingos!
 
@@ -56,107 +49,40 @@ EDIT: Laurel Lakes road is [closed as of July 24, 2021](https://www.fs.usda.gov/
 
 So that you are emotionally prepared, know that you might have to start your hike more than 4 miles before the trailhead listed on hiking websites. There are 9 miles round-trip of washed out driving to and from the true trailhead (9,895') of Bloody Mountain. This isn't an ordinary dirt road, it's real 4x4/high clearance with 3-foot chasms and requires a capable vehicle and capable driver. My [housemates did it](https://www.peakbagger.com/climber/ascent.aspx?aid=1454752) with their truck in August 2020 and said it was an hour each way. We opted instead to walk from the very start of the road (7,320'), which took 1.5 hours each way. Between 2 hour of internally screaming in a car, or 3 hours of uneventful walking, I thought the extra hour of walking was fine :'D
 
-<figure>
-
-![](road-conditions.jpg)
-
-<figcaption>
-Class 4 for cars, but Class 1 for dogs. Mica for scale.
-</figcaption>
-</figure>
+{% figure src="road-conditions.jpg" caption="Class 4 for cars, but Class 1 for dogs. Mica for scale." class="large" %}
 
 ### Mica's trip report
 
-<figure>
-
-![](sunrise.jpg)
-
-<figcaption>
-Sunrise on the Long Valley Caldera, 5:30am
-</figcaption>
-</figure>
+{% figure src="sunrise.jpg" caption="Sunrise on the Long Valley Caldera, 5:30am" class="" %}
 
 Hi, I'm Mica, I'm a dog. I was very excited to do this long ridge walk on a nice cloudy day!
 
 After jogging past some chasms earlier on in [Laurel Lakes Road](#A-Note-on-Road-Conditions), we strolled up pebbly dirt road for another hour before turning off onto the actual Bloody Mountain trail.
 
-<figure>
-
-![](bloody-mt-from-laurel-road.jpg)
-
-<figcaption>
-Bloody Mountain comes into view as we go up Laurel Lakes Road
-</figcaption>
-</figure>
+{% figure src="bloody-mt-from-laurel-road.jpg" caption="Bloody Mountain comes into view as we go up Laurel Lakes Road" class="" %}
 
 Then there's some switchbacks and winding around up to Bloody-Laurel Col, where we turn right off the trail and straight up the ridge!
 
-<figure>
-
-![](leaving-the-trail.jpg)
-
-<figcaption>
-Bloody-Laurel Col. Continue right (south) through the brush, and up the visible ridgeline.
-</figcaption>
-</figure>
+{% figure src="leaving-the-trail.jpg" caption="Bloody-Laurel Col. Continue right (south) through the brush, and up the visible ridgeline." class="" %}
 
 At first the ridge is a bit loose and steep, but it gets more solid.
 
-<div class="photo-small">
-<figure>
-
-![](ridge-walk-1.jpg)
-
-<figcaption>
-
-</figcaption>
-</figure>
-</div>
+{% figure src="ridge-walk-1.jpg" caption="" class="" %}
 
 As you can see you get _more than three miles_ of this barren volcanic talus ridgeline which lacks any shade, water, or squirrels. So I imagine you cook like bacon on a sunny, windless day.
 
-<div class="photo-small">
-<figure>
-
-![](dorothy-lake-baldwin.jpg)
-
-<figcaption>
-
+{% figureMD src="dorothy-lake-baldwin.jpg"%}
 Looking SE over the ridge. Nice views of Lake Genevieve (left), Mount Baldwin (left), and [Red Slate Mountain](/blog/Red-Slate-Mountain) (right), which I've climbed!
+{% endfigureMD %}
 
-</figcaption>
-</figure>
-</div>
+{% figure src="scree-ridge-forever.jpg" caption="Scree selfie!" class="" %}
 
-<figure>
-
-![](scree-ridge-forever.jpg)
-
-<figcaption>
-Scree selfie!
-</figcaption>
-</figure>
-
-<figure>
-
-![](summit.jpg)
-
-<figcaption>
-At last, I found the register at the summit! SPS #10
-</figcaption>
-</figure>
+{% figure src="summit.jpg" caption="At last, I found the register at the summit! SPS #10" class="" %}
 
 The clouds made the views dramatic, but we didn't stay long at the top as a few rain drops fell as a reminder that there were afternoon thunderstorms in the forecast.
 
-<figure>
-
-![](lost-world-and-town.jpg)
-
-<figcaption>
-
+{% figureMD src="lost-world-and-town.jpg" class="large" %}
 Looking northwest to the strangely shaped Lost World Peak, with Laurel Lakes at the base. You can see Laurel Lakes Road cut into the slopes on the far right ([enhance](lost-world-XL.jpg))
+{% endfigureMD %}
 
-</figcaption>
-</figure>
-
-We scuried back down the ridge without resting, getting back to the car at 12:25pm after 6.5 hours of hiking. It didn't pour rain until we already drove home and ate big lunches. That was my 10th SPS summit!
+We scurried back down the ridge without resting, getting back to the car at 12:25pm after 6.5 hours of hiking. It didn't pour rain until we already drove home and ate big lunches. That was my 10th SPS summit!

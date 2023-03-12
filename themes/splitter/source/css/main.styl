@@ -1,54 +1,48 @@
-@import url("https://fonts.googleapis.com/css?family=Cousine:400|News+Cycle:400,700")
-
-:root {
-  --background: #fff;
-  --background-inverse: #222;
-  --text: #222;
-  --text-secondary: #666;
-  --hover-underline: #aaa;
-  --focus: #00a4a6;
-  --border: #dbdbdb;
-  --border-inverse: #808080;
-  --button-hover: #dddddd;
-  --button-hover-inverse: #324759;
-  --form-placeholder: #949494;
-  --form-text: #000000;
-  --form-text-inverse: #ffffff;
-  --code-highlight:#f5f3f9
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #222;
-    --background-inverse: #333;
-    --text: #ddd;
-    --text-secondary: #999;
-    --hover-underline: #999;
-    --focus: #00a4a6;
-    --border: #444;
-    --border-inverse: #999;
-    --button-hover: #324759;
-    --button-hover-inverse: #dddddd;
-    --form-placeholder: #949494;
-    --form-text: #ffffff;
-    --form-text-inverse: #999;
-  }
-}
-
+@import url('https://fonts.googleapis.com/css?family=Cousine:400|News+Cycle:400,700')
+:root
+  --background: #fff
+  --background-inverse: #222
+  --text: #222
+  --text-secondary: #666
+  --text-width: 650px
+  --content-width: 900px
+  --hover-underline: #aaa
+  --focus: #00a4a6
+  --border: #dbdbdb
+  --border-inverse: #808080
+  --button-hover: #dddddd
+  --button-hover-inverse: #324759
+  --form-placeholder: #949494
+  --form-text: #000000
+  --form-text-inverse: #ffffff
+  --code-highlight: #f5f3f9
+@media (prefers-color-scheme: dark)
+  :root
+    --background: #222
+    --background-inverse: #333
+    --text: #ddd
+    --text-secondary: #999
+    --hover-underline: #999
+    --focus: #00a4a6
+    --border: #444
+    --border-inverse: #999
+    --button-hover: #324759
+    --button-hover-inverse: #dddddd
+    --form-placeholder: #949494
+    --form-text: #ffffff
+    --form-text-inverse: #999
 @import 'github'
-
 caption-font()
   font-size: 14px
   font-family: $header-font
   text-transform: uppercase
   letter-spacing: 2px
-$text-font = "Cousine", monospace
-$site-title-font = "Cousine", monospace
-$header-font = "News Cycle", sans-serif
-$lead-font = "Noticia Text", serif
+$text-font = 'Cousine', monospace
+$site-title-font = 'Cousine', monospace
+$header-font = 'News Cycle', sans-serif
+$lead-font = 'Noticia Text', serif
 $gutter = 20px
-html,
-body
+html, body
   background: var(--background)
   color: var(--text)
   font-family: $text-font
@@ -76,47 +70,35 @@ body
     border-top: 20px var(--border) solid
     width: 100%
     margin-bottom: 40px
-.box-content,
-.header
-  width: 900px
+.box-content, .header
+  width: var(--content-width)
   margin: 0
   padding: 0
-  img,
-  video
-    max-width: 100%
+  img, video
     display: block
-    margin: auto
+  img, video, .photos
+    max-width: var(--text-width)
+    width: 100%
+  .large
+    max-width: unset
 .box-content
   &.index
     margin-top: $gutter
-h1,
-h2,
-h3,
-h4,
-h5,
-h6
+h1, h2, h3, h4, h5, h6
   font-family: $header-font
   margin-bottom: $gutter
   line-height: 1.2em
+  max-width: var(--text-width)
+  width: 100%
 h1
   font-size: 38px
-  a,
-  a:visited,
-  a:hover
+  a, a:visited, a:hover
     border: none
 .header h1
-    font-family: $site-title-font
-    margin-top: -20px
-    font-weight: normal
-h2 a,
-h2 a:visited,
-h2 a:hover,
-h3 a,
-h3 a:visited,
-h3 a:hover,
-h4 a,
-h4 a:visited,
-h4 a:hover
+  font-family: $site-title-font
+  margin-top: -20px
+  font-weight: normal
+h2 a, h2 a:visited, h2 a:hover, h3 a, h3 a:visited, h3 a:hover, h4 a, h4 a:visited, h4 a:hover
   border: none
 h2
   font-size: 28px
@@ -126,13 +108,17 @@ h4
   font-size: 18px
 h5
   font-size: 16px
-p,
-li
+p, li
   line-height: 1.8em
   word-spacing: -1px
   letter-spacing: -0.1px
 p
-  margin: 30px 0
+  max-width: var(--text-width)
+  width: 100%
+  margin: 0 0 30px 0
+.excerpt
+  p
+    margin-top: 20px
 img + p
   margin-top: ($gutter * 3 / 2)
 ::-webkit-input-placeholder
@@ -143,18 +129,9 @@ img + p
   color: var(--form-placeholder)
 ::placeholder
   color: var(--form-placeholder)
-button,
-select,
-input[type="submit"],
-input[type="button"],
-input[type="checkbox"],
-input[type="range"],
-input[type="radio"]
+button, select, input[type='submit'], input[type='button'], input[type='checkbox'], input[type='range'], input[type='radio']
   cursor: pointer
-button,
-input,
-select,
-textarea
+button, input, select, textarea
   color: var(--form-text)
   background-color: var(--background)
   font-family: inherit
@@ -170,25 +147,16 @@ textarea
     opacity: 0.5
 textarea
   font-size: 16px
-input,
-textarea,
-button
+input, textarea, button
   border: 1px solid var(--border)
   box-sizing: border-box
   background: none
-button,
-input[type="submit"],
-input[type="button"]
+button, input[type='submit'], input[type='button']
   padding-right: 20px
   padding-left: 20px
-button:hover,
-input[type="submit"]:hover,
-input[type="button"]:hover
+button:hover, input[type='submit']:hover, input[type='button']:hover
   background: var(--button-hover)
-button:focus,
-input:focus,
-select:focus,
-textarea:focus
+button:focus, input:focus, select:focus, textarea:focus
   box-shadow: 0 0 0 2px var(--focus)
 label
   display: block
@@ -199,6 +167,10 @@ label
     margin-bottom: 15px
   textarea
     width: 100%
+hr
+  max-width: var(--text-width)
+  width: 100%
+  border: 1px solid var(--border)
 .description
   color: var(--text-secondary)
   line-height: 1.4em
@@ -209,9 +181,8 @@ label
   font-family: $lead-font
   line-height: 1.4em
   margin-bottom: 30px
-.lead-simple,
-strong
-  font-family: "news cycle"
+.lead-simple, strong
+  font-family: 'news cycle'
   line-height: 1em
   margin-bottom: 30px
   letter-spacing: 2px
@@ -220,24 +191,35 @@ strong
   color: #999
 .meta
   caption-font()
-  // margin-top: -5px;
 .header
   h1
     display: inline-block
-    margin-right: $gutter
     margin-bottom: 0
   .nav
     display: inline-block
 .post
+  display: flex
+  flex-direction: column
+  align-items: center
   margin-bottom: ($gutter * 2)
   word-wrap: break-word
   .post-content
+    display: flex
+    flex-direction: column
+    align-items: center
     ul
       list-style-type: '✦ '
+      margin: 0
+    & > ul, & > ol
+      max-width: var(--text-width)
+      width: 100%
       padding-inline-start: 60px
       li
-        line-height: 1.4em
-        margin: 20px 0
+        // line-height: 1.4em
+        margin: 0
+        margin-bottom: 30px
+        & > ul, & > ol
+          margin-top: 30px
 footer
   width: 100%
   background: var(--background-inverse)
@@ -249,8 +231,7 @@ footer
   align-items: center
   a
     text-decoration: none
-  a,
-  a:visited
+  a, a:visited
     color: var(--text-inverse)
     border-bottom: 2px var(--hover-underline) dotted
   a:hover
@@ -270,59 +251,51 @@ footer
     color: var(--form-placeholder-dark)
   ::placeholder
     color: var(--form-placeholder-dark)
-  button,
-  input,
-  select,
-  textarea
+  button, input, select, textarea
     color: var(--form-text-inverse)
     background-color: var(--background-inverse)
     border: 1px solid var(--border-inverse)
-  input[type="text"],
-  textarea,
-  button
+  input[type='text'], textarea, button
     border: 1px solid var(--border-inverse)
-  button:hover,
-  input[type="submit"]:hover,
-  input[type="button"]:hover
+  button:hover, input[type='submit']:hover, input[type='button']:hover
     background: var(--button-hover-inverse)
   nav
     display: flex
     flex-direction: row
     justify-content: space-between
     column-gap: 20px
-article
-  header
-    margin-bottom: ($gutter * 3 / 2)
-    h1
-      margin-bottom: 5px
-  .entry-footer
-    margin-top: 40px
-    // &:before {
-    //   content: "____";
-    //   font-weight: bold;
-    // }
-    .signoff
-      p
-        margin: 0
-      margin: $gutter 0 20px 0
-      .date,
-      .location
-        font-style: italic
-  .meta span
-    &:not(:first-child)
-      margin-left: 10px
-      &:before
-        content: "|"
-        margin-right: 10px
+header
+  max-width: var(--text-width)
+  width: 100%
+  margin: 0
+  margin-bottom: ($gutter * 3 / 2)
+  h1
+    margin-bottom: 5px
+.entry-footer
+  margin-top: 40px
+  max-width: var(--text-width)
+  width: 100%
+  .signoff
+    p
+      margin: 0
+    margin: $gutter 0 20px 0
+    .date, .location
+      font-style: italic
+.meta span
+  &:not(:first-child)
+    margin-left: 10px
+    &:before
+      content: '|'
+      margin-right: 10px
 .items
   display: flex
   flex-direction: row
   flex-wrap: wrap
   justify-content: flex-start
   align-items: flex-start
-  margin: -1*($gutter / 2)
+  margin: -1 * ($gutter / 2)
   .item
-    flex: 0 0 calc(100% / 3)
+    flex: 0 0 calc((100% / 3))
     .item-content
       margin: ($gutter / 2)
       margin-bottom: ($gutter * 2)
@@ -368,9 +341,7 @@ article
           margin-right: $gutter
         .title
           caption-font()
-.nav,
-nav,
-.tags
+.nav, nav, .tags
   ul
     display: block
     padding-left: 0
@@ -394,11 +365,8 @@ video
   justify-content: center
   figure
     margin-bottom: 0
-
-.photo-small img,
-img.small
-  flex: 0 0 70%
-  width: 70%
+.photo-small img, img.small, .small
+  width: calc(var(--text-width) - 200px)
 .photo-inline
   margin: $gutter * 2 0
   display: flex
@@ -412,30 +380,24 @@ img.small
   display: flex
   flex-direction: column
   flex-flow: row nowrap
-  // justify-content: flex-start;
   align-items: flex-start
   margin: 0 -5px
-  // overflow: auto;
-  // width: 100%;
-  .photo,
-  figure
+  margin-bottom: 40px
+  .photo, figure
     margin: 5px
     flex: 1
 .photo-left-pull
   float: left
-  margin-left: -10%
   margin-right: ($gutter * 4)
   margin-bottom: ($gutter * 2)
   width: 60%
 .photo-right-pull
   float: right
-  margin-right: -10%
   margin-left: ($gutter * 4)
   margin-bottom: ($gutter * 2)
   width: 60%
 .photo-right-pull-tall
   float: right
-  margin-right: -10%
   margin-left: ($gutter * 4)
   margin-bottom: ($gutter * 2)
   height: 30%
@@ -443,19 +405,18 @@ img.small
     width: auto
     max-height: 600px
 .photo-section
-  position: relative
+  width: 100%
   display: inline-block
-// img {
-//   flex: 0 0 100%;
-// }
-// .photo {
-//   margin: 0 10px;
-//   flex: 0 0 calc(100%/3);
-// }
+  p
+    max-width: var(--content-width)
+    width: 100%
+  blockquote
+    max-width: calc(var(--content-width) - 45px)
+  .small
+    width: 40%
 a
   text-decoration: none
-a,
-a:visited
+a, a:visited
   color: var(--text)
   border-bottom: 2px #666666 dotted
 a:hover
@@ -467,11 +428,9 @@ a.button
   cursor: pointer
 a.button:hover
   border: 3px #000 solid
-
 abbr
-  cursor: help;
+  cursor: help
   border-bottom: 1px dashed var(--text-secondary)
-
 ul.link-list
   display: block
   padding-left: 0
@@ -488,8 +447,19 @@ ul.link-list
   a:hover
     color: #05ebb1
 blockquote
+  max-width: calc(var(--text-width) - 40px)
+  width: 100%
   border-left: 5px solid var(--border)
-  padding-left: $gutter
+  padding-inline-start: 35px
+  margin: 0
+  margin-bottom: 30px
+  p
+    max-width: calc(var(--text-width) - 45px)
+    width: 100%
+    &:last-of-type
+      margin-bottom: 0
+  h1, h2, h3, h4, h5, h6
+    margin-top: 0
 .linebreak
   height: 1px
   width: 40px
@@ -498,13 +468,13 @@ figure
   margin: 0
   margin-bottom: ($gutter * 2)
   padding: 0
-  img+figcaption // shortcode doesn't have extra p around img
+  img+figcaption, video+figcaption // shortcode doesn't have extra p around img
     margin-top: $gutter
   figcaption
     caption-font()
-    padding: 0 ($gutter/2)
+    padding: 0 ($gutter / 2)
     margin: 0 auto
-    max-width: 400px;
+    max-width: 400px
     display: flex
     justify-content: center
     // markdown inserts extra paragraphs u_u
@@ -513,9 +483,12 @@ figure
       margin: 0
       word-spacing: inherit
       letter-spacing: inherit
+      width: unset
+.highlight
+  max-width: var(--content-width)
+  width: 100%
 // COMMENTS
 .comments
-  max-width: 600px
   font-size: 14px
   border-top: 3px solid var(--border)
   padding: 5px 0
@@ -534,8 +507,8 @@ figure
       border-left: 3px solid #ddd
       padding-left: 20px
       // &> p:first-child {
-      //   font-weight: bold;
-      //   margin-top: 20px;
+      // font-weight: bold;
+      // margin-top: 20px;
       // }
       p
         margin: 10px 0
@@ -578,47 +551,67 @@ figure
 .header-anchor
   margin-left: -1em
   margin-right: 0.5em
+.flex
+  display: flex
+  flex-direction: column
 @media (max-width: 1440px)
-  .box-content,
-  .header
+  /*
+  .box-content, .header
     width: 650px
     &.index
-      width: 900px;
-@media (max-width: 940px)
-  .box-content,
-  .header
+      width: 900px
+      */
+// @media (max-width: 940px)
+@media (max-width: 990px)
+  .box-content, .header
     margin: 0 10px
     &.index
-      width: auto;
-@media (max-width: 700px)
+      width: auto
   // fixes silly soundcloud resizing thing wtf
   .page-content
+    max-width: 100%
     width: 100%
-  .box-content,
-  .header
+  .box-content, .header
     width: auto
     &.index
-      width: auto;
+      width: auto
   .items
     margin: 0
     .item
-      flex: 0 0 calc(100% / 2)
+      flex: 0 0 calc((100% / 2))
       .item-content
         .date
           margin-right: $gutter
-  .post 
-    .post-content 
-      ul 
-        padding-inline-start: 20px
-  blockquote
-    margin-left: -1*($gutter / 2)
-    border-width: 10px
-    margin-right: 0
-    padding-left: $gutter
-    padding-right: $gutter
-  .photo-left-pull,
-  .photo-right-pull,
+  .post
+    .post-content
+      ul, ol
+        padding-inline-start: 30px
+        width: calc(100% - 30px)
+  .photo-left-pull
+    width: 50%
+    margin-right: 30px
+    margin-bottom: 30px
+  .photo-right-pull
+    width: 50%
+    margin-left: 30px
+    margin-bottom: 30px
   .photo-right-pull-tall
+    height: 20%
+    margin-left: 30px
+    margin-bottom: 30px
+  .photo-section
+    blockquote
+      max-width: calc(100% - 35px)
+  .highlight
+    max-width: calc(100vw - 3em)
+    flex: 0 1 auto
+@media (max-width: 650px)
+  .photo-section
+    p
+      max-width: var(--text-width)
+    blockquote
+      max-width: calc(100% - 15px)
+  .photo-left-pull, .photo-right-pull, .photo-right-pull-tall
     float: none
     margin: 0
     width: 100%
@@ -627,35 +620,37 @@ figure
   .photo-small
     margin: $gutter * 2 0
     display: block
-  .photo-small img,
-  img.small
+  .photo-small img, img.small
     flex: none
     width: 100%
   figure
     figcaption
       font-size: 80%
-      margin: ($gutter/2) auto
-@media (max-width: 550px)
+      margin: ($gutter / 2) auto
+  blockquote
+    border-width: 10px
+    padding-inline-start: 15px
+    max-width: calc(100% - 15px)
+    margin-inline-start: -10px
   .photos
     flex-flow: row wrap
-    .photo,
-    figure
+    .photo, figure
       flex: 1 1 auto
   .items
     .item
       flex: 0 0 100%
       .item-content
         margin: 0
-
 // accessibly hidden
 // https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/
-.hidden { 
-  position: absolute; 
-  overflow: hidden; 
-  clip: rect(0 0 0 0); 
-  height: 1px; width: 1px; 
-  margin: -1px; padding: 0; border: 0; 
-}
-
+.hidden
+  position: absolute
+  overflow: hidden
+  clip: rect(0 0 0 0)
+  height: 1px
+  width: 1px
+  margin: -1px
+  padding: 0
+  border: 0
 a.leaflet-popup-close-button
-  border-bottom: none;
+  border-bottom: none

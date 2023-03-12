@@ -40,36 +40,36 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b pr-previews</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;workflows for PR previews + delete on PR close&quot;</span></span><br><span class="line">git push --set-upstream origin pr-previews</span><br></pre></td></tr></table></figure>
 <p>Go to github and open a <a target="_blank" rel="noopener" href="https://github.com/daiyi/gh-pages-pr-previews/pull/1">pull request</a> for that branch. A friendly robot will let you know they’re working on your request:</p>
 
-  <figure>
-      <img src="comment-loading.jpg">
-      <figcaption>
-      
-      </figcaption>
-  </figure>
+<figure>
+    <img src="comment-loading.jpg">
+    <figcaption>
+    
+    </figcaption>
+</figure>
 <p>The comment will update with preview urls once the preview is ready:</p>
 
-  <figure>
-      <img src="comment-ready.jpg">
-      <figcaption>
-      
-      </figcaption>
-  </figure>
+<figure>
+    <img src="comment-ready.jpg">
+    <figcaption>
+    
+    </figcaption>
+</figure>
 <p>Check out the link in the preview. It should contain a site that is exactly like the site at <code>main</code>, since we haven’t made changes to it. If everything looks good, merge that PR, upon which the robots will come in and <a target="_blank" rel="noopener" href="https://github.com/daiyi/gh-pages-pr-previews/pull/1#issuecomment-960087228">clean up</a>:</p>
 
-  <figure>
-      <img src="comment-delete.jpg" alt="bye">
-      <figcaption>
-      bye
-      </figcaption>
-  </figure>
+<figure>
+    <img src="comment-delete.jpg" caption="bye">
+    <figcaption>
+    bye
+    </figcaption>
+</figure>
 <p>Here’s a demo of <a target="_blank" rel="noopener" href="https://github.com/daiyi/gh-pages-pr-previews/pull/2">an open pull request</a> where I add a new blog post:</p>
 
-  <figure>
-      <img src="demo.jpg">
-      <figcaption>
-      
-      </figcaption>
-  </figure>
+<figure>
+    <img src="demo.jpg">
+    <figcaption>
+    
+    </figcaption>
+</figure>
 <p>The preview for that PR: <a target="_blank" rel="noopener" href="https://daiyi.github.io/gh-pages-pr-previews/pull/2/">https://daiyi.github.io/gh-pages-pr-previews/pull/2/</a>.</p>
 <p>And the source: <a target="_blank" rel="noopener" href="https://github.com/daiyi/gh-pages-pr-previews/tree/gh-pages/pull/2/">https://github.com/daiyi/gh-pages-pr-previews/tree/gh-pages/pull/2/</a>.</p>
 <p>Nice! It works!</p>

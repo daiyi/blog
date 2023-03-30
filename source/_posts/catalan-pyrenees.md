@@ -40,11 +40,11 @@ I remember trying to infer the culture from the artifacts, like the unmanned ref
 {% figure src="minimal-refugio.jpg" class="large" caption="Extremely primitive unmanned refugio" %}
 </div>
 
-{% figure src="deluxe-hut.jpg" class="large" caption="Deluxe cabin that serves hot food and a bed. First time being exposed to the hut-to-hut phenomenon. We don't have these in the US! At the time, I thought it'd be nice to stay in one when I'm retired" %}
+{% figure src="deluxe-hut.jpg" class="large" caption="Deluxe cabin that serves hot food and a bed. First time seeing the hut-to-hut phenomenon. We don't have these in the US! I thought it'd be nice to stay in one when I'm old and retired" %}
 
 <div class="photos large">
 {% figure src="tent.jpg" class="large" caption="Wild camping is a free option for broke kids" %}
-{% figure src="morning-cows.jpg" class="large" alt="cows next to tent" caption="Sometime waking up to company" %}
+{% figure src="morning-cows.jpg" class="large" alt="cows next to tent" caption="Sometimes waking up to loud company" %}
 </div>
 
 I didn't do any trip planning aside from a vague goal to exit from Andorra (the mini-country sandwiched between Spain and France). Since it was 10 years ago, I bought a paper map, and stitched together sections of the GR-11 and Haute Route. I had primitive offline gps phone maps (probably OSM), but didn't load tracks or route names.

@@ -17,43 +17,46 @@ Have you ever seen a van sitting so nicely?
 const marked = require("marked");
 
 function argsToAttrs(attrs) {
-  let attrString = '{key}="{values}"';
-  let alt = "photo";
+  let alt = "";
   let caption = "";
+  const imgAttrs = [];
 
-  attrs.forEach(function (attr, index) {
-    const pair = attr.split("=");
-    if (pair[0] === "alt") {
-      alt = pair[1];
+  attrs.forEach(function (attr) {
+    const [key, value] = attr.split("=");
+    if (key === "alt") {
+      alt = value;
+    } else if (key === "caption") {
+      caption = value;
+    } else {
+      imgAttrs.push(attr);
     }
-    else if (pair[0] === "caption") {
-      caption = pair[1];
-    }
-
-    attrs[index] = attrString
-      .replace(/{key}/g, pair[0])
-      .replace(/{values}/g, pair[1]);
   });
 
-  return [attrs, alt, caption];
+  if (!alt) {
+    if (caption) {
+      alt = caption;
+    } else {
+      alt = "photo";
+    }
+  }
+  imgAttrs.push(`alt="${alt.replace(/"/g, "'")}"`);
+
+  return [imgAttrs, caption];
 }
 
 hexo.extend.tag.register(
   "figureMD",
   function (args, body) {
-    let html = `
-<figure>
-    <img {attrs}>
-    <figcaption>
-    {caption}
-    </figcaption>
-</figure>`;
-
-    const [attrs] = argsToAttrs(args);
-    const attrString = attrs.join(" ");
+    const [imgAttrs] = argsToAttrs(args);
     const caption = marked(body);
 
-    return html.replace(/{attrs}/g, attrString).replace(/{caption}/g, caption);
+    return `
+<figure>
+    <img ${imgAttrs.join(" ")}>
+    <figcaption>
+    ${caption}
+    </figcaption>
+</figure>`;
   },
   { ends: true }
 );
@@ -61,18 +64,15 @@ hexo.extend.tag.register(
 hexo.extend.tag.register(
   "figure",
   function (args) {
-    let html = `
+    const [imgAttrs, caption] = argsToAttrs(args);
+
+    return `
 <figure>
-    <img {attrs}>
+    <img ${imgAttrs.join(" ")}>
     <figcaption>
-    {caption}
+    ${caption}
     </figcaption>
 </figure>`;
-
-    const [attrs, alt, caption] = argsToAttrs(args);
-    const attrString = attrs.join(" ");
-    
-    return html.replace(/{attrs}/g, attrString).replace(/{caption}/g, caption);
   },
   { ends: false }
 );

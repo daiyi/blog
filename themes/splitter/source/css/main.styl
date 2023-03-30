@@ -356,7 +356,6 @@ header
     a:hover
       border-bottom: 2px solid var(--hover-underline)
 video
-  margin: 60px auto
   display: block
 .photo-small
   margin: $gutter * 2 0
@@ -365,7 +364,7 @@ video
   justify-content: center
   figure
     margin-bottom: 0
-.photo-small img, img.small, .small
+.photo-small img, img.small, .small, video.small
   width: calc(var(--text-width) - 200px)
 .photo-inline
   margin: $gutter * 2 0
@@ -620,7 +619,7 @@ figure
   .photo-small
     margin: $gutter * 2 0
     display: block
-  .photo-small img, img.small
+  .photo-small img, img.small, video.small
     flex: none
     width: 100%
   figure

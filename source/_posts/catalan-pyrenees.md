@@ -5,7 +5,8 @@ categories:
     - trip reports
 tags:
     - vintage
-summary: Backpacking the Spanish Pyrenees with no plan (vintage post)
+    - backpacking
+summary: Backpacking the Spanish Pyrenees with no plan (vintage trip)
 image: dinner.jpg
 location: Mammoth Lakes
 ---

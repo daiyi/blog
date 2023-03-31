@@ -1399,6 +1399,13 @@ hexo-fs@^3.0.1, hexo-fs@^3.1.0:
     graceful-fs "^4.1.11"
     hexo-util "^2.0.0"
 
+hexo-generator-alias@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-alias/-/hexo-generator-alias-1.0.0.tgz#0a6962c2a5feb4bb137de21977ac0c670ffa498c"
+  integrity sha512-DSq7gu6jeo4qiL68PKzfU4xDThxj6UiYDmdjuMOElEox9jFOhWoUNzi3l3cRUMzOQpUnOFYjSKzG6pmYMgcGig==
+  dependencies:
+    hexo-util "^2.4.0"
+
 hexo-generator-archive@^2:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-archive/-/hexo-generator-archive-2.0.0.tgz#bd93f17848843bb5bface81103d81f5be1a8b2c9"
@@ -1543,7 +1550,7 @@ hexo-util@^2.0.0:
     strip-indent "^3.0.0"
     striptags "^3.1.1"
 
-hexo-util@^2.1.0, hexo-util@^2.7.0:
+hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.7.0.tgz#13d09292e79d260db35399710b3e19f3995443a3"
   integrity sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ==

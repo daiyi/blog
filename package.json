@@ -12,6 +12,7 @@
     "hexo": "^6.3.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.1.0",
+    "hexo-generator-alias": "^1.0.0",
     "hexo-generator-archive": "^2",
     "hexo-generator-category": "^2",
     "hexo-generator-feed": "^3",

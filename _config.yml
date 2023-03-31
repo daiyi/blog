@@ -128,3 +128,7 @@ category_config:
 leaflet:
   baseLayer: "https://caltopo.s3.amazonaws.com/topo/{z}/{x}/{y}.png"
   attribution: "Map data © USGS. Hosted by Caltopo"
+
+# hexo-generator-alias
+alias:
+  categories/mica-s-journal: c/mica/ # {category_dir}/mica/

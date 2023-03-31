@@ -131,4 +131,4 @@ leaflet:
 
 # hexo-generator-alias
 alias:
-  categories/mica-s-journal: c/mica/ # {category_dir}/mica/
+  categories/mica-s-journal/: c/mica/ # {category_dir}/mica/

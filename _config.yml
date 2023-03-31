@@ -1,7 +1,7 @@
 # Site
 title: daiyi
 subtitle:
-description: thoughts and ideas and essays by daiyi; unrefined brain-to-internet pipe; public journaling
+description: it's my blorg
 author: daiyi
 language: en
 timezone: America/Los_Angeles # Europe/Berlin
@@ -18,7 +18,7 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
-category_dir: categories
+category_dir: c
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -47,6 +47,7 @@ highlight:
 # Category & Tag
 default_category: etc
 category_map:
+  "mica's journal": mica
 tag_map:
 
 # Markdown-it config
@@ -118,7 +119,7 @@ stylus:
 # category descriptions
 category_config:
   "mica's journal":
-    description: Hi I'm Mica, I am a dog. I run the show as CEO. I live with my CTO (Chief Treats Officer) daiyi and my CMO (Chief Marco Officer) Marco. daiyi writes my story because I can't use a computer. I like to eat alpine chipmunks, heel next to mountain bikes, and bag peaks with my bff yelly.
+    description: Hi I'm Mica, I am a dog. I run the show as CEO. I live with my CTO (Chief Treats Officer) daiyi and my CMO (Chief Marco Officer) Marco. daiyi writes my story because I can't use a computer. I like to eat squirrels, sleep all day, send with mountain bikes, and bag peaks with my bff yelly.
     image: "mica.jpg"
 
 # map plugin

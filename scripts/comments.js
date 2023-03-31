@@ -3,7 +3,7 @@ var fs = require("fs");
 var path = require("path");
 var marked = require("marked");
 
-hexo.extend.filter.register("before_post_render", data => {
+hexo.extend.filter.register("before_post_render", (data) => {
   if (data.layout !== "post" || !data.title) {
     return data;
   }
@@ -17,10 +17,10 @@ hexo.extend.filter.register("before_post_render", data => {
     var filepath = path.join(data.asset_dir, "_comments.yaml");
 
     if (fs.existsSync(filepath)) {
-      var comments = yaml.safeLoad(fs.readFileSync(filepath, "utf8"));
+      var comments = yaml.load(fs.readFileSync(filepath, "utf8"));
 
       if (comments) {
-        comments.forEach(comment => {
+        comments.forEach((comment) => {
           comment.comment = marked(comment.comment);
         });
 
@@ -36,7 +36,7 @@ hexo.extend.filter.register("before_post_render", data => {
 #   comment: |
 #     words words words
 `;
-      fs.writeFile(filepath, comment_file_default, function(err) {
+      fs.writeFile(filepath, comment_file_default, function (err) {
         if (err) {
           return console.log(err);
         }

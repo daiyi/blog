@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "hexo": {
-    "version": "6.3.0"
+    "version": "5.3.0"
   },
   "engines": {
     "node": ">=12.0.0"
   },
   "dependencies": {
-    "hexo": "^6.3.0",
+    "hexo": "5.3.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-alias": "^1.0.0",

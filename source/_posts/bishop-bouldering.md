@@ -5,6 +5,8 @@ categories:
   - life recap
 tags:
   - climbing
+  - bouldering
+  - Sierra
 summary: 1.5-year retrospective on teaching myself to not fear or hate bouldering.
 hideSummary: true
 image: monkey-hang-xs.jpeg

@@ -4,8 +4,6 @@ title: >-
 date: 2016-11-07 22:30:04
 categories: tech
 tags:
-  - IndieWebCamp
-  - web
 summary: I am inspired by the promises of an Indie Web.
 location: Berlin
 redirect_from:

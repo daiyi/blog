@@ -2,6 +2,8 @@
 title: Reconnecting with the water – a van trip through Oregon
 date: 2021-08-02
 categories: trip reports
+tags:
+    - van life
 summary: Take me back to Blow Lake.
 image: blow-lake.jpg
 location: Seattle, WA

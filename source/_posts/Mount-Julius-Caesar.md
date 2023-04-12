@@ -6,6 +6,8 @@ categories:
 tags:
   - SPS
   - peakbagging
+  - good for dogs
+  - Sierra
 summary: Straight out of Denali, Yelly takes Mica on a 20 mile, 6100ft dayhike!
 peakbaggerurl: https://www.peakbagger.com/climber/ascent.aspx?aid=1680564
 image: dingo-roll.jpg

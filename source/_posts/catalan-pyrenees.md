@@ -4,7 +4,6 @@ date: 2023-03-29 14:15:00
 categories:
     - trip reports
 tags:
-    - vintage
     - backpacking
 summary: Backpacking the Spanish Pyrenees with no plan (vintage trip)
 image: dinner.jpg

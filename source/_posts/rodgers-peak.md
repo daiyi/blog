@@ -5,7 +5,8 @@ categories: trip reports
 tags:
   - SPS
   - peakbagging
-  - sierra challenge
+  - Sierra Challenge
+  - Sierra
 summary: Big dayhike to a remote peak with rad views of Yosemite, Tuolumne, and Mammoth. Wildfire smoke.
 image: rafee-scramble.jpg
 location: June Lake, CA

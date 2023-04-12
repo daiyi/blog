@@ -2,10 +2,13 @@
 title: Pilot Knob (12,245 ft)
 date: 2021-08-29
 categories:
-  - mica's journal
+  - [mica's journal]
+  - [trip reports]
 tags:
   - SPS
   - peakbagging
+  - good for dogs
+  - Sierra
 summary: Mica's 12th SPS and longest dayhike at 22.5+ miles!
 peakbaggerurl: "https://www.peakbagger.com/climber/ascent.aspx?aid=1755045"
 image: summit-ridge.jpg

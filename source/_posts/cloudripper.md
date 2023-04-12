@@ -2,11 +2,13 @@
 title: Cloudripper & Vagabond
 date: 2022-09-28 13:15:03
 categories:
-  - mica's journal
+  - [mica's journal]
+  - [trip reports]
 tags:
   - SPS
   - peakbagging
   - good for dogs
+  - Sierra
 summary: Pipe hike!! Fall colours, remote like the moon, uphill both ways, great views of the Palisades, good for dogs!
 image: pipe-morning.jpeg
 location: Mammoth Lakes

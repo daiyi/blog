@@ -3,15 +3,15 @@ article(class=page.layout).box-content
     h1
       a(href=url_for(page.path)) #{page.title}
     .meta
-      span.date #{date(page.date, "YYYY MM DD")}
-      if page.location
-        span.location #{page.location}
       if page.peakbaggerurl
-        span.peakbagger-url 
+        span.peakbagger-url
           a(href=page.peakbaggerurl) Peakbagger link
-    //- .meta
-    //-   span.date #{date(page.date, "YY MM DD")}
-    //-   span.location #{page.location}
+      span.date #{date(page.date, "YYYY-MM-DD")}
+      if page.categories
+        span.categories
+          for category in page.categories.toArray()
+            span 
+              a(href=url_for(category.path)) #{category.name}
   div(class=page.layout + '-content')
     !=page.content
   .entry-footer
@@ -21,15 +21,10 @@ article(class=page.layout).box-content
         p #{page.author}
       else
         p daiyi
-    //- .signoff
-    //-   if page.location
-    //-     span.location #{page.location},&nbsp;
-    //-   span.date #{date(page.date, "YY/MM/DD")}
-    .tags
-      ul
-        for category in page.categories.toArray()
-          li
-            a(href=url_for(category.path)) #{category.name}
+      .meta
+        if page.location
+          span.location #{page.location}
+      ul.link-list
         for tag in page.tags.toArray()
           li
             a(href=url_for(tag.path)) #{tag.name}

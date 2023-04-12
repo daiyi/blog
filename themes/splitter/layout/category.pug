@@ -7,7 +7,10 @@ block site_body
   .box.archive
     .box-content
       header
-        h1 #{page.category}
+        h4.inline
+          a(href=url_for(config.archive_dir)) categories
+        span &nbsp;/
+        h1.inline &nbsp;#{page.category}
         - listToRender = []
         - listToRender.push(site.categories.findOne({name: page.category}))
 

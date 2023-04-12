@@ -6,6 +6,7 @@ tags:
   - SPS
   - climbing
   - peakbagging
+  - Sierra
 summary: A comfy chimney to a solid, exposed ridge. Fun!
 image: emerson-mica-x.jpg
 location: Mammoth Lakes

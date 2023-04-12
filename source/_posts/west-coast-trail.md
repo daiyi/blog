@@ -4,7 +4,6 @@ date: 2023-03-30 14:34:00
 categories:
     - trip reports
 tags:
-    - vintage
     - backpacking
 summary: Beach camping and backpacking the temperate rainforest of the Pacific Rim, on Vancouver Island. (vintage trip)
 image: beach-camp.jpg

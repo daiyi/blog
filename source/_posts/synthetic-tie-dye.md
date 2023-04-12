@@ -5,6 +5,8 @@ categories:
   - applied arts and crafts
 tags:
   - gratuitous customisation
+  - trash panda lifestyle influencer
+  - tutorial
 summary: You can have non-boring athleticwear (but at what cost?)
 image: green-dye.jpg
 location: Bishop, CA

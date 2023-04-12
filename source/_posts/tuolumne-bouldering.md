@@ -2,10 +2,11 @@
 title: "Tuolumne Bouldering: summer's best-kept secret"
 date: 2023-03-06 17:03:00
 categories:
-- trip reports
+  - life recap
 tags:
-- climbing
-- bouldering
+  - climbing
+  - bouldering
+  - Sierra
 summary: My 2022 pebble wrestling season in Yosemite highcountry
 image: tenaya-lake-approach.jpg
 location: Bishop, CA

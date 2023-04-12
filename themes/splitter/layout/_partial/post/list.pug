@@ -1,11 +1,11 @@
 // partial uses `listToRender` passed in from above ugh globals
 
-for category in listToRender
-  - posts = category.posts.sort('date', 'desc').toArray()
-  - categoryInfo = config.category_config[category.name] || {}
+for list in listToRender
+  - posts = list.posts.sort('date', 'desc').toArray()
+  - categoryInfo = config.category_config[list.name] || {}
   if is_archive()
-      h1
-        a(href=url_for(category.path)) #{category.name}
+    h1
+      a(href=url_for(list.path)) #{list.name}
   if categoryInfo.image
     - var asset = href=url_for(categoryInfo.image)
       img(src=asset)
@@ -16,7 +16,10 @@ for category in listToRender
     each post in posts
       .item
         .item-content
-          span.meta
-            span.date #{date(post.date, "YYYY MM DD")}
-          span.title
-            a(href=url_for(post.path))= post.title
+          div.meta
+            span.date #{date(post.date, "YYYY.MM.DD")}
+          div.details
+            h4.inline
+              a(href=url_for(post.path))= post.title
+            if is_tag()
+              p.description #{post.summary}

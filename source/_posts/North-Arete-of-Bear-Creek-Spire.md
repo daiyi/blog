@@ -5,7 +5,7 @@ categories:
   - trip reports
 tags:
   - SPS
-  - sierra
+  - Sierra
   - climbing
 summary: >-
   Car-to-car Bear Creek Spire on a bluebird Sierra Sunday ☀️

@@ -2,10 +2,13 @@
 title: North Peak (12,242ft)
 date: 2021-06-13
 categories:
-  - mica's journal
+  - [mica's journal]
+  - [trip reports]
 tags:
   - SPS
   - peakbagging
+  - good for dogs
+  - Sierra
 summary: A fun class 2 hike with views of Yosemite and beyond, great for cross-country beginners and expert dingos!
 peakbaggerurl: https://www.peakbagger.com/climber/ascent.aspx?aid=1694696
 image: mica-on-north-peak.jpg

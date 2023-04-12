@@ -2,11 +2,13 @@
 title: Mount Baldwin (12,598ft)
 date: 2022-08-31 17:49:49
 categories:
-  - mica's journal
+  - [mica's journal]
+  - [trip reports]
 tags:
   - SPS
   - peakbagging
   - good for dogs
+  - Sierra
 summary: Good for dogs
 image: preview.jpeg
 location: Mammoth Lakes

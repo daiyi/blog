@@ -5,6 +5,7 @@ categories:
   - trip reports
 tags:
   - SPS
+  - peakbagging
   - Sierra
 summary: |
   Foiled by wildfire smoke from starting our backpacking trip, we accidentally agreed to a 27-mile car-to-car ascent of an obscure peak behind Ritter & Banner!

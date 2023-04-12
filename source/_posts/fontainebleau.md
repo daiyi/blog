@@ -5,6 +5,7 @@ categories:
   - trip reports
 tags:
   - climbing
+  - bouldering
 summary: |
   I go to Fontainebleau sloper bootcamp and you own't believe what happens next
 hideSummary: true

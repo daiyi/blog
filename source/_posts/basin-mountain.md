@@ -2,10 +2,13 @@
 title: Basin Mountain
 date: 2021-07-17
 categories:
-  - mica's journal
+  - [mica's journal]
+  - [trip reports]
 tags:
   - SPS
   - peakbagging
+  - good for dogs
+  - Sierra
 summary: After staring at this peak all winter while bouldering at the Buttermilks, we reverse the roles and get a view of the Peabodies from 6000ft above. Good for dogs!
 image: chang.jpg
 location: Mammoth Lakes
@@ -73,9 +76,7 @@ It's just a bit further to the second tarn. Here we start turning left, aiming f
 
 {% figure src="upper-tarn.jpg" caption="The second tarn. The wind picked up so I actually passed up an opportunity to swim!" class="" %}
 
-<div class=" photo-small">
-{% figure src="ascending-slopes.jpg" caption="Up and up on the steep sand slopes. I stick close to Alicia" class="" %}
-</div>
+{% figure src="ascending-slopes.jpg" caption="Up and up on the steep sand slopes. I stick close to Alicia" class="small" %}
 
 The slopes look improbable, but it goes. The humans use their prosthetic paws (hiking poles) to make it up the sandy terrain. There's a bit of scrambling to the top of the ridge.
 

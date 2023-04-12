@@ -1,8 +1,6 @@
 ---
 title: notes from a civic hackathon
 categories: tech
-tags:
-  - new york
 summary: >-
   I went to Hack The Ban, a peaceful one-day hackathon to support nonprofits and
   activism.

@@ -4,7 +4,7 @@ date: 2021-11-05
 categories:
   - software shit
 tags:
-  - tutorials
+  - tutorial
 summary: Use Github Actions to create previews on pull requests to your gh-pages-hosted static site, by pushing to a secret subdirectory. What could go wrong??
 image: comment-ready-preview.jpg
 location: Mammoth Lakes

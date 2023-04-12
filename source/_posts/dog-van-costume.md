@@ -4,8 +4,8 @@ date: 2021-11-01
 categories:
   - applied arts and crafts
 tags:
-  - dog
   - Halloween
+  - trash panda lifestyle influencer
 summary: "For Halloween, Mica dressed up as herself: a dog inside of a van."
 image: dog-van-lawn-top.jpeg
 location: Mammoth Lakes

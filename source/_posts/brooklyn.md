@@ -1,9 +1,6 @@
 ---
 title: a tiny life in brooklyn winter
 categories: life recap
-tags:
-  - new york
-  - personal
 summary: >-
   Excited to be on the road again, exhausted from being
    excited about things.

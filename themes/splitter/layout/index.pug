@@ -9,7 +9,8 @@ block site_body
         .item
           .item-content
             .meta
-              span.date #{date(post.date, "YY MM DD")}
+              span.date #{date(post.date, "YY.MM.DD")}
+              != '&nbsp;'
               != post.location
             h2
               a(href=url_for(post.path))= post.title

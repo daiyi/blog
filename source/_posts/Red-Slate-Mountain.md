@@ -7,6 +7,8 @@ categories:
 tags:
   - SPS
   - peakbagging
+  - good for dogs
+  - Sierra
 summary: >-
   Mica's longest day yet, a scenic 20 miles through Sierra highcountry with snow-tumbling and stream-crossing.
 image: summit-powernap.jpg

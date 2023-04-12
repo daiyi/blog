@@ -2,9 +2,12 @@
 title: Crystal Crag is tough for dogs
 date: 2021-06-24
 categories:
-  - mica's journal
+  - [mica's journal]
+  - [trip reports]
 tags:
   - peakbagging
+  - Sierra
+  - climbing
 summary: Mica tackles the iconic Mammoth feature and confirms it is definitely no less than a class 3 scramble to the top
 peakbaggerurl: "https://www.peakbagger.com/climber/ascent.aspx?aid=1699179"
 image: mica-bag.jpg

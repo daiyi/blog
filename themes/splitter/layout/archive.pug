@@ -8,11 +8,15 @@ block site_body
     .box-content
       header
         if is_tag()
-          h1 topic: #{page.tag}
+          h4.inline
+            a(href=url_for(config.tag_dir)) tags
+          span &nbsp;/
+          h1.inline &nbsp;#{page.tag}
           - listToRender = []
           - listToRender.push(site.tags.findOne({name: page.tag}))
+          include _partial/post/list
         else if is_archive()
-          - listToRender = site.categories.toArray()
+          - listToRender = site.categories.toArray().sort(function (a, b) {return a.name.localeCompare(b.name, 'en', {'sensitivity': 'base'})})
+          include _partial/post/list
 
-      include _partial/post/list
       //- include _partial/post/list_pagination

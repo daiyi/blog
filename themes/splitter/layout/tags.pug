@@ -1,0 +1,24 @@
+extends base
+
+prepend site_title
+  | #{page.title} &mdash;&nbsp;
+
+
+block site_body
+  - tags = site.tags.toArray().sort(function (a, b) {return a.name.localeCompare(b.name, 'en', {'sensitivity': 'base'})})
+
+  article.box.archive
+    .box-content
+      header
+        h1= page.title
+      div(class=page.layout + '-content')
+        ul.link-list
+          for tag in tags
+            li
+              a(href=url_for(config.tag_dir) + '#' + tag.name) #{tag.name}
+        br
+        for tag in tags
+          h3(id=tag.name)
+            a(href=url_for(tag.path)) #{tag.name}
+            - listToRender = [tag]
+          include _partial/post/list

@@ -7,6 +7,8 @@ categories:
 tags:
   - SPS
   - peakbagging
+  - good for dogs
+  - Sierra
 summary: >-
   I cannot blog, because I am a dog. But if I could, this is what I would say
   about my first peakbagging adventure.

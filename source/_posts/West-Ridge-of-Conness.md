@@ -5,7 +5,7 @@ categories:
   - trip reports
 tags:
   - SPS
-  - sierra
+  - Sierra
   - climbing
 summary: Fun day simul/soloing the west ridge and dodging afternoon hail & lightning. So good!
 image: upper-ridge.jpg

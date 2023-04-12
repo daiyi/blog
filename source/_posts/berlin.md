@@ -4,7 +4,6 @@ date: 2018-09-26
 categories: life recap
 tags:
   - berlin
-  - personal
 summary: A lifetime ago.
 image: tempelhof-daiyi-riding-bicycle.jpg
 location: Berlin

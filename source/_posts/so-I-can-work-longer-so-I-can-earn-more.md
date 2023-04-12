@@ -1,9 +1,6 @@
 ---
 title: 'so I can work longer, so I can earn more,'
 categories: tech
-tags:
-  - personal
-  - clojure
 summary: >-
   so I can do more maintainance on this meat vessel of my consciousness.
 location: Berlin

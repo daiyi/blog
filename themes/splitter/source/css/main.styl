@@ -4,6 +4,7 @@
   --background-inverse: #222
   --text: #222
   --text-secondary: #666
+  --mute: #999
   --text-width: 650px
   --content-width: 900px
   --hover-underline: #aaa
@@ -22,6 +23,7 @@
     --background-inverse: #333
     --text: #ddd
     --text-secondary: #999
+    --mute: #999
     --hover-underline: #999
     --focus: #00a4a6
     --border: #444
@@ -90,6 +92,9 @@ h1, h2, h3, h4, h5, h6
   line-height: 1.2em
   max-width: var(--text-width)
   width: 100%
+  &.inline
+    display: inline-block
+    width: unset
 h1
   font-size: 38px
   a, a:visited, a:hover
@@ -281,12 +286,22 @@ header
     margin: $gutter 0 20px 0
     .date, .location
       font-style: italic
-.meta span
+      text-transform: none
+    .link-list
+      margin-top: 10px
+      margin-bottom: 40px
+.meta span, .categories:nth-child(1)
   &:not(:first-child)
-    margin-left: 10px
+    margin-left: 14px
     &:before
-      content: '|'
+      content: '·'
       margin-right: 10px
+  a, a:visited
+    color: var(--mute)
+    border-bottom: none
+    text-transform: unset
+  a:hover
+    color: var(--text)
 .items
   display: flex
   flex-direction: row
@@ -311,7 +326,7 @@ header
         font-size: 110%
         font-weight: bold
         word-spacing: 0px
-        letter-spacing: 0px
+        letter-spacing: 1px
         margin-right: 5px
     h2
       margin-top: 5px
@@ -321,6 +336,9 @@ header
   .item-content
     border-top: 4px solid var(--text)
 .archive
+  header
+    h1
+      margin-bottom: 30px
   h2
     display: inline-block
     border-bottom: 4px solid var(--border)
@@ -328,7 +346,8 @@ header
     margin: 0
     margin-bottom: ($gutter * 2)
     h4
-      margin-bottom: ($gutter / 2)
+      margin-top: 0
+      margin-bottom: 5px
     .item
       flex: 0 0 100%
       a
@@ -337,8 +356,14 @@ header
         border-bottom: 2px solid #333
       .item-content
         margin: 0
+        display: flex
+        flex-direction: row
+        align-items: flex-start
         .date
+          line-height: 24px
+          white-space: nowrap
           margin-right: $gutter
+          font-family: $text-font
         .title
           caption-font()
 .nav, nav, .tags
@@ -435,16 +460,17 @@ ul.link-list
   padding-left: 0
   margin: -10px
   li
-    background: #000
-    color: #999
     display: inline-block
-    padding: 4px 10px 2px 10px
     margin: 10px
+    line-height: 1em
   a
+    &:before
+      content: '#'
+      padding-right: 4px
     border: none
-    color: #fff
+    color: var(--mute)
   a:hover
-    color: #05ebb1
+    color: var(--text)
 blockquote
   max-width: calc(var(--text-width) - 40px)
   width: 100%

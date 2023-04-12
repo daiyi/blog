@@ -6,6 +6,7 @@ categories:
 tags:
   - SPS
   - peakbagging
+  - Sierra
 summary: I did a fun loop of two peaks and an alpine lake near Truckee, in the north Tahoe area
 image: castle-selfie.jpg
 location: Truckee, CA

@@ -5,6 +5,7 @@ categories:
   - applied arts and crafts
 tags:
   - pizza
+  - zines
 summary: I accidentally became really good at making pizza
 hideSummary: true
 image: zine-nom.jpeg

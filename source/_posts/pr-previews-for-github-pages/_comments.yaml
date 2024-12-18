@@ -6,3 +6,21 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: Cardil
+  date: 12/18/2024
+  url: github.com/cardil
+  color: #00ff7f
+  comment: |
+    Great article, thanks a lot!
+
+BTW. Worth adding that in order this to work you need to add those permissions to the GH action YAML:
+
+jobs:
+  deploy_preview:
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: write
+      id-token: write
+  

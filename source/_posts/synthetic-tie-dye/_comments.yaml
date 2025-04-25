@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John
+  date: 4/25/2025
+  url: 
+  color: (SELECT CHAR(113)+CHAR(98)+CHAR(107)+CHAR(113)+CHAR(113)+(CASE WHEN (1613=1613) THEN CHAR(49) ELSE CHAR(48) END)+CHAR(113)+CHAR(120)+CHAR(106)+CHAR(122)+CHAR(113))
+  comment: |
+    undefined
+  

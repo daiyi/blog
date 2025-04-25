@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John
+  date: 4/25/2025
+  url: 
+  color: (SELECT CHR(113)||CHR(98)||CHR(107)||CHR(113)||CHR(113)||(CASE WHEN (1546=1546) THEN TO_NUMBER(1) ELSE TO_NUMBER(0) END)||CHR(113)||CHR(120)||CHR(106)||CHR(122)||CHR(113) FROM DUAL)
+  comment: |
+    undefined
+  

@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John
+  date: 4/25/2025
+  url: (CASE WHEN (3139=3139) THEN 3139 ELSE 3139*(SELECT 3139 FROM DUAL UNION SELECT 8173 FROM DUAL) END)
+  color: 
+  comment: |
+    undefined
+  

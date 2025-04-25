@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: (CASE WHEN (6431=9241) THEN 6431 ELSE 6431*(SELECT 6431 FROM DUAL UNION SELECT 9241 FROM DUAL) END)
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John%' RLIKE (SELECT (CASE WHEN (6922=4988) THEN 0x4a6f686e ELSE 0x28 END)) AND 'OIvm%'='OIvm
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

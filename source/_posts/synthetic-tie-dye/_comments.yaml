@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John AND CASE WHEN 8109=8109 THEN 8109 ELSE JSON(CHAR(77,120,77,101)) END
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

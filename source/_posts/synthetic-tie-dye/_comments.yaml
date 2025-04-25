@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John
+  date: 4/25/2025
+  url: 
+  color:  AND CASE WHEN 7400=4064 THEN 7400 ELSE JSON(CHAR(120,89,66,69)) END
+  comment: |
+    undefined
+  

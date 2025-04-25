@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John' AND 4118=CONCAT(CHAR(113)+CHAR(98)+CHAR(107)+CHAR(113)+CHAR(113),(SELECT (CASE WHEN (4118=4118) THEN CHAR(49) ELSE CHAR(48) END)),CHAR(113)+CHAR(120)+CHAR(106)+CHAR(122)+CHAR(113)) AND 'MdCv'='MdCv
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John
+  date: 4/25/2025
+  url: ' AND (SELECT (CASE WHEN (4372=2401) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,4372) END) FROM DUAL) IS NULL AND 'mUlL' LIKE 'mUlL
+  color: 
+  comment: |
+    undefined
+  

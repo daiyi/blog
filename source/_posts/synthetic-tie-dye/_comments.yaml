@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John" AND (SELECT (CASE WHEN (8064=5834) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,8064) END) FROM DUAL) IS NULL AND "NHCr"="NHCr
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

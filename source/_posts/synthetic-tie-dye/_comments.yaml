@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John%' AND 5267=(SELECT (CASE WHEN (5267=1793) THEN 5267 ELSE (SELECT 1793 UNION SELECT 3045) END))-- DrHX
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

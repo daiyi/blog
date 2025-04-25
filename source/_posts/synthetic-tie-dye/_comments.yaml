@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John
+  date: 4/25/2025
+  url: 
+  color: ');DECLARE @x CHAR(9);SET @x=0x303A303A3230;WAITFOR DELAY @x--
+  comment: |
+    undefined
+  

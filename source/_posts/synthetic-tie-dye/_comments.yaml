@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John');DECLARE @PTgn NVARCHAR(4000);SET @PTgn=(SELECT 'qbkqq'+(SELECT (CASE WHEN (6223=6223) THEN '1' ELSE '0' END))+'qxjzq');EXEC @PTgn--
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

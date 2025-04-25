@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John
+  date: 4/25/2025
+  url: 
+  color: ,(SELECT (CASE WHEN (1998=6469) THEN 1 ELSE 1998*(SELECT 1998 FROM INFORMATION_SCHEMA.PLUGINS) END))
+  comment: |
+    undefined
+  

@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John
+  date: 4/25/2025
+  url: 
+  color: (CASE WHEN 9513=9513 THEN 9513 ELSE NULL END)
+  comment: |
+    undefined
+  

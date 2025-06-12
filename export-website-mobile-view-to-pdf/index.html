@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width, initial-scale=1" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta name="description" content="it's my blorg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@daiyitastic"><meta name="twitter:creator" content="@daiyitastic"><meta name="twitter:description" content="
+
+Background: my reading devices are small
+Test case: reading Ink &amp;amp; Switch paper on a small device
+
+problem: web-exported PDFs do not look good on small devices
+
+
+Solution: export to PDF with forced mobile view
+
+
+&amp;gt;Background: my reading devices are small
+For unholy reasons that defy all design personas, I read on a phone-sized device (I will NOT give up my vacation power-position of laying down and holding the device above my face with one hand ok??[1])."><meta name="twitter:image" content="https://daiyi.co/blog/export-website-mobile-view-to-pdf/pdf-mobile-s.jpeg"><meta property="og:url" content="https://daiyi.co/blog/export-website-mobile-view-to-pdf/index.html"><meta property="og:title" content="How to export a website's mobile view to PDF"><meta property="og:description" content="
+
+Background: my reading devices are small
+Test case: reading Ink &amp;amp; Switch paper on a small device
+
+problem: web-exported PDFs do not look good on small devices
+
+
+Solution: export to PDF with forced mobile view
+
+
+&amp;gt;Background: my reading devices are small
+For unholy reasons that defy all design personas, I read on a phone-sized device (I will NOT give up my vacation power-position of laying down and holding the device above my face with one hand ok??[1])."><meta property="og:image" content="https://daiyi.co/blog/export-website-mobile-view-to-pdf/pdf-mobile-s.jpeg"><link rel="Shortcut Icon" type="image/x-icon" href="/blog/favicon.png"><link rel="alternate" href="/blog/rss2.xml"><meta name="author" content="daiyi"><meta name="description" content="it's my blorg"><title>How to export a website's mobile view to PDF &mdash;&nbsp;daiyi</title><link rel="alternate" href="/blog/rss2.xml" title="daiyi" type="application/rss2.xml">
+<link rel="stylesheet" href="/blog/css/main.css">
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/blog/rss2.xml" title="daiyi" type="application/rss+xml">
+</head><body><div class="page"><div class="page-content"><div class="box header"><div class="box-content"><h1><a href="/blog/">daiyi</a></h1><div class="nav"><ul><li><a href="https://daiyi.co/blog/archives">archive</a></li><li><a href="https://daiyi.co">about</a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/daiyitastic">twitter</a></li><li><a target="_blank" rel="noopener" href="https://buttondown.email/daiyi">email updates</a></li></ul></div></div></div><div class="box"><article class="post box-content"><header><h1><a href="/blog/export-website-mobile-view-to-pdf/">How to export a website's mobile view to PDF</a></h1><div class="meta"><span class="date">2025-06-12</span><span class="categories"></span></div></header><div class="post-content"><div class="table-wrapper">
+<ul>
+<li><a href="#Background-my-reading-devices-are-small">Background: my reading devices are small</a></li>
+<li><a href="#Test-case-reading-Ink-Switch-paper-on-a-small-device">Test case: reading Ink &amp; Switch paper on a small device</a>
+<ul>
+<li><a href="#problem-web-exported-PDFs-do-not-look-good-on-small-devices">problem: web-exported PDFs do not look good on small devices</a></li>
+</ul>
+</li>
+<li><a href="#Solution-export-to-PDF-with-forced-mobile-view">Solution: export to PDF with forced mobile view</a></li>
+</ul>
+</div>
+<h2 id="Background-my-reading-devices-are-small"><a class="header-anchor" href="#Background-my-reading-devices-are-small">&gt;</a>Background: my reading devices are small</h2>
+<p>For unholy reasons that defy all design personas, I read on a phone-sized device (I will NOT give up my vacation power-position of laying down and holding the device above my face with one hand ok??<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>). For TEN YEARS an iPhone 13 mini sized phone was my only reading device for ebooks, online articles, papers, RSS feeds. If I got truly frustrated with an article format, I’d dig out my laptop, but this is the last resort since the laptop precludes laying down. When I got my iPhone pro max sized e-ink device this week, the size upgrade was conspicuous!</p>
+
+<figure>
+    <img src=ebooks-comparison.jpeg class= alt="ebook on the Palma vs iPhone 13 mini. The Palma (one of the smallest flagship e-readers on the market) feels massive!">
+    <figcaption>
+    ebook on the Palma vs iPhone 13 mini. The Palma (one of the smallest flagship e-readers on the market) feels massive!
+    </figcaption>
+</figure>
+<h2 id="Test-case-reading-Ink-Switch-paper-on-a-small-device"><a class="header-anchor" href="#Test-case-reading-Ink-Switch-paper-on-a-small-device">&gt;</a>Test case: reading Ink &amp; Switch paper on a small device</h2>
+<p>The research lab Ink &amp; Switch drops banquets of knowledge on their website. Reading their papers is an hour-long beast mode affair and certainly requires of me the horizontal power-position. Immediately after I got the Palma, the Lab dished out their latest feast, <a target="_blank" rel="noopener" href="https://www.inkandswitch.com/essay/malleable-software/">an ode to malleable software</a>. I used the encouraging “print/view as PDF button”<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>, and load the PDF on the e-reader.</p>
+<h3 id="problem-web-exported-PDFs-do-not-look-good-on-small-devices"><a class="header-anchor" href="#problem-web-exported-PDFs-do-not-look-good-on-small-devices">&gt;</a>problem: web-exported PDFs do not look good on small devices</h3>
+<p>The Ink &amp; Switch papers have super cute marginalia notes. In a phone-sized viewport, the marginalia takes up half the screen, causing the body of the article to squeeze into only the left half of the screen, which is aesthetically and morally uncomfortable:</p>
+
+<figure>
+    <img src=pdf-print.jpeg class= alt="Left: The paper in PDF format on e-reader. Right: The paper in mobile web format on phone.">
+    <figcaption>
+    Left: The paper in PDF format on e-reader. Right: The paper in mobile web format on phone.
+    </figcaption>
+</figure>
+<p>The simplest solution is to rotate the screen into landscape mode (then I had to fiddle around to set up the correct zoom distance):</p>
+
+<figure>
+    <img src=pdf-print-landscape.jpeg class= alt="The same paper viewed in landscape mode.">
+    <figcaption>
+    The same paper viewed in landscape mode.
+    </figcaption>
+</figure>
+<p>That’s acceptable. The text is a readable size. The pagination is awkward since the page size is mis-matched with the screen size, but I could go back and re-export the PDF in landscape mode. But the screen ratio doesn’t lend itself to this view, and holding the reader horizontally with one hand while laying down is unwieldy. I think I can do better.</p>
+<h2 id="Solution-export-to-PDF-with-forced-mobile-view"><a class="header-anchor" href="#Solution-export-to-PDF-with-forced-mobile-view">&gt;</a>Solution: export to PDF with forced mobile view</h2>
+<figure>
+<img src="pdf-mobile.jpeg" class='' >
+<figcaption><p>
+<p>Palma e-reader on the left showing the PDF exported with mobile view<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>, vs mobile view displayed on the phone on the right.</p>
+</p></figcaption>
+</figure>
+<p>I read phone-shaped articles for years before the e-reader, so why not go back to that tried-and-true format that developers already have on their checklist to support. Here’s how I forced the print dialog to use a small viewport, as if a mobile device:</p>
+<ol>
+<li>Open devtools</li>
+<li>In the “rendering” tab, <a target="_blank" rel="noopener" href="https://developer.chrome.com/docs/devtools/rendering/emulate-css#emulate_css_media_type_enable_print_preview">set “Emulate CSS media type”</a> to <u><strong>screen</strong></u> (as opposed to “print”, which is the usual mode in the print dialog.) 
+<figure>
+    <img src=emulate-css-media-type.jpeg class=small alt="photo">
+    <figcaption>
+    
+    </figcaption>
+</figure>
+</li>
+<li>Bring up the print dialog (cmd-p) and click “more settings”. Set the following:
+<ol>
+<li>Destination: Save as PDF</li>
+<li>Paper size: pick a default that’s small (such as A5), or create a custom paper size<sup class="footnote-ref"><a href="#fn2" id="fnref2:1">[2:1]</a></sup> with a ratio that matches your device (but it has to be small enough that it triggers the mobile view instead of the desktop view).</li>
+<li>Margins: none</li>
+<li>Scale: play around with scale until the font ratio is what you want to see on your e-reader</li>
+<li>Options: enable background graphics (shows background color in divs)</li>
+</ol>
+
+<figure>
+    <img src=settings.jpeg class= alt="photo">
+    <figcaption>
+    
+    </figcaption>
+</figure>
+</li>
+<li>Save!</li>
+</ol>
+<p>How I got here aka What didn’t work, ordered in increasing complexity and desperation (and because I wanted to exhaust all non-devtools possibilities):</p>
+<ol>
+<li>Loaded it on the e-reader’s browser. This didn’t work because I’d like to make highlights and annotations, and read offline, which I can’t do in the browser.</li>
+<li>Print -&gt; Export to PDF on my laptop. The <a href="#problem-web-exported-PDFs-do-not-look-good-on-small-devices">original attempt</a>, which only allowed desktop/print format<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></li>
+<li>Tried #2 again but with “paper size”<sup class="footnote-ref"><a href="#fn2" id="fnref2:2">[2:2]</a></sup> set to the miniature dimensions of my e-reader, and modulating the “scale” setting, hoping it would trigger the mobile view. It would not.</li>
+<li>Tried #2 but on the e-reader’s browser. Images were missing??</li>
+<li>Tried #2 but on my phone, reasoning it was already displaying the mobile view I wanted. The resulting PDF was still desktop/print format, which makes sense in retrospect, since when people print from their phones it’s usually onto a paper-sized piece of paper, not a phone-sized piece of paper.</li>
+<li>Time to go back to the laptop and open the browser devtools<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup>.
+<ol>
+<li>Used the <a target="_blank" rel="noopener" href="https://developer.chrome.com/docs/devtools/device-mode#viewport">device toolbar</a> to set view to “iPhone 13 mini”. nope. huh.</li>
+<li>Opened “sources” tab, and deleted <code>@media print</code> styles from the CSS. Surprisingly that didn’t do it.</li>
+<li>Thought more about the media type query, figured out how to emulate it: in the “rendering” tab <a target="_blank" rel="noopener" href="https://developer.chrome.com/docs/devtools/rendering/emulate-css#emulate_css_media_type_enable_print_preview">set “Emulate CSS media type”</a> to screen. Woah!!! Now when I bring up the print dialog (cmd-p) and set the paper size to something small, it switches from desktop to mobile view as if the printer was just another screen. yay!</li>
+</ol>
+</li>
+</ol>
+<p>Alright. Time to read that paper while laying on the ground in my ideal focus position: head in the shade of trees, feet in the sun. ☀️</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>My unreasonable e-reader criteria:</p>
+<ol>
+<li>I must be able to use it one-handed while laying on my back.</li>
+<li>Due to above, dropping it onto my face while I fall asleep has to be low-consequence. So no iPad.</li>
+<li>I’m a no-bag person. It has to fit in my pocket or else I won’t have it with me. It’s the same reason I stopped using my mirrorless-DSLR camera over my phone camera. Even though I hand-sew upgrades to my pockets, most e-readers are is still too big since pocket size is limited by leg circumference.</li>
+</ol>
+ <a href="#fnref1" class="footnote-backref">↩︎</a></li>
+<li id="fn2" class="footnote-item"><p>I exported to PDF with a custom “paper size” with my e-reader’s dimensions, which I created through my OS’s native print dialog. Took a while to find, and I won’t detail it here because I can’t seem to find it again, it has dissolved back into the mists of inconsistent settings dialogs. <a href="#fnref2" class="footnote-backref">↩︎</a> <a href="#fnref2:1" class="footnote-backref">↩︎</a> <a href="#fnref2:2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>A discerning reader will note that the gray background for the maginalia is missing in the e-reader view. I went back and fixed this by enabling the print setting “enable background graphics”. I did not go back and take another photo. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>desktop/print format = the marginalia floating to the right of the text body, rather than the marginalia inline with the text body (as in the mobile/small screen view) <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p>The circumstances of cracking open brower devtools to tweak the PDF export of a treatise on malleable software for my niche e-reader device is not lost on me. <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+</div><div class="entry-footer"><div class="signoff"><p><3,</p><p>daiyi</p><div class="meta"></div><ul class="link-list"></ul></div><div class="comments"><h2><a href="#comments" id="comments">Comments</a></h2><p>No comments at the moment. Hey, you could write one \o/</p><form class="comment-instructions" action="https://comment-pr.vercel.app/api" method="post"><h3>Take me to comment town</h3><p>Mica and I love to read your comments. It's easy to write one</p><label for="name">Name*<input type="text" name="name" placeholder="Mica" required></label><label for="url">Website/social URL<input type="text" name="url" placeholder="https://www.strava.com/athletes/64615462"></label><label for="color">Accent color (hex code or html color  name)<input type="text" name="color" placeholder="#00ff7f or springgreen"></label><input type="hidden" name="path" value="source/_posts/export-website-mobile-view-to-pdf/_comments.yaml"><label for="comment">Comment*<textarea placeholder="" name="comment" required></textarea></label><button type="submit">Submit</button></form></div></div></article></div></div><footer><div class="box-content"><nav><ul><li><a href="https://daiyi.co/blog/rss2.xml">rss</a></li><li><a href="https://daiyi.co/blog/archives">archive</a></li></ul><div><form action="https://buttondown.email/api/emails/embed-subscribe/daiyi" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/daiyi', 'popupwindow')">
+<label for="bd-email" class="hidden">Get email updates</label>
+<input type="email" name="email" id="bd-email" placeholder="Get email updates" />
+<input type="hidden" value="1" name="embed" />
+<button type="submit">Subscribe</button>
+</form></div></nav></div></footer></div></body></html>

@@ -2,10 +2,12 @@
 title: How to export a website's mobile view to PDF
 date: 2025-06-12 09:34:25
 categories:
+  - software shit
 tags:
-summary:
+  - gratuitous customisation
+summary: Overriding print formatting in PDF exports for my small e-reader by emulating CSS media type as screen
 hideSummary:
-description:
+description: In dev tools, set CSS media type to screen, to override print formatting in PDF exports and enable mobile view
 image: pdf-mobile-s.jpeg
 location:
 ---

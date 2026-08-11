@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: (SELECT (CASE WHEN (6333=8030) THEN 'John' ELSE (SELECT 8030 UNION SELECT 7411) END))
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

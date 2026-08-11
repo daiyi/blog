@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John%' AND (SELECT (CASE WHEN (9203=6808) THEN NULL ELSE CAST((CHR(76)||CHR(90)||CHR(83)||CHR(113)) AS NUMERIC) END)) IS NULL AND 'tgSA%'='tgSA
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John%' AND CASE WHEN 4542=7074 THEN 4542 ELSE JSON(CHAR(115,67,89,80)) END AND 'BlRI%'='BlRI
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

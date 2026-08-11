@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John%' AND (SELECT (CASE WHEN (1068=2305) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,1068) END) FROM DUAL) IS NULL AND 'YgCT%'='YgCT
+  date: 4/25/2025
+  url: 
+  color: 
+  comment: |
+    undefined
+  

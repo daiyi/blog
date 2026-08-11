@@ -6,3 +6,11 @@
 #   color:
 #   comment: |
 #     words words words
+
+- name: John
+  date: 4/25/2025
+  url: " AND (SELECT (CASE WHEN (4861=9699) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,4861) END) FROM DUAL) IS NULL AND "GpFQ"="GpFQ
+  color: 
+  comment: |
+    undefined
+  
